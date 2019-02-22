@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <p>OI!</p>
+    <p>OI! {{ author_id }}</p>
     <ul v-for="(person, idx) in people" :key="idx">
-      <li>{{ person.name }}</li>
-      <a @click="deletePerson(person)">X</a>
+      <li>{{ person.name }} / {{ person.author_id}}</li>
+      <a v-if="person.author_id == author_id" @click="deletePerson(person)">X</a>
     </ul>
     <input type="text" v-model="newPerson" @keyup.enter="addPerson">
     <button @click="addPerson">Mais mais mais</button>
@@ -12,14 +12,15 @@
 
 <script>
 import { db } from "./firebase";
-import { anonUserId } from "./firebase";
+import { firebaseApp } from "./firebase";
 
 export default {
   name: "app",
   data() {
     return {
       people: [],
-      newPerson: ""
+      newPerson: "",
+      author_id: ""
     };
   },
   firestore() {
@@ -27,12 +28,24 @@ export default {
       people: db.collection("people")
     };
   },
+  created() {
+    firebaseApp
+      .auth()
+      .signInAnonymously()
+      .then(
+        user => {
+          this.author_id = user.user.uid;
+        },
+        err => {
+          console.log(err);
+        }
+      );
+  },
   methods: {
     addPerson: function() {
       this.$firestore.people.add({
         name: this.newPerson,
-        timestamp: new Date(),
-        user: anonUserId
+        timestamp: new Date()
       });
       this.newPerson = "";
     },
