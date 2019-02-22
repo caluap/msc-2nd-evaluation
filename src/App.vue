@@ -1,22 +1,28 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <p>OI!</p>
+    <article v-for="(person, idx) in people" :key="idx">
+      <p>{{ person.name }}</p>
+      <p>{{ idx }}</p>
+    </article>
+  </div>
 </template>
 
 <script>
-import Firebase from "firebase";
-
-let config = {
-  apiKey: "AIzaSyA8_IFyeBoUXctrp0eeziX_-z0eiecl00k",
-  authDomain: "msc-2nd-evaluation.firebaseapp.com",
-  databaseURL: "https://msc-2nd-evaluation.firebaseio.com",
-  projectId: "msc-2nd-evaluation",
-  storageBucket: "msc-2nd-evaluation.appspot.com",
-  messagingSenderId: "651937407659"
-};
+import { db } from "./firebase";
 
 export default {
   name: "app",
-  components: {}
+  data() {
+    return {
+      people: []
+    };
+  },
+  firestore() {
+    return {
+      people: db.collection("people")
+    };
+  }
 };
 </script>
 

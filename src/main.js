@@ -1,11 +1,11 @@
 import Vue from "vue";
-import VueFire from "vuefire";
+import App from "./App";
+import VueFirestore from "vue-firestore";
 
-import App from "./App.vue";
-
-Vue.use(VueFire);
-
+// turns off the 'You are running Vue in development mode.' msg
 Vue.config.productionTip = false;
+
+Vue.use(VueFirestore);
 
 new Vue({
   render: h => h(App)
