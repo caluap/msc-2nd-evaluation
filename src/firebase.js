@@ -11,17 +11,4 @@ export const firebaseApp = firebase.initializeApp({
   messagingSenderId: "651937407659"
 });
 
-// export let anonUserId = null;
-// firebase
-//   .auth()
-//   .signInAnonymously()
-//   .then(
-//     function(user) {
-//       anonUserId = user.user.uid;
-//     },
-//     function(err) {
-//       console.log(err);
-//     }
-//   );
-
 export const db = firebaseApp.firestore();
