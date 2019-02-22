@@ -3,6 +3,7 @@
     <p>OI!</p>
     <ul v-for="(person, idx) in people" :key="idx">
       <li>{{ person.name }}</li>
+      <a @click="deletePerson(person)">X</a>
     </ul>
     <input type="text" v-model="newPerson" @keyup.enter="addPerson">
     <button @click="addPerson">Mais mais mais</button>
@@ -32,6 +33,9 @@ export default {
         timestamp: new Date()
       });
       this.newPerson = "";
+    },
+    deletePerson: function(person) {
+      this.$firestore.people.doc(person[".key"]).delete();
     }
   }
 };

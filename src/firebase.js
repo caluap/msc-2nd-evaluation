@@ -10,7 +10,7 @@ const firebaseApp = firebase.initializeApp({
   messagingSenderId: "651937407659"
 });
 
-console.log(firebaseApp);
+// console.log(firebaseApp);
 
 export const db = firebaseApp.firestore();
-console.log(db);
+// console.log(db);
