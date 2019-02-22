@@ -12,6 +12,7 @@
 
 <script>
 import { db } from "./firebase";
+import { anonUserId } from "./firebase";
 
 export default {
   name: "app",
@@ -30,7 +31,8 @@ export default {
     addPerson: function() {
       this.$firestore.people.add({
         name: this.newPerson,
-        timestamp: new Date()
+        timestamp: new Date(),
+        user: anonUserId
       });
       this.newPerson = "";
     },
