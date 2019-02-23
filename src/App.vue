@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <p>Hello, my dear {{ author_id }}</p>
-    <div id="choices">
+    <div v-if="completedChoices" id="choices">
       <div class="choice">
         <img :src="img1">
         <button @click="makeChoice(hash1)">Este</button>
@@ -11,13 +11,9 @@
         <button @click="makeChoice(hash2)">Este</button>
       </div>
     </div>
-    <!-- <div v-if="n_choices < choices.length">
-      <button @click="makeChoice(0)">{{choices[choice_id].op_a}}</button>
-      <button @click="makeChoice(1)">{{choices[choice_id].op_b}}</button>
-    </div>
     <div v-else>
-      <p>Oi!</p>
-    </div>-->
+      <p>Uau! Já foram {{choice_limit}}</p>
+    </div>
   </div>
 </template>
 
@@ -79,13 +75,22 @@ export default {
       choices: [],
       people: [],
       newPerson: "",
-      author_id: ""
+      author_id: "",
+      choice_limit: 20
     };
   },
   firestore() {
     return {
       people: db.collection("people")
     };
+  },
+  computed: {
+    completedChoices: function() {
+      return (
+        this.choices.length < this.choice_limit ||
+        this.possible_choices.length == 0
+      );
+    }
   },
   created() {
     firebaseApp
