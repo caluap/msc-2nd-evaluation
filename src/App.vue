@@ -150,5 +150,23 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+body {
+  text-align: center;
+}
+#choices {
+  margin: 0 auto;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  .choice {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
 </style>
