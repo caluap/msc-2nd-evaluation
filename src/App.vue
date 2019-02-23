@@ -1,21 +1,17 @@
 <template>
-  <div id="app">
-    <div v-if="author_id != ''">
-      <p>Hello, my dear {{ author_id }}</p>
-      <h2>Quem está falando?</h2>
-    </div>
-    <div v-else>
-      <p>Desconectado...</p>
-    </div>
+  <div id="app" :class="{ logged: isLoggedIn}">
     <div v-if="completedChoices" id="choices">
-      <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
+      <div id="audio-container">
+        <p id="audio-question">Quem sou eu que vos fala?</p>
+        <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
+      </div>
       <div class="choice" id="first-choice">
+        <button class="choice-selection" @click="makeChoice(hash1)">Eu!</button>
         <img :src="img1">
-        <button @click="makeChoice(hash1)">Eu!</button>
       </div>
       <div class="choice" id="second-choice">
+        <button class="choice-selection" @click="makeChoice(hash2)">Eu!</button>
         <img :src="img2">
-        <button @click="makeChoice(hash2)">Eu!</button>
       </div>
     </div>
     <div v-else>
@@ -91,6 +87,9 @@ export default {
     };
   },
   computed: {
+    isLoggedIn: function() {
+      return this.author_id != "";
+    },
     completedChoices: function() {
       if (
         this.choices_made < this.choice_limit ||

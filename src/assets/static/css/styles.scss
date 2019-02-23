@@ -1,25 +1,71 @@
 @import "./reset.scss";
 
 body {
-  text-align: center;
+  font-size: 16px;
   font-family: "IBM Plex Sans", sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
 }
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:not(.logged) * {
+    opacity: 0.4;
+  }
+  &.logged {
+    transition: all 1s ease;
+  }
+}
+
 #choices {
   margin: 0 auto;
   max-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  audio {
+  #audio-container {
+    #audio-question {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+    text-align: center;
     grid-column: 1 / span 2;
   }
   .choice {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
     grid-row: 2;
     img {
       width: 100%;
       margin-bottom: 10px;
+      border: 2px solid transparent;
+      transition: all 0.4s ease;
+      border-radius: 0.8rem;
+    }
+
+    .choice-selection {
+      border: none;
+      font-size: 1rem;
+      padding: 1rem;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      border-radius: 0.4rem;
+      &:hover {
+        background-color: #d7d7f8;
+        & ~ img {
+          border-color: blue;
+        }
+      }
     }
   }
   &.reverse-order {
