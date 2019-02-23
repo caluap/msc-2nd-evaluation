@@ -76,7 +76,8 @@ export default {
       people: [],
       newPerson: "",
       author_id: "",
-      choice_limit: 20
+      choice_limit: 20,
+      initial_time: -1
     };
   },
   firestore() {
@@ -106,6 +107,7 @@ export default {
       );
     this.calculatePossibleChoices();
     this.randomChoice();
+    this.initial_time = new Date();
   },
   methods: {
     calculatePossibleChoices: function() {
@@ -142,10 +144,13 @@ export default {
       let aux_choice = {
         hash1: this.hash1,
         hash2: this.hash2,
-        choice: choice
+        choice: choice,
+        initial_time: this.initial_time,
+        completion_time: new Date()
       };
       this.choices.push(aux_choice);
       this.randomChoice();
+      this.initial_time = aux_choice.completion_time;
     }
   }
 };
