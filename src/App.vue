@@ -14,11 +14,11 @@
         controls
         :src="audio"
       >Your browser does not support the audio tag.</audio>
-      <div class="choice">
+      <div class="choice" id="first-choice">
         <img :src="img1">
         <button @click="makeChoice(hash1)">Eu!</button>
       </div>
-      <div class="choice">
+      <div class="choice" id="second-choice">
         <img :src="img2">
         <button @click="makeChoice(hash2)">Eu!</button>
       </div>
@@ -188,11 +188,20 @@ export default {
       this.img1 = this.options[this.possible_choices[i].i1].img;
       this.img2 = this.options[this.possible_choices[i].i2].img;
 
-      // I still need to shuffle the html options
       this.audio = this.options[this.possible_choices[i].i1].audio;
       let audio = document.getElementById("audio-player");
       audio.currentTime = 0;
       audio.play();
+
+      // shuffles the options 50% of the time
+      let r = Math.random();
+      var choices_div = document.getElementById("choices");
+
+      if (r >= 0.5) {
+        choices_div.classList.add("reverse-order");
+      } else {
+        choices_div.classList.remove("reverse-order");
+      }
 
       this.possible_choices.splice(i, 1);
     },
@@ -238,6 +247,14 @@ body {
     img {
       width: 100%;
       margin-bottom: 10px;
+    }
+  }
+  &.reverse-order {
+    #first-choice {
+      grid-column: 2;
+    }
+    #second-choice {
+      grid-column: 1;
     }
   }
 }
