@@ -119,16 +119,6 @@ export default {
         }
       }
     },
-    addPerson: function() {
-      this.$firestore.people.add({
-        name: this.newPerson,
-        timestamp: new Date()
-      });
-      this.newPerson = "";
-    },
-    deletePerson: function(person) {
-      this.$firestore.people.doc(person[".key"]).delete();
-    },
     randomChoice: function() {
       let i = Math.floor(Math.random() * this.possible_choices.length);
 
