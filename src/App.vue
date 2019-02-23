@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <p>Hello, my dear {{ author_id }}</p>
+    <div v-if="author_id != ''">
+      <p>Hello, my dear {{ author_id }}</p>
+      <h2>Qual o cachorro mais confiável?</h2>
+    </div>
+    <div v-else>
+      <p>Desconectado...</p>
+    </div>
     <div v-if="completedChoices" id="choices">
       <div class="choice">
         <img :src="img1">
@@ -13,6 +19,7 @@
     </div>
     <div v-else>
       <p>Uau! Já foram {{choice_limit}}</p>
+      <button @click="resetTest()">Reiniciar</button>
     </div>
   </div>
 </template>
@@ -72,45 +79,63 @@ export default {
       hash1: "",
       img2: "",
       hash2: "",
-      choices: [],
-      people: [],
-      newPerson: "",
       author_id: "",
       choice_limit: 20,
+      choices_made: 0,
       initial_time: -1
-    };
-  },
-  firestore() {
-    return {
-      choices: db.collection("dog_answers")
     };
   },
   computed: {
     completedChoices: function() {
-      return (
-        this.choices.length < this.choice_limit ||
+      if (
+        this.choices_made < this.choice_limit ||
         this.possible_choices.length == 0
-      );
+      ) {
+        return true;
+      }
+      if (this.author_id != "") {
+        this.logOut();
+      }
+      return false;
     }
   },
   created() {
-    firebaseApp
-      .auth()
-      .signInAnonymously()
-      .then(
-        user => {
-          this.author_id = user.user.uid;
-        },
-        err => {
-          console.log(err);
-        }
-      );
-    this.calculatePossibleChoices();
-    this.randomChoice();
-    this.initial_time = new Date();
+    this.logIn();
   },
   methods: {
+    resetTest: function() {
+      if (this.author_id != "") {
+        this.logOut();
+      }
+      this.logIn();
+    },
+    logIn: function() {
+      firebaseApp
+        .auth()
+        .signInAnonymously()
+        .then(
+          user => {
+            this.author_id = user.user.uid;
+            this.choices_made = 0;
+            this.calculatePossibleChoices();
+            this.randomChoice();
+            this.initial_time = new Date();
+          },
+          err => {
+            console.log(err);
+          }
+        );
+    },
+    logOut: function() {
+      firebaseApp
+        .auth()
+        .signOut()
+        .then(() => {
+          this.author_id = "";
+        });
+    },
     calculatePossibleChoices: function() {
+      this.possible_choices = [];
       for (let i = 0; i < this.options.length; i++) {
         for (let j = 0; j < this.options.length; j++) {
           if (i != j) {
@@ -136,13 +161,17 @@ export default {
         hash1: this.hash1,
         hash2: this.hash2,
         choice: choice,
-        order: this.choices.length + 1,
+        order: this.choices_made,
         initial_time: this.initial_time,
         completion_time: new Date()
       };
-      this.$firestore.choices.add(aux_choice);
-      this.randomChoice();
-      this.initial_time = aux_choice.completion_time;
+      db.collection("dog_answers")
+        .add(aux_choice)
+        .then(() => {
+          this.choices_made++;
+          this.randomChoice();
+          this.initial_time = aux_choice.completion_time;
+        });
     }
   }
 };
