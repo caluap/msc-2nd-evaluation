@@ -71,12 +71,12 @@ export default {
           audio: ""
         }
       ],
+      possible_choices: [],
       img1: "",
       hash1: "",
       img2: "",
       hash2: "",
       choices: [],
-
       people: [],
       newPerson: "",
       author_id: ""
@@ -99,9 +99,19 @@ export default {
           console.log(err);
         }
       );
+    this.calculatePossibleChoices();
     this.randomChoice();
   },
   methods: {
+    calculatePossibleChoices: function() {
+      for (let i = 0; i < this.options.length; i++) {
+        for (let j = 0; j < this.options.length; j++) {
+          if (i != j) {
+            this.possible_choices.push({ i1: i, i2: j });
+          }
+        }
+      }
+    },
     addPerson: function() {
       this.$firestore.people.add({
         name: this.newPerson,
@@ -113,38 +123,24 @@ export default {
       this.$firestore.people.doc(person[".key"]).delete();
     },
     randomChoice: function() {
-      let found_combination;
-      let i1 = Math.floor(Math.random() * this.options.length);
-      let i2 = i1;
-      do {
-        found_combination = true;
-        do {
-          i2 = Math.floor(Math.random() * this.options.length);
-        } while (i1 == i2);
-        // has this random combination been used before?
-        for (let i = 0; i < this.choices.length; i++) {
-          // I'll assume for now that the first hash would always be the right one,
-          // so A+B options is different than B+A — which in the future might not
-          // still be the case
-          if (
-            this.options[i1].hash == this.choices[i].hash1 &&
-            this.options[i2].hash == this.choices[i].hash2
-          ) {
-            found_combination = false;
-          }
-        }
-      } while (!found_combination);
+      let i = Math.floor(Math.random() * this.possible_choices.length);
 
-      this.hash1 = this.options[i1].hash;
-      this.hash2 = this.options[i2].hash;
+      this.hash1 = this.options[this.possible_choices[i].i1].hash;
+      this.hash2 = this.options[this.possible_choices[i].i2].hash;
 
-      this.img1 = this.options[i1].img;
-      this.img2 = this.options[i2].img;
+      this.img1 = this.options[this.possible_choices[i].i1].img;
+      this.img2 = this.options[this.possible_choices[i].i2].img;
+
+      this.possible_choices.splice(i, 1);
     },
-    makeChoice: function(i) {
-      // this.choices[this.choice_id].choice = i;
-      // this.n_choices += 1;
-      // this.randomChoice();
+    makeChoice: function(choice) {
+      let aux_choice = {
+        hash1: this.hash1,
+        hash2: this.hash2,
+        choice: choice
+      };
+      this.choices.push(aux_choice);
+      this.randomChoice();
     }
   }
 };
