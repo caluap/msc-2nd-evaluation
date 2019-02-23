@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import { ip_find_key } from "./assets/js/keys.js";
 import { db } from "./firebase";
 import { firebaseApp } from "./firebase";
 
@@ -121,13 +122,32 @@ export default {
             this.initial_time = new Date();
 
             this.choices_made = 0;
+
+            // has this user been here before?
             db.collection("dog_answers")
               .where("author_id", "==", this.author_id)
               .get()
               .then(querySnapshot => {
-                console.log(querySnapshot.size);
+                // this won't exclude random options already shown!
                 this.choices_made += querySnapshot.size;
               });
+
+            let xmlhttp = new XMLHttpRequest();
+            let ip_address = "179.159.57.90";
+
+            let url =
+              "https://ipfind.co/?auth=" + ip_find_key + "&ip=" + ip_address;
+
+            xmlhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                var result = JSON.parse(this.responseText);
+                db.collection("participants_data")
+                  .doc(user.user.uid)
+                  .set(result);
+              }
+            };
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
           },
           err => {
             console.log(err);
