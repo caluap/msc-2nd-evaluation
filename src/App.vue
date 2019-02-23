@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import "./assets/static/css/styles.scss";
+
 import { ip_find_key } from "./assets/js/keys.js";
 import { db } from "./firebase";
 import { firebaseApp } from "./firebase";
@@ -223,34 +225,4 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  text-align: center;
-}
-#choices {
-  margin: 0 auto;
-  max-width: 600px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  audio {
-    grid-column: 1 / span 2;
-  }
-  .choice {
-    display: flex;
-    flex-direction: column;
-    grid-row: 2;
-    img {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-  }
-  &.reverse-order {
-    #first-choice {
-      grid-column: 2;
-    }
-    #second-choice {
-      grid-column: 1;
-    }
-  }
-}
 </style>
