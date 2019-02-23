@@ -2,19 +2,20 @@
   <div id="app">
     <div v-if="author_id != ''">
       <p>Hello, my dear {{ author_id }}</p>
-      <h2>Qual o cachorro mais confiável?</h2>
+      <h2>Quem está falando?</h2>
     </div>
     <div v-else>
       <p>Desconectado...</p>
     </div>
     <div v-if="completedChoices" id="choices">
+      <audio controls :src="audio">Your browser does not support the audio tag.</audio>
       <div class="choice">
         <img :src="img1">
-        <button @click="makeChoice(hash1)">Este</button>
+        <button @click="makeChoice(hash1)">Eu!</button>
       </div>
       <div class="choice">
         <img :src="img2">
-        <button @click="makeChoice(hash2)">Este</button>
+        <button @click="makeChoice(hash2)">Eu!</button>
       </div>
     </div>
     <div v-else>
@@ -36,43 +37,43 @@ export default {
       options: [
         {
           hash: "7a8d9b",
-          img: require("./assets/static/imgs/dogs/7a8d9b.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/cat.jpg"),
+          audio: require("./assets/static/sounds/cat.mp3")
         },
         {
           hash: "94dc70",
-          img: require("./assets/static/imgs/dogs/94dc70.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/cow.jpg"),
+          audio: require("./assets/static/sounds/cow.mp3")
         },
         {
           hash: "fc7dfe",
-          img: require("./assets/static/imgs/dogs/fc7dfe.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/dog.jpg"),
+          audio: require("./assets/static/sounds/dog.mp3")
         },
         {
           hash: "af9377",
-          img: require("./assets/static/imgs/dogs/af9377.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/duck.jpg"),
+          audio: require("./assets/static/sounds/duck.mp3")
         },
         {
           hash: "4d0db8",
-          img: require("./assets/static/imgs/dogs/4d0db8.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/goose.jpg"),
+          audio: require("./assets/static/sounds/goose.mp3")
         },
         {
           hash: "b4a4f6",
-          img: require("./assets/static/imgs/dogs/b4a4f6.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/pig.jpg"),
+          audio: require("./assets/static/sounds/pig.mp3")
         },
         {
           hash: "3cfff0",
-          img: require("./assets/static/imgs/dogs/3cfff0.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/rooster.jpg"),
+          audio: require("./assets/static/sounds/rooster.mp3")
         },
         {
           hash: "a086f6",
-          img: require("./assets/static/imgs/dogs/a086f6.jpg"),
-          audio: ""
+          img: require("./assets/static/imgs/animals/turkey.jpg"),
+          audio: require("./assets/static/sounds/turkey.mp3")
         }
       ],
       possible_choices: [],
@@ -80,6 +81,7 @@ export default {
       hash1: "",
       img2: "",
       hash2: "",
+      audio: "",
       author_id: "",
       choice_limit: 20,
       choices_made: 0,
@@ -181,6 +183,9 @@ export default {
       this.img1 = this.options[this.possible_choices[i].i1].img;
       this.img2 = this.options[this.possible_choices[i].i2].img;
 
+      // I still need to shuffle the html options
+      this.audio = this.options[this.possible_choices[i].i1].audio;
+
       this.possible_choices.splice(i, 1);
     },
     makeChoice: function(choice) {
@@ -215,9 +220,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  audio {
+    grid-column: 1 / span 2;
+  }
   .choice {
     display: flex;
     flex-direction: column;
+    grid-row: 2;
     img {
       width: 100%;
       margin-bottom: 10px;

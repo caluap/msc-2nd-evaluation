@@ -21,3 +21,4 @@ yarn-error.log*
 *.sw*
 
 src/assets/js/keys.js
+src/assets/ignore
