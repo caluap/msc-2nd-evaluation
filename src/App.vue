@@ -116,10 +116,18 @@ export default {
         .then(
           user => {
             this.author_id = user.user.uid;
-            this.choices_made = 0;
             this.calculatePossibleChoices();
             this.randomChoice();
             this.initial_time = new Date();
+
+            this.choices_made = 0;
+            db.collection("dog_answers")
+              .where("author_id", "==", this.author_id)
+              .get()
+              .then(querySnapshot => {
+                console.log(querySnapshot.size);
+                this.choices_made += querySnapshot.size;
+              });
           },
           err => {
             console.log(err);
