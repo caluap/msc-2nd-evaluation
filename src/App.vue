@@ -82,7 +82,7 @@ export default {
   },
   firestore() {
     return {
-      people: db.collection("people")
+      choices: db.collection("dog_answers")
     };
   },
   computed: {
@@ -142,13 +142,15 @@ export default {
     },
     makeChoice: function(choice) {
       let aux_choice = {
+        author_id: this.author_id,
         hash1: this.hash1,
         hash2: this.hash2,
         choice: choice,
+        order: this.choices.length + 1,
         initial_time: this.initial_time,
         completion_time: new Date()
       };
-      this.choices.push(aux_choice);
+      this.$firestore.choices.add(aux_choice);
       this.randomChoice();
       this.initial_time = aux_choice.completion_time;
     }
