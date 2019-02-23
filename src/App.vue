@@ -8,12 +8,7 @@
       <p>Desconectado...</p>
     </div>
     <div v-if="completedChoices" id="choices">
-      <audio
-        id="audio-player"
-        autoplay
-        controls
-        :src="audio"
-      >Your browser does not support the audio tag.</audio>
+      <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       <div class="choice" id="first-choice">
         <img :src="img1">
         <button @click="makeChoice(hash1)">Eu!</button>
@@ -190,8 +185,8 @@ export default {
 
       this.audio = this.options[this.possible_choices[i].i1].audio;
       let audio = document.getElementById("audio-player");
+      audio.pause();
       audio.currentTime = 0;
-      audio.play();
 
       // shuffles the options 50% of the time
       let r = Math.random();
