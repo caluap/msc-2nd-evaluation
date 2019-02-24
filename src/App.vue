@@ -7,12 +7,12 @@
       </div>
       <div class="choice" id="first-choice">
         <a @click="makeChoice(hash1)">
-          <img :src="img1">
+          <img id="img1" :src="img1">
         </a>
       </div>
       <div class="choice" id="second-choice">
         <a @click="makeChoice(hash2)">
-          <img :src="img2">
+          <img id="img2" :src="img2">
         </a>
       </div>
     </div>
@@ -123,10 +123,10 @@ export default {
           user => {
             this.author_id = user.user.uid;
             this.calculatePossibleChoices();
+            this.choices_made = 0;
+
             this.randomChoice();
             this.initial_time = new Date();
-
-            this.choices_made = 0;
 
             // has this user been here before?
             db.collection("dog_answers")
@@ -178,6 +178,18 @@ export default {
       }
     },
     randomChoice: function() {
+      // shuffles the options 50% of the time
+      let r = Math.random();
+      var choices_div = document.getElementById("choices");
+
+      if (choices_div) {
+        if (r >= 0.5) {
+          choices_div.classList.add("reverse-order");
+        } else {
+          choices_div.classList.remove("reverse-order");
+        }
+      }
+
       let i = Math.floor(Math.random() * this.possible_choices.length);
 
       this.hash1 = this.options[this.possible_choices[i].i1].hash;
@@ -188,17 +200,10 @@ export default {
 
       this.audio = this.options[this.possible_choices[i].i1].audio;
       let audio = document.getElementById("audio-player");
-      audio.pause();
-      audio.currentTime = 0;
 
-      // shuffles the options 50% of the time
-      let r = Math.random();
-      var choices_div = document.getElementById("choices");
-
-      if (r >= 0.5) {
-        choices_div.classList.add("reverse-order");
-      } else {
-        choices_div.classList.remove("reverse-order");
+      if (audio) {
+        audio.pause();
+        audio.currentTime = 0;
       }
 
       this.possible_choices.splice(i, 1);
