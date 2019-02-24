@@ -1,4 +1,6 @@
-@import "./reset.scss";
+@import "./_reset.scss";
+@import "./_media_queries.scss";
+@import "./_mixins.scss";
 
 body {
   font-size: 16px;
@@ -34,37 +36,30 @@ body {
   grid-gap: 20px;
   #audio-container {
     #audio-question {
-      font-size: 1.6rem;
-      margin-bottom: 1rem;
+      @include fs(2);
+      margin-bottom: 1.5rem;
     }
     text-align: center;
     grid-column: 1 / span 2;
   }
   .choice {
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     grid-row: 2;
+    a {
+      cursor: pointer;
+    }
     img {
       width: 100%;
       margin-bottom: 10px;
-      border: 2px solid transparent;
-      transition: all 0.4s ease;
+      transition: all 1s ease;
       border-radius: 0.8rem;
-    }
-
-    .choice-selection {
-      border: none;
-      font-size: 1rem;
-      padding: 1rem;
-      cursor: pointer;
-      transition: all 0.4s ease;
-      border-radius: 0.4rem;
+      @include box_shadow(1);
+      position: relative;
       &:hover {
-        background-color: #d7d7f8;
-        & ~ img {
-          border-color: blue;
-        }
+        @include box_shadow(2);
       }
     }
   }

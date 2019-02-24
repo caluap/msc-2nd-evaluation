@@ -6,12 +6,14 @@
         <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       </div>
       <div class="choice" id="first-choice">
-        <button class="choice-selection" @click="makeChoice(hash1)">Eu!</button>
-        <img :src="img1">
+        <a @click="makeChoice(hash1)">
+          <img :src="img1">
+        </a>
       </div>
       <div class="choice" id="second-choice">
-        <button class="choice-selection" @click="makeChoice(hash2)">Eu!</button>
-        <img :src="img2">
+        <a @click="makeChoice(hash2)">
+          <img :src="img2">
+        </a>
       </div>
     </div>
     <div v-else>
