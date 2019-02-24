@@ -21,7 +21,6 @@ body {
   justify-content: center;
 
   &:not(.logged) * {
-    opacity: 0.4;
   }
   &.logged {
     transition: all 1s ease;
@@ -50,6 +49,10 @@ body {
     grid-row: 2;
     a {
       cursor: pointer;
+      transition: opacity 1s ease;
+      &:active {
+        opacity: 0.3;
+      }
     }
     img {
       width: 100%;
