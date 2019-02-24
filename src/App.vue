@@ -24,6 +24,7 @@
     </div>
     <div v-else>
       <p>Teste concluído.</p>
+      <p>Você acertou {{correct_choices}} de {{choices_made}}.</p>
       <button @click="resetTest()">Reiniciar</button>
     </div>
   </div>
@@ -89,6 +90,7 @@ export default {
       hash2: "",
       audio: "",
       author_id: "",
+      correct_choices: 0,
       choice_limit: 20,
       choices_made: 0,
       initial_time: -1
@@ -130,6 +132,7 @@ export default {
             this.author_id = user.user.uid;
             this.calculatePossibleChoices();
             this.choices_made = 0;
+            this.correct_choices = 0;
 
             this.randomChoice();
             this.initial_time = new Date();
@@ -215,6 +218,10 @@ export default {
       this.possible_choices.splice(i, 1);
     },
     makeChoice: function(choice) {
+      let correct = choice == this.hash1;
+      if (correct) {
+        this.correct_choices++;
+      }
       let aux_choice = {
         author_id: this.author_id,
         hash1: this.hash1,
@@ -222,7 +229,8 @@ export default {
         choice: choice,
         order: this.choices_made,
         initial_time: this.initial_time,
-        completion_time: new Date()
+        completion_time: new Date(),
+        correct: correct
       };
       db.collection("dog_answers")
         .add(aux_choice)
