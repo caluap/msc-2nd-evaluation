@@ -15,9 +15,15 @@
           <img id="img2" :src="img2">
         </a>
       </div>
+      <div class="choice-number">
+        <p>
+          <span class="choices-made">{{ choices_made}}</span> /
+          <span class="choice-limit">{{choice_limit}}</span>
+        </p>
+      </div>
     </div>
     <div v-else>
-      <p>Uau! Já foram {{choice_limit}}</p>
+      <p>Teste concluído.</p>
       <button @click="resetTest()">Reiniciar</button>
     </div>
   </div>

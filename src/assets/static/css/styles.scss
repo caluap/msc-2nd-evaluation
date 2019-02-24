@@ -66,6 +66,16 @@ body {
       }
     }
   }
+
+  .choice-number {
+    text-align: center;
+    grid-column: 1 / span 2;
+    color: #ccc;
+    .choices-made {
+      color: black;
+    }
+  }
+
   &.reverse-order {
     #first-choice {
       grid-column: 2;
