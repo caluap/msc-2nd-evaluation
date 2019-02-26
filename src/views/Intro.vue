@@ -1,6 +1,6 @@
 <template>
   <div>Hello darkess my old friend.
-    <router-link to="/">Eval</router-link>
+    <router-link to="/eval">Eval</router-link>
   </div>
 </template>
 
