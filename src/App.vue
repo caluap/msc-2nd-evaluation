@@ -1,6 +1,11 @@
 <template>
   <div id="app">
-    <router-view/>
+    <div v-if="sharedState.author_id != ''">
+      <router-view/>
+    </div>
+    <div v-else>
+      <p>Waiting for the servers to answer...</p>
+    </div>
   </div>
 </template>
 

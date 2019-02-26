@@ -98,7 +98,7 @@ export default {
     if (this.sharedState.author_id == "") {
       console.log("Should be logged in and isn't");
     } else {
-      console.log("Still hailing as " + this.sharedState.author_id);
+      console.log("Starting evaluation...");
       this.calculatePossibleChoices();
       this.choices_made = 0;
       this.correct_choices = 0;

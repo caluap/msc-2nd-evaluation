@@ -4,7 +4,6 @@ export var general_data = {
     author_id: ""
   },
   setAuthorId(value) {
-    console.log("Olá, " + value);
     this.sharedState.author_id = value;
   }
 };
