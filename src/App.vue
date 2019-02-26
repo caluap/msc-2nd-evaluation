@@ -1,5 +1,6 @@
 <template>
   <div id="app" :class="{ logged: isLoggedIn}">
+    <router-view/>
     <div v-if="completedChoices" id="choices">
       <div id="audio-container">
         <p id="audio-question">Quem sou eu que vos fala?</p>
