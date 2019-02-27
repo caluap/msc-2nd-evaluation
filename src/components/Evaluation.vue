@@ -6,12 +6,12 @@
         <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       </div>
       <div class="choice" id="first-choice">
-        <a @click="makeChoice(hash1)">
+        <a @click="makeChoice(hash1)" class="img-choice">
           <img id="img1" :src="img1">
         </a>
       </div>
       <div class="choice" id="second-choice">
-        <a @click="makeChoice(hash2)">
+        <a @click="makeChoice(hash2)" class="img-choice">
           <img id="img2" :src="img2">
         </a>
       </div>

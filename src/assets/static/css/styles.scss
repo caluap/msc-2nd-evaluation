@@ -55,7 +55,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     grid-row: 2;
-    a {
+    a.img-choice {
       cursor: pointer;
       transition: opacity 1s ease;
       &:active {
@@ -65,12 +65,10 @@ body {
     img {
       width: 100%;
       margin-bottom: 10px;
-      transition: all 1s ease;
       border-radius: 0.8rem;
-      @include box_shadow(1);
-      position: relative;
+      border: 3px solid transparent;
       &:hover {
-        @include box_shadow(2);
+        border-color: $accent;
       }
     }
   }
@@ -100,7 +98,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-a:not(.next-step) {
+a:not(.next-step):not(.img-choice) {
   color: black;
   text-decoration-color: $accent;
   &:hover {
@@ -145,6 +143,7 @@ p {
 }
 
 .main-container {
+  width: 100%;
   display: grid;
   grid-template-columns: 3fr 5fr 3fr;
   @include respond-below(md) {
