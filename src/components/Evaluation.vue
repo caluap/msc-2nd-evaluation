@@ -25,7 +25,6 @@
     <div v-else>
       <p>Teste concluído.</p>
       <p>Você acertou {{correct_choices}} de {{choices_made}}.</p>
-      <button @click="resetTest()">Reiniciar</button>
     </div>
   </div>
 </template>
@@ -95,7 +94,10 @@ export default {
     };
   },
   mounted() {
-    if (this.sharedState.author_id == "") {
+    if (
+      (this.sharedState.author_id == "" || this.sharedState.offline_mode) &&
+      !(this.sharedState.author_id == "" && this.sharedState.offline_mode)
+    ) {
       console.log("Should be logged in and isn't");
     } else {
       console.log("Starting evaluation...");
@@ -106,13 +108,15 @@ export default {
       this.initial_time = new Date();
 
       // has this user been here before?
-      db.collection("dog_answers")
-        .where("author_id", "==", this.sharedState.author_id)
-        .get()
-        .then(querySnapshot => {
-          // this won't exclude random options already shown!
-          this.choices_made += querySnapshot.size;
-        });
+      if (!this.sharedState.offline_mode) {
+        db.collection("dog_answers")
+          .where("author_id", "==", this.sharedState.author_id)
+          .get()
+          .then(querySnapshot => {
+            // this won't exclude random options already shown!
+            this.choices_made += querySnapshot.size;
+          });
+      }
     }
   },
   computed: {
@@ -186,13 +190,19 @@ export default {
         completion_time: new Date(),
         correct: correct
       };
-      db.collection("dog_answers")
-        .add(aux_choice)
-        .then(() => {
-          this.choices_made++;
-          this.randomChoice();
-          this.initial_time = aux_choice.completion_time;
-        });
+      if (!this.sharedState.offline_mode) {
+        db.collection("dog_answers")
+          .add(aux_choice)
+          .then(() => {
+            this.choices_made++;
+            this.randomChoice();
+            this.initial_time = aux_choice.completion_time;
+          });
+      } else {
+        this.choices_made++;
+        this.randomChoice();
+        this.initial_time = aux_choice.completion_time;
+      }
     }
   }
 };
