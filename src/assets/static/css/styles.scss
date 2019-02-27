@@ -3,6 +3,7 @@
 @import "./_mixins.scss";
 
 $accent: #206bf8;
+$light-accent: #9ef7cd;
 
 body {
   font-size: 16px;
@@ -16,11 +17,12 @@ body {
   background: #dfdfdf;
 
   padding: 2rem 0;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 #app {
   width: 100%;
-  min-height: 100vh;
 
   display: flex;
   align-items: center;
@@ -98,6 +100,15 @@ h1 {
   margin-bottom: 2rem;
 }
 
+a:not(.next-step) {
+  color: black;
+  text-decoration-color: $accent;
+  &:hover {
+    text-decoration: none;
+    background: $light-accent;
+  }
+}
+
 p {
   @include fs(0);
   em {
@@ -120,9 +131,17 @@ p {
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.15s all ease;
-  &:hover {
+  &:not(.disabled):hover {
     background: black;
   }
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.4;
+  }
+}
+
+#checkbox {
+  border: none;
 }
 
 .main-container {
@@ -142,5 +161,26 @@ p {
     p {
       @include fs(0);
     }
+  }
+}
+
+.lbl {
+  span {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 2px;
+    position: relative;
+    top: 1px;
+    margin-right: 0.5rem;
+    border: 1px solid $accent;
+    background: white;
+  }
+  cursor: pointer;
+}
+
+#cbx:checked ~ .lbl {
+  span {
+    background: $accent;
   }
 }

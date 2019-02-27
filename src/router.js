@@ -18,7 +18,12 @@ export default new Router({
       component: Intro
     },
     {
-      path: "/questionario",
+      path: "/terms",
+      name: "terms",
+      component: () => import("./views/Terms.vue")
+    },
+    {
+      path: "/quest",
       name: "questionnaire",
       component: () => import("./views/Questionnaire.vue")
     }

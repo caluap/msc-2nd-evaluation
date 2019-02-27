@@ -15,7 +15,7 @@
         <strong>A ideia é ouvir o áudio e clicar na imagem que corresponde à voz da atriz.</strong>
       </p>
       <p>O teste costuma levar de 10 a 20 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho que fizermos não vai incomodar ninguém.</p>
-      <router-link to="/eval" class="next-step">Pronto?</router-link>
+      <router-link to="/terms" class="next-step">Próximo passo</router-link>
     </div>
   </div>
 </template>
