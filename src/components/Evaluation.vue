@@ -39,48 +39,7 @@ export default {
   data() {
     return {
       sharedState: general_data.sharedState,
-      options: [
-        {
-          hash: "7a8d9b",
-          img: require("../assets/static/imgs/animals/cat.jpg"),
-          audio: require("../assets/static/sounds/cat.mp3")
-        },
-        {
-          hash: "94dc70",
-          img: require("../assets/static/imgs/animals/cow.jpg"),
-          audio: require("../assets/static/sounds/cow.mp3")
-        },
-        {
-          hash: "fc7dfe",
-          img: require("../assets/static/imgs/animals/dog.jpg"),
-          audio: require("../assets/static/sounds/dog.mp3")
-        },
-        {
-          hash: "af9377",
-          img: require("../assets/static/imgs/animals/duck.jpg"),
-          audio: require("../assets/static/sounds/duck.mp3")
-        },
-        {
-          hash: "4d0db8",
-          img: require("../assets/static/imgs/animals/goose.jpg"),
-          audio: require("../assets/static/sounds/goose.mp3")
-        },
-        {
-          hash: "b4a4f6",
-          img: require("../assets/static/imgs/animals/pig.jpg"),
-          audio: require("../assets/static/sounds/pig.mp3")
-        },
-        {
-          hash: "3cfff0",
-          img: require("../assets/static/imgs/animals/rooster.jpg"),
-          audio: require("../assets/static/sounds/rooster.mp3")
-        },
-        {
-          hash: "a086f6",
-          img: require("../assets/static/imgs/animals/turkey.jpg"),
-          audio: require("../assets/static/sounds/turkey.mp3")
-        }
-      ],
+      cardsData: general_data.cardsData,
       possible_choices: [],
       img1: "",
       hash1: "",
@@ -94,6 +53,7 @@ export default {
     };
   },
   mounted() {
+    // there's no XOR!
     if (
       (this.sharedState.author_id == "" || this.sharedState.offline_mode) &&
       !(this.sharedState.author_id == "" && this.sharedState.offline_mode)
@@ -136,10 +96,17 @@ export default {
   methods: {
     calculatePossibleChoices: function() {
       this.possible_choices = [];
-      for (let i = 0; i < this.options.length; i++) {
-        for (let j = 0; j < this.options.length; j++) {
-          if (i != j) {
-            this.possible_choices.push({ i1: i, i2: j });
+      for (let phr = 0; phr < this.cardsData.length; phr++) {
+        for (let i = 0; i < this.cardsData[phr].data.length; i++) {
+          for (let j = 0; j < this.cardsData[phr].data.length; j++) {
+            if (i != j) {
+              let pc = {
+                phrase: phr,
+                i1: i,
+                i2: j
+              };
+              this.possible_choices.push(pc);
+            }
           }
         }
       }
@@ -159,13 +126,20 @@ export default {
 
       let i = Math.floor(Math.random() * this.possible_choices.length);
 
-      this.hash1 = this.options[this.possible_choices[i].i1].hash;
-      this.hash2 = this.options[this.possible_choices[i].i2].hash;
+      let opt1 = this.cardsData[this.possible_choices[i].phrase].data[
+        this.possible_choices[i].i1
+      ];
+      let opt2 = this.cardsData[this.possible_choices[i].phrase].data[
+        this.possible_choices[i].i2
+      ];
 
-      this.img1 = this.options[this.possible_choices[i].i1].img;
-      this.img2 = this.options[this.possible_choices[i].i2].img;
+      this.hash1 = opt1.hash;
+      this.hash2 = opt2.hash;
 
-      this.audio = this.options[this.possible_choices[i].i1].audio;
+      this.img1 = opt1.img;
+      this.img2 = opt2.img;
+
+      this.audio = opt1.audio;
       let audio = document.getElementById("audio-player");
 
       if (audio) {
