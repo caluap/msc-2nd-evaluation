@@ -101,6 +101,7 @@ h1 {
 a:not(.next-step):not(.img-choice) {
   color: black;
   text-decoration-color: $accent;
+  @include fs(0);
   &:hover {
     text-decoration: none;
     background: $light-accent;

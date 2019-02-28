@@ -23,8 +23,10 @@
       </div>
     </div>
     <div v-else>
-      <p>Teste concluído.</p>
+      <h1>Teste concluído.</h1>
       <p>Você acertou {{correct_choices}} de {{choices_made}}.</p>
+      <br>
+      <router-link to="/">Começar de novo?</router-link>
     </div>
   </div>
 </template>
