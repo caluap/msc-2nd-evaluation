@@ -10,12 +10,12 @@
         >aqui</a>.
       </p>
       <p>
-        <input type="checkbox" id="cbx" style="display: none;" v-model="im_ok">
+        <input type="checkbox" id="cbx" style="display: none;" v-model="sharedState.accepted_terms">
         <label class="lbl" for="cbx">
           <span></span>Li e estou de acordo com os termos.
         </label>
       </p>
-      <div v-if="im_ok">
+      <div v-if="sharedState.accepted_terms">
         <router-link to="/quest" class="next-step">Próximo passo</router-link>
       </div>
       <div v-else>
@@ -27,11 +27,12 @@
 
 <script>
 import "../assets/static/css/styles.scss";
+import { general_data } from "../data";
 export default {
   name: "terms",
   data() {
     return {
-      im_ok: false
+      sharedState: general_data.sharedState
     };
   }
 };

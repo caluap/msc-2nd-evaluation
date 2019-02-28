@@ -26,7 +26,7 @@
       <h1>Teste concluído.</h1>
       <p>Você acertou {{correct_choices}} de {{choices_made}}.</p>
       <br>
-      <router-link to="/">Começar de novo?</router-link>
+      <a @click="logOut()" href="#">Começar de novo?</a>
     </div>
   </div>
 </template>
@@ -37,6 +37,7 @@ import { general_data } from "../data";
 import { dataRef } from "../data";
 import { db } from "../firebase";
 import { firebaseApp } from "../firebase";
+import { router } from "../router";
 
 export default {
   name: "evaluation",
@@ -60,6 +61,10 @@ export default {
     };
   },
   mounted() {
+    if (this.sharedState.accepted_terms == false) {
+      this.$router.push("terms");
+    }
+
     // there's no XOR!
     if (
       (this.sharedState.author_id == "" || this.sharedState.offline_mode) &&
@@ -94,20 +99,23 @@ export default {
       ) {
         return true;
       }
-      if (this.sharedState.author_id != "") {
-        this.logOut();
-      }
+      // if (this.sharedState.author_id != "") {
+      //   this.logOut();
+      // }
       return false;
     }
   },
   methods: {
     logOut: function() {
       if (!this.sharedState.offline_mode) {
+        console.log("Goodbye, dear friend.");
         firebaseApp
           .auth()
           .signOut()
           .then(() => {
-            this.author_id = "";
+            this.sharedState.author_id = "";
+            this.sharedState.accepted_terms = false;
+            window.location.href = "/";
           });
       }
     },

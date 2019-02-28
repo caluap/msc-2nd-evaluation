@@ -7,6 +7,7 @@ export var dataRef = {
 export var general_data = {
   sharedState: {
     author_id: "",
+    accepted_terms: false,
     offline_mode: false
   },
   cardsData: [
