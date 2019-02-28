@@ -32,6 +32,7 @@
 <script>
 import "../assets/static/css/styles.scss";
 import { general_data } from "../data";
+import { dataRef } from "../data";
 import { db } from "../firebase";
 
 export default {
@@ -46,6 +47,9 @@ export default {
       img2: "",
       hash2: "",
       audio: "",
+      i1: -1,
+      i2: -1,
+      phrase: -1,
       correct_choices: 0,
       choice_limit: 20,
       choices_made: 0,
@@ -69,7 +73,7 @@ export default {
 
       // has this user been here before?
       if (!this.sharedState.offline_mode) {
-        db.collection("dog_answers")
+        db.collection("card_answers")
           .where("author_id", "==", this.sharedState.author_id)
           .get()
           .then(querySnapshot => {
@@ -133,6 +137,11 @@ export default {
         this.possible_choices[i].i2
       ];
 
+      // save the indices to retriev the metadata later...
+      this.i1 = this.possible_choices[i].i1;
+      this.i2 = this.possible_choices[i].i2;
+      this.phrase = this.possible_choices[i].phrase;
+
       this.hash1 = opt1.hash;
       this.hash2 = opt2.hash;
 
@@ -151,9 +160,27 @@ export default {
     },
     makeChoice: function(choice) {
       let correct = choice == this.hash1;
+      let correct_metadata, incorrect_metadata;
+      let i_right, i_wrong;
+
       if (correct) {
         this.correct_choices++;
+        i_right = this.i1;
+        i_wrong = this.i2;
+      } else {
+        i_right = this.i2;
+        i_wrong = this.i1;
       }
+
+      correct_metadata = {
+        feature: this.cardsData[this.phrase].data[i_right].feature,
+        emotion: this.cardsData[this.phrase].data[i_right].emotion
+      };
+      incorrect_metadata = {
+        feature: this.cardsData[this.phrase].data[i_wrong].feature,
+        emotion: this.cardsData[this.phrase].data[i_wrong].emotion
+      };
+
       let aux_choice = {
         author_id: this.sharedState.author_id,
         hash1: this.hash1,
@@ -162,10 +189,13 @@ export default {
         order: this.choices_made,
         initial_time: this.initial_time,
         completion_time: new Date(),
-        correct: correct
+        correct: correct,
+        phrase: this.cardsData[this.phrase].phrase,
+        correct_metadata: correct_metadata,
+        incorrect_metadata: incorrect_metadata
       };
       if (!this.sharedState.offline_mode) {
-        db.collection("dog_answers")
+        db.collection("card_answers")
           .add(aux_choice)
           .then(() => {
             this.choices_made++;
