@@ -34,6 +34,7 @@ import "../assets/static/css/styles.scss";
 import { general_data } from "../data";
 import { dataRef } from "../data";
 import { db } from "../firebase";
+import { firebaseApp } from "../firebase";
 
 export default {
   name: "evaluation",
@@ -98,6 +99,16 @@ export default {
     }
   },
   methods: {
+    logOut: function() {
+      if (!this.sharedState.offline_mode) {
+        firebaseApp
+          .auth()
+          .signOut()
+          .then(() => {
+            this.author_id = "";
+          });
+      }
+    },
     calculatePossibleChoices: function() {
       this.possible_choices = [];
       for (let phr = 0; phr < this.cardsData.length; phr++) {

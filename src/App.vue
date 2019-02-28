@@ -60,16 +60,6 @@ export default {
       } else {
         console.log("Beggining in offline mode.");
       }
-    },
-    logOut: function() {
-      if (!this.sharedState.offline_mode) {
-        firebaseApp
-          .auth()
-          .signOut()
-          .then(() => {
-            this.author_id = "";
-          });
-      }
     }
   }
 };
