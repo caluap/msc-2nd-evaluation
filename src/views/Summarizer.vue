@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p>Freinds</p>
+    <div v-for="(item, hash) in hashes_list" :key="hash">
+      <p>{{hash}} --> {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+    </div>
   </div>
 </template>
 
@@ -13,7 +15,29 @@ export default {
     return {};
   },
   mounted() {
-    console.log(data[0]);
+    // console.log(data[0]);
+  },
+  computed: {
+    hashes_list: function() {
+      let hashes = {};
+      data.forEach(e => {
+        if (!(e.choice in hashes)) {
+          hashes[e.choice] = {
+            correct: 0,
+            incorrect: 0,
+            total: 0
+          };
+        }
+        if (e.correct) {
+          hashes[e.choice].correct += 1;
+        } else {
+          hashes[e.choice].incorrect += 1;
+        }
+        hashes[e.choice].total += 1;
+      });
+
+      return hashes;
+    }
   }
 };
 </script>
