@@ -26,6 +26,11 @@ export default new Router({
       path: "/quest",
       name: "questionnaire",
       component: () => import("./views/Questionnaire.vue")
+    },
+    {
+      path: "/summarizer",
+      name: "summarizer",
+      component: () => import("./views/Summarizer.vue")
     }
   ]
 });
