@@ -1,0 +1,8602 @@
+[
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319796,
+      "_nanoseconds": 284000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 7,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319794,
+      "_nanoseconds": 52000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 11,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 622000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551318981,
+      "_nanoseconds": 500000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319659,
+      "_nanoseconds": 392000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319660,
+      "_nanoseconds": 108000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 16,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 5,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 79000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 708000000
+    },
+    "hash2": "fc7dfe"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 13,
+    "correct": false,
+    "hash1": "4d0db8",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318301,
+      "_nanoseconds": 656000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318302,
+      "_nanoseconds": 19000000
+    },
+    "hash2": "b4a4f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319438,
+      "_nanoseconds": 243000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551319439,
+      "_nanoseconds": 447000000
+    },
+    "choice": "94dc70",
+    "order": 17,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 564000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319800,
+      "_nanoseconds": 31000000
+    },
+    "hash2": "a086f6",
+    "choice": "4d0db8",
+    "order": 14,
+    "hash1": "4d0db8",
+    "correct": true
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 1,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318344,
+      "_nanoseconds": 16000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318344,
+      "_nanoseconds": 611000000
+    },
+    "hash2": "b4a4f6"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 560000000
+    },
+    "hash2": "4d0db8",
+    "choice": "a086f6",
+    "order": 5,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 56000000
+    }
+  },
+  {
+    "choice": "3cfff0",
+    "order": 13,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359998,
+      "_nanoseconds": 243000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551360003,
+      "_nanoseconds": 520000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 21000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 729000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 12,
+    "hash1": "af9377",
+    "correct": false
+  },
+  {
+    "choice": "a086f6",
+    "order": 11,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 257000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 920000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318873,
+      "_nanoseconds": 443000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551318874,
+      "_nanoseconds": 310000000
+    },
+    "choice": "fc7dfe",
+    "order": 0,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1"
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 613000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 281000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "4d0db8",
+    "order": 6,
+    "hash1": "4d0db8",
+    "correct": true
+  },
+  {
+    "order": 5,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318753,
+      "_nanoseconds": 413000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318754,
+      "_nanoseconds": 57000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8"
+  },
+  {
+    "order": 4,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 914000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 560000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 11,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 301000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 675000000
+    }
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318348,
+      "_nanoseconds": 942000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318349,
+      "_nanoseconds": 590000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "94dc70",
+    "order": 12,
+    "hash1": "94dc70",
+    "correct": true
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 4,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 219000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 782000000
+    }
+  },
+  {
+    "choice": "a086f6",
+    "order": 0,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318384,
+      "_nanoseconds": 342000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 157000000
+    }
+  },
+  {
+    "choice": "3cfff0",
+    "order": 16,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551360016,
+      "_nanoseconds": 391000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551360020,
+      "_nanoseconds": 455000000
+    },
+    "hash2": "b4a4f6"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 638000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 44000000
+    },
+    "hash2": "4d0db8",
+    "choice": "3cfff0",
+    "order": 7,
+    "hash1": "3cfff0",
+    "correct": true
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 199000000
+    },
+    "choice": "4d0db8",
+    "order": 11,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 203000000
+    }
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551360009,
+      "_nanoseconds": 926000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "af9377",
+    "order": 14,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551360003,
+      "_nanoseconds": 520000000
+    }
+  },
+  {
+    "order": 0,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319965,
+      "_nanoseconds": 3000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319965,
+      "_nanoseconds": 819000000
+    },
+    "choice": "94dc70"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 553000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 74000000
+    },
+    "choice": "fc7dfe",
+    "order": 11,
+    "correct": true,
+    "hash1": "fc7dfe"
+  },
+  {
+    "order": 1,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319965,
+      "_nanoseconds": 819000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 575000000
+    },
+    "hash2": "94dc70",
+    "choice": "af9377"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 120000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 0,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319568,
+      "_nanoseconds": 550000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318984,
+      "_nanoseconds": 986000000
+    },
+    "choice": "4d0db8",
+    "order": 18,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318984,
+      "_nanoseconds": 610000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 613000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 4,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 234000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "order": 0,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319790,
+      "_nanoseconds": 94000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319790,
+      "_nanoseconds": 777000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 405000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "af9377",
+    "order": 3,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 949000000
+    }
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 2,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 575000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 79000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318874,
+      "_nanoseconds": 310000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 9000000
+    },
+    "hash2": "a086f6",
+    "choice": "3cfff0",
+    "order": 1,
+    "hash1": "3cfff0",
+    "correct": true
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319278,
+      "_nanoseconds": 906000000
+    },
+    "hash2": "3cfff0",
+    "choice": "4d0db8",
+    "order": 18,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319278,
+      "_nanoseconds": 385000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 234000000
+    },
+    "choice": "af9377",
+    "order": 2,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318874,
+      "_nanoseconds": 587000000
+    }
+  },
+  {
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319660,
+      "_nanoseconds": 941000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319661,
+      "_nanoseconds": 705000000
+    },
+    "hash2": "94dc70",
+    "choice": "7a8d9b",
+    "order": 18,
+    "correct": true,
+    "hash1": "7a8d9b"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 18,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 253000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 937000000
+    }
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318345,
+      "_nanoseconds": 694000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 3,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318345,
+      "_nanoseconds": 248000000
+    }
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 607000000
+    },
+    "choice": "a086f6",
+    "order": 10,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 260000000
+    }
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 773000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318347,
+      "_nanoseconds": 394000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 7,
+    "hash1": "4d0db8",
+    "correct": false
+  },
+  {
+    "order": 4,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 219000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 798000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "94dc70"
+  },
+  {
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359732,
+      "_nanoseconds": 34000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551359950,
+      "_nanoseconds": 969000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 3,
+    "hash1": "94dc70",
+    "correct": false
+  },
+  {
+    "order": 9,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 340000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 869000000
+    },
+    "choice": "a086f6"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 120000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 612000000
+    },
+    "hash2": "4d0db8",
+    "choice": "b4a4f6",
+    "order": 1,
+    "hash1": "b4a4f6",
+    "correct": true
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 204000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 730000000
+    },
+    "choice": "7a8d9b",
+    "order": 9,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "order": 7,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319794,
+      "_nanoseconds": 52000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319796,
+      "_nanoseconds": 660000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70"
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 596000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319438,
+      "_nanoseconds": 396000000
+    },
+    "choice": "af9377",
+    "order": 13,
+    "correct": false,
+    "hash1": "fc7dfe"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551359985,
+      "_nanoseconds": 406000000
+    },
+    "choice": "7a8d9b",
+    "order": 9,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359980,
+      "_nanoseconds": 441000000
+    }
+  },
+  {
+    "order": 19,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318984,
+      "_nanoseconds": 986000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318985,
+      "_nanoseconds": 650000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "af9377"
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319487,
+      "_nanoseconds": 742000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 450000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 2,
+    "hash1": "3cfff0",
+    "correct": false
+  },
+  {
+    "order": 11,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 19000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 408000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 13,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 687000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 547000000
+    },
+    "hash2": "b4a4f6"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 438000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "af9377",
+    "order": 9,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 83000000
+    }
+  },
+  {
+    "order": 5,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319273,
+      "_nanoseconds": 157000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319273,
+      "_nanoseconds": 786000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe"
+  },
+  {
+    "order": 9,
+    "hash1": "3cfff0",
+    "correct": false,
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 340000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 689000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6"
+  },
+  {
+    "order": 0,
+    "hash1": "3cfff0",
+    "correct": false,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319270,
+      "_nanoseconds": 607000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319271,
+      "_nanoseconds": 155000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 3,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 635000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 944000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "order": 17,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319491,
+      "_nanoseconds": 654000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319492,
+      "_nanoseconds": 302000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "4d0db8"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318301,
+      "_nanoseconds": 264000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 11,
+    "hash1": "4d0db8",
+    "correct": false,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318300,
+      "_nanoseconds": 582000000
+    }
+  },
+  {
+    "choice": "af9377",
+    "order": 8,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 393000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 712000000
+    }
+  },
+  {
+    "order": 10,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319796,
+      "_nanoseconds": 660000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 208000000
+    },
+    "choice": "a086f6"
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 503000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 870000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8",
+    "order": 2,
+    "correct": false,
+    "hash1": "b4a4f6"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 7,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 563000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 83000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "choice": "af9377",
+    "order": 18,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318304,
+      "_nanoseconds": 116000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318304,
+      "_nanoseconds": 740000000
+    },
+    "hash2": "94dc70"
+  },
+  {
+    "order": 6,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318754,
+      "_nanoseconds": 57000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551318754,
+      "_nanoseconds": 729000000
+    },
+    "choice": "b4a4f6"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 7,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 407000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 203000000
+    },
+    "hash2": "af9377"
+  },
+  {
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 944000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 199000000
+    },
+    "choice": "7a8d9b",
+    "order": 4,
+    "correct": true,
+    "hash1": "7a8d9b"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 19,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318758,
+      "_nanoseconds": 212000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318758,
+      "_nanoseconds": 832000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551360020,
+      "_nanoseconds": 455000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551360025,
+      "_nanoseconds": 277000000
+    },
+    "hash2": "94dc70",
+    "choice": "af9377",
+    "order": 17,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 19000000
+    },
+    "choice": "a086f6",
+    "order": 10,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319796,
+      "_nanoseconds": 660000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 932000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 301000000
+    },
+    "choice": "7a8d9b",
+    "order": 9,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 707000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "94dc70",
+    "order": 12,
+    "hash1": "94dc70",
+    "correct": true,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 223000000
+    }
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 596000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319438,
+      "_nanoseconds": 243000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 13,
+    "hash1": "fc7dfe",
+    "correct": false
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319433,
+      "_nanoseconds": 484000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319434,
+      "_nanoseconds": 260000000
+    },
+    "choice": "fc7dfe",
+    "order": 1,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319568,
+      "_nanoseconds": 550000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 283000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 0,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 0,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318693,
+      "_nanoseconds": 822000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318746,
+      "_nanoseconds": 346000000
+    },
+    "hash2": "fc7dfe"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 0,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318813,
+      "_nanoseconds": 869000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318814,
+      "_nanoseconds": 656000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "order": 10,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 76000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 748000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 8,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 44000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 553000000
+    }
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 407000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 4,
+    "hash1": "7a8d9b",
+    "correct": true,
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 914000000
+    }
+  },
+  {
+    "choice": "af9377",
+    "order": 3,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 439000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 946000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320017,
+      "_nanoseconds": 557000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 47000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe",
+    "order": 3,
+    "hash1": "fc7dfe",
+    "correct": true
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319272,
+      "_nanoseconds": 887000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "3cfff0",
+    "order": 3,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319272,
+      "_nanoseconds": 245000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 6,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359963,
+      "_nanoseconds": 346000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551359968,
+      "_nanoseconds": 323000000
+    }
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 937000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318877,
+      "_nanoseconds": 454000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8",
+    "order": 11,
+    "hash1": "a086f6",
+    "correct": false
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 4,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319792,
+      "_nanoseconds": 272000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319793,
+      "_nanoseconds": 712000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320017,
+      "_nanoseconds": 53000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320017,
+      "_nanoseconds": 557000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 2,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 0,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318384,
+      "_nanoseconds": 342000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318384,
+      "_nanoseconds": 883000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 730000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 248000000
+    },
+    "hash2": "94dc70",
+    "choice": "fc7dfe",
+    "order": 12,
+    "hash1": "fc7dfe",
+    "correct": true
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 949000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 2,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 361000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "af9377",
+    "order": 2,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319434,
+      "_nanoseconds": 260000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319434,
+      "_nanoseconds": 872000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "order": 1,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318814,
+      "_nanoseconds": 331000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 39000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6"
+  },
+  {
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 575000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 914000000
+    },
+    "hash2": "a086f6",
+    "choice": "b4a4f6",
+    "order": 2,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 450000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 983000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 4,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318297,
+      "_nanoseconds": 492000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 2,
+    "hash1": "4d0db8",
+    "correct": false,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318296,
+      "_nanoseconds": 845000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 6,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 983000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 334000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 199000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 563000000
+    },
+    "choice": "fc7dfe",
+    "order": 5,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319790,
+      "_nanoseconds": 777000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319792,
+      "_nanoseconds": 110000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 1,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319276,
+      "_nanoseconds": 354000000
+    },
+    "choice": "fc7dfe",
+    "order": 11,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319275,
+      "_nanoseconds": 941000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "94dc70",
+    "order": 12,
+    "hash1": "94dc70",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318301,
+      "_nanoseconds": 264000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318301,
+      "_nanoseconds": 656000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319491,
+      "_nanoseconds": 266000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319491,
+      "_nanoseconds": 654000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "a086f6",
+    "order": 16,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 717000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 177000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 3,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318747,
+      "_nanoseconds": 794000000
+    },
+    "hash2": "94dc70",
+    "choice": "fc7dfe",
+    "order": 1,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318746,
+      "_nanoseconds": 346000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320089,
+      "_nanoseconds": 562000000
+    },
+    "hash2": "af9377",
+    "choice": "94dc70",
+    "order": 19,
+    "hash1": "94dc70",
+    "correct": true,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 999000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 240000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8",
+    "order": 4,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319435,
+      "_nanoseconds": 463000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 393000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 7,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318754,
+      "_nanoseconds": 729000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319577,
+      "_nanoseconds": 303000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "a086f6",
+    "order": 18,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319576,
+      "_nanoseconds": 635000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 883000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 9,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 564000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 981000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318879,
+      "_nanoseconds": 562000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "3cfff0",
+    "order": 18,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 6,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 589000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 138000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320022,
+      "_nanoseconds": 213000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 19,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 665000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318349,
+      "_nanoseconds": 236000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318349,
+      "_nanoseconds": 900000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 13,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 293000000
+    },
+    "choice": "fc7dfe",
+    "order": 9,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 792000000
+    }
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 5,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 405000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 941000000
+    },
+    "hash2": "94dc70"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 899000000
+    },
+    "hash2": "4d0db8",
+    "choice": "a086f6",
+    "order": 14,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 29000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "a086f6",
+    "order": 15,
+    "correct": false,
+    "hash1": "4d0db8",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 749000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319278,
+      "_nanoseconds": 217000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "order": 7,
+    "hash1": "af9377",
+    "correct": false,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318754,
+      "_nanoseconds": 729000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 557000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70"
+  },
+  {
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318747,
+      "_nanoseconds": 794000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318748,
+      "_nanoseconds": 909000000
+    },
+    "hash2": "4d0db8",
+    "choice": "3cfff0",
+    "order": 2,
+    "correct": true,
+    "hash1": "3cfff0"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318350,
+      "_nanoseconds": 591000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318350,
+      "_nanoseconds": 965000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "4d0db8",
+    "order": 16,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 739000000
+    },
+    "hash2": "a086f6",
+    "choice": "4d0db8",
+    "order": 6,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 393000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 405000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 821000000
+    },
+    "choice": "b4a4f6",
+    "order": 5,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "choice": "a086f6",
+    "order": 10,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 506000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 57000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 2,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 162000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 635000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "order": 10,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 959000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 632000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551319275,
+      "_nanoseconds": 101000000
+    },
+    "choice": "94dc70",
+    "order": 8,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319274,
+      "_nanoseconds": 393000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 203000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 29000000
+    },
+    "choice": "4d0db8",
+    "order": 11,
+    "correct": true,
+    "hash1": "4d0db8"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318302,
+      "_nanoseconds": 373000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318303,
+      "_nanoseconds": 209000000
+    },
+    "hash2": "af9377",
+    "choice": "fc7dfe",
+    "order": 15,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03"
+  },
+  {
+    "choice": "a086f6",
+    "order": 11,
+    "correct": false,
+    "hash1": "4d0db8",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 967000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 398000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319276,
+      "_nanoseconds": 929000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 749000000
+    },
+    "hash2": "3cfff0",
+    "choice": "a086f6",
+    "order": 13,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 9,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 486000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 777000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318819,
+      "_nanoseconds": 95000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551318819,
+      "_nanoseconds": 380000000
+    },
+    "choice": "fc7dfe",
+    "order": 19,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318389,
+      "_nanoseconds": 702000000
+    },
+    "hash2": "94dc70",
+    "choice": "af9377",
+    "order": 19,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 961000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 2000000
+    },
+    "choice": "b4a4f6",
+    "order": 0,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319654,
+      "_nanoseconds": 466000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319435,
+      "_nanoseconds": 463000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 56000000
+    },
+    "choice": "4d0db8",
+    "order": 4,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 19,
+    "hash1": "b4a4f6",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318304,
+      "_nanoseconds": 740000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318305,
+      "_nanoseconds": 272000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "choice": "a086f6",
+    "order": 10,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 260000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 778000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 3,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 9000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 401000000
+    }
+  },
+  {
+    "choice": "af9377",
+    "order": 8,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 739000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 260000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 219000000
+    },
+    "hash2": "a086f6",
+    "choice": "3cfff0",
+    "order": 3,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 870000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318348,
+      "_nanoseconds": 290000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318348,
+      "_nanoseconds": 942000000
+    },
+    "hash2": "af9377",
+    "choice": "94dc70",
+    "order": 11,
+    "hash1": "94dc70",
+    "correct": true,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 275000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 959000000
+    },
+    "hash2": "94dc70",
+    "choice": "fc7dfe",
+    "order": 7,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 1,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359726,
+      "_nanoseconds": 26000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551359726,
+      "_nanoseconds": 825000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 708000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 687000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 9,
+    "hash1": "4d0db8",
+    "correct": false
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 466000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 773000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 6,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 39000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 531000000
+    },
+    "choice": "a086f6",
+    "order": 3,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 443000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 127000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8",
+    "order": 8,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 430000000
+    },
+    "choice": "94dc70",
+    "order": 14,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 845000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "af9377",
+    "order": 1,
+    "correct": true,
+    "hash1": "af9377",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319965,
+      "_nanoseconds": 819000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 739000000
+    },
+    "hash2": "94dc70"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 372000000
+    },
+    "hash2": "3cfff0",
+    "choice": "4d0db8",
+    "order": 10,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 712000000
+    }
+  },
+  {
+    "order": 11,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 113000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 645000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 17,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318303,
+      "_nanoseconds": 625000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551318304,
+      "_nanoseconds": 116000000
+    }
+  },
+  {
+    "choice": "af9377",
+    "order": 11,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318348,
+      "_nanoseconds": 290000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318349,
+      "_nanoseconds": 236000000
+    },
+    "hash2": "af9377"
+  },
+  {
+    "choice": "a086f6",
+    "order": 10,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 883000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318300,
+      "_nanoseconds": 582000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 773000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318347,
+      "_nanoseconds": 99000000
+    },
+    "hash2": "3cfff0",
+    "choice": "4d0db8",
+    "order": 7,
+    "hash1": "4d0db8",
+    "correct": true
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319487,
+      "_nanoseconds": 539000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 0,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319486,
+      "_nanoseconds": 898000000
+    }
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319434,
+      "_nanoseconds": 872000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319435,
+      "_nanoseconds": 463000000
+    },
+    "hash2": "a086f6",
+    "choice": "4d0db8",
+    "order": 3,
+    "hash1": "4d0db8",
+    "correct": true
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 120000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 439000000
+    },
+    "choice": "b4a4f6",
+    "order": 1,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319275,
+      "_nanoseconds": 941000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe",
+    "order": 10,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319275,
+      "_nanoseconds": 272000000
+    }
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 821000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 173000000
+    },
+    "hash2": "94dc70",
+    "choice": "7a8d9b",
+    "order": 6,
+    "correct": true,
+    "hash1": "7a8d9b"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319438,
+      "_nanoseconds": 556000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 14,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 748000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 193000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 773000000
+    },
+    "choice": "7a8d9b",
+    "order": 15,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318984,
+      "_nanoseconds": 610000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 17,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318983,
+      "_nanoseconds": 973000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 8,
+    "hash1": "4d0db8",
+    "correct": true,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 44000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 380000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 19,
+    "hash1": "af9377",
+    "correct": false,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319278,
+      "_nanoseconds": 906000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319279,
+      "_nanoseconds": 397000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "choice": "a086f6",
+    "order": 18,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 925000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318758,
+      "_nanoseconds": 450000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318389,
+      "_nanoseconds": 145000000
+    },
+    "hash2": "af9377",
+    "choice": "7a8d9b",
+    "order": 16,
+    "hash1": "7a8d9b",
+    "correct": true,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 417000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 4,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 612000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 275000000
+    }
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 625000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 57000000
+    },
+    "choice": "3cfff0",
+    "order": 6,
+    "correct": true,
+    "hash1": "3cfff0"
+  },
+  {
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359950,
+      "_nanoseconds": 969000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551359955,
+      "_nanoseconds": 898000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 4,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551359994,
+      "_nanoseconds": 505000000
+    },
+    "hash2": "4d0db8",
+    "choice": "b4a4f6",
+    "order": 11,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359990,
+      "_nanoseconds": 94000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 223000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6",
+    "order": 10,
+    "hash1": "4d0db8",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 679000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319273,
+      "_nanoseconds": 157000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319274,
+      "_nanoseconds": 125000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "af9377",
+    "order": 5,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 443000000
+    },
+    "hash2": "3cfff0",
+    "choice": "4d0db8",
+    "order": 5,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 760000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 707000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318818,
+      "_nanoseconds": 215000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 14,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 539000000
+    },
+    "choice": "94dc70",
+    "order": 8,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 560000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 925000000
+    },
+    "hash2": "a086f6",
+    "choice": "4d0db8",
+    "order": 16,
+    "hash1": "4d0db8",
+    "correct": true,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 430000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320016,
+      "_nanoseconds": 19000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320016,
+      "_nanoseconds": 488000000
+    },
+    "hash2": "af9377",
+    "choice": "7a8d9b",
+    "order": 0,
+    "hash1": "7a8d9b",
+    "correct": true
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319660,
+      "_nanoseconds": 941000000
+    },
+    "choice": "4d0db8",
+    "order": 17,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319660,
+      "_nanoseconds": 108000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 177000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 638000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "3cfff0",
+    "order": 5,
+    "correct": true,
+    "hash1": "3cfff0"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 405000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 3,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320017,
+      "_nanoseconds": 557000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 899000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319971,
+      "_nanoseconds": 423000000
+    },
+    "choice": "b4a4f6",
+    "order": 18,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 219000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 625000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "94dc70",
+    "order": 4,
+    "hash1": "94dc70",
+    "correct": true
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318877,
+      "_nanoseconds": 454000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 193000000
+    },
+    "hash2": "af9377",
+    "choice": "fc7dfe",
+    "order": 13,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 655000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 14,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 961000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 777000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318877,
+      "_nanoseconds": 181000000
+    },
+    "choice": "4d0db8",
+    "order": 10,
+    "correct": true,
+    "hash1": "4d0db8"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 440000000
+    },
+    "hash2": "4d0db8",
+    "choice": "4d0db8",
+    "order": 11,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 57000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318814,
+      "_nanoseconds": 656000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 219000000
+    },
+    "choice": "af9377",
+    "order": 2,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319792,
+      "_nanoseconds": 272000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319793,
+      "_nanoseconds": 892000000
+    },
+    "hash2": "4d0db8",
+    "choice": "b4a4f6",
+    "order": 4,
+    "hash1": "b4a4f6",
+    "correct": true
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319493,
+      "_nanoseconds": 85000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319494,
+      "_nanoseconds": 119000000
+    },
+    "hash2": "af9377",
+    "choice": "fc7dfe",
+    "order": 19,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 8,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318347,
+      "_nanoseconds": 99000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318347,
+      "_nanoseconds": 702000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 1,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320084,
+      "_nanoseconds": 559000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 162000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551359990,
+      "_nanoseconds": 94000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "a086f6",
+    "order": 10,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359985,
+      "_nanoseconds": 406000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 197000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 589000000
+    },
+    "choice": "b4a4f6",
+    "order": 4,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 869000000
+    },
+    "hash2": "a086f6",
+    "choice": "b4a4f6",
+    "order": 9,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 225000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319273,
+      "_nanoseconds": 157000000
+    },
+    "choice": "b4a4f6",
+    "order": 3,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319272,
+      "_nanoseconds": 245000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 12,
+    "hash1": "4d0db8",
+    "correct": true,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 245000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 649000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "choice": "94dc70",
+    "order": 8,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 334000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 932000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318350,
+      "_nanoseconds": 591000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 15,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318349,
+      "_nanoseconds": 900000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 4,
+    "hash1": "af9377",
+    "correct": false,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318297,
+      "_nanoseconds": 878000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318298,
+      "_nanoseconds": 212000000
+    },
+    "hash2": "fc7dfe"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 564000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe",
+    "order": 11,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 19000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551318874,
+      "_nanoseconds": 587000000
+    },
+    "choice": "7a8d9b",
+    "order": 0,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318873,
+      "_nanoseconds": 443000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 3,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 248000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 638000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 0,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318274,
+      "_nanoseconds": 379000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551318275,
+      "_nanoseconds": 202000000
+    }
+  },
+  {
+    "choice": "a086f6",
+    "order": 8,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 223000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 564000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318981,
+      "_nanoseconds": 500000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318982,
+      "_nanoseconds": 173000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 14,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42"
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 947000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 503000000
+    },
+    "choice": "b4a4f6",
+    "order": 7,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318301,
+      "_nanoseconds": 656000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318302,
+      "_nanoseconds": 373000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "4d0db8",
+    "order": 13,
+    "hash1": "4d0db8",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 14,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 29000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 489000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 240000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 735000000
+    },
+    "choice": "3cfff0",
+    "order": 6,
+    "correct": false,
+    "hash1": "b4a4f6"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 965000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 425000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 4,
+    "correct": false,
+    "hash1": "af9377"
+  },
+  {
+    "choice": "a086f6",
+    "order": 6,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 244000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 59000000
+    }
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319575,
+      "_nanoseconds": 167000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551319575,
+      "_nanoseconds": 977000000
+    },
+    "choice": "b4a4f6",
+    "order": 16,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 440000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 860000000
+    },
+    "choice": "af9377",
+    "order": 13,
+    "correct": false,
+    "hash1": "fc7dfe"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 155000000
+    },
+    "hash2": "3cfff0",
+    "choice": "b4a4f6",
+    "order": 5,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 638000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 361000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 197000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 2,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319433,
+      "_nanoseconds": 484000000
+    },
+    "hash2": "a086f6",
+    "choice": "3cfff0",
+    "order": 0,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319432,
+      "_nanoseconds": 722000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319794,
+      "_nanoseconds": 52000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319796,
+      "_nanoseconds": 484000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 7,
+    "hash1": "af9377",
+    "correct": false
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 340000000
+    },
+    "hash2": "4d0db8",
+    "choice": "3cfff0",
+    "order": 7,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 5000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318752,
+      "_nanoseconds": 577000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318753,
+      "_nanoseconds": 413000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 4,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 6,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319273,
+      "_nanoseconds": 786000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319274,
+      "_nanoseconds": 393000000
+    }
+  },
+  {
+    "choice": "3cfff0",
+    "order": 7,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 560000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 76000000
+    }
+  },
+  {
+    "choice": "a086f6",
+    "order": 17,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318350,
+      "_nanoseconds": 965000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318351,
+      "_nanoseconds": 662000000
+    }
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318351,
+      "_nanoseconds": 662000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318352,
+      "_nanoseconds": 29000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "af9377",
+    "order": 18,
+    "correct": true,
+    "hash1": "af9377"
+  },
+  {
+    "choice": "94dc70",
+    "order": 1,
+    "hash1": "94dc70",
+    "correct": true,
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 74000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 503000000
+    },
+    "hash2": "af9377"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 792000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 463000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 9,
+    "hash1": "af9377",
+    "correct": false
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551359955,
+      "_nanoseconds": 898000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551359963,
+      "_nanoseconds": 346000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 5,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33"
+  },
+  {
+    "order": 18,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551360025,
+      "_nanoseconds": 277000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551360030,
+      "_nanoseconds": 719000000
+    },
+    "choice": "4d0db8"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 886000000
+    },
+    "hash2": "4d0db8",
+    "choice": "a086f6",
+    "order": 13,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 189000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 401000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 13,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319276,
+      "_nanoseconds": 929000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 946000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319570,
+      "_nanoseconds": 792000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6",
+    "order": 6,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319489,
+      "_nanoseconds": 334000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 122000000
+    },
+    "hash2": "af9377",
+    "choice": "94dc70",
+    "order": 8,
+    "correct": true,
+    "hash1": "94dc70"
+  },
+  {
+    "choice": "a086f6",
+    "order": 19,
+    "hash1": "3cfff0",
+    "correct": false,
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319577,
+      "_nanoseconds": 303000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319577,
+      "_nanoseconds": 997000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 8,
+    "hash1": "3cfff0",
+    "correct": false,
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 138000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 506000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318752,
+      "_nanoseconds": 577000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 3,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318748,
+      "_nanoseconds": 909000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319438,
+      "_nanoseconds": 79000000
+    },
+    "choice": "b4a4f6",
+    "order": 12,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 432000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 689000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 21000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 10,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 912000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 432000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 9,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2"
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 76000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 596000000
+    },
+    "choice": "b4a4f6",
+    "order": 10,
+    "correct": false,
+    "hash1": "a086f6"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 173000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 13,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 645000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 19,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318879,
+      "_nanoseconds": 562000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318879,
+      "_nanoseconds": 997000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 7,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318386,
+      "_nanoseconds": 638000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 204000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "choice": "94dc70",
+    "order": 2,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359726,
+      "_nanoseconds": 825000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551359732,
+      "_nanoseconds": 34000000
+    },
+    "hash2": "7a8d9b"
+  },
+  {
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 689000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318758,
+      "_nanoseconds": 212000000
+    },
+    "hash2": "3cfff0",
+    "choice": "b4a4f6",
+    "order": 17,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "choice": "94dc70",
+    "order": 18,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319492,
+      "_nanoseconds": 302000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551319493,
+      "_nanoseconds": 85000000
+    }
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 798000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 385000000
+    },
+    "choice": "3cfff0",
+    "order": 7,
+    "correct": false,
+    "hash1": "a086f6"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 14,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319798,
+      "_nanoseconds": 564000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551319799,
+      "_nanoseconds": 836000000
+    }
+  },
+  {
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318303,
+      "_nanoseconds": 209000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318303,
+      "_nanoseconds": 625000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 16,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318983,
+      "_nanoseconds": 231000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318983,
+      "_nanoseconds": 973000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6",
+    "order": 16,
+    "hash1": "4d0db8",
+    "correct": false
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 4,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319792,
+      "_nanoseconds": 272000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319794,
+      "_nanoseconds": 52000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 489000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 981000000
+    },
+    "choice": "4d0db8",
+    "order": 16,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319276,
+      "_nanoseconds": 929000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "94dc70",
+    "order": 12,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319276,
+      "_nanoseconds": 354000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "a086f6",
+    "order": 0,
+    "correct": false,
+    "hash1": "4d0db8",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318977,
+      "_nanoseconds": 390000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 74000000
+    }
+  },
+  {
+    "choice": "a086f6",
+    "order": 15,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 248000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 961000000
+    }
+  },
+  {
+    "order": 15,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551360009,
+      "_nanoseconds": 926000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551360016,
+      "_nanoseconds": 391000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 283000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319569,
+      "_nanoseconds": 760000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "94dc70",
+    "order": 2,
+    "hash1": "94dc70",
+    "correct": true
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551359975,
+      "_nanoseconds": 197000000
+    },
+    "hash2": "af9377",
+    "choice": "94dc70",
+    "order": 7,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359968,
+      "_nanoseconds": 323000000
+    }
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319799,
+      "_nanoseconds": 836000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319800,
+      "_nanoseconds": 229000000
+    },
+    "hash2": "a086f6",
+    "choice": "b4a4f6",
+    "order": 15,
+    "correct": true,
+    "hash1": "b4a4f6"
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319486,
+      "_nanoseconds": 898000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319487,
+      "_nanoseconds": 742000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 0,
+    "hash1": "7a8d9b",
+    "correct": false
+  },
+  {
+    "order": 13,
+    "correct": false,
+    "hash1": "a086f6",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 778000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 315000000
+    },
+    "choice": "b4a4f6"
+  },
+  {
+    "order": 15,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 144000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 828000000
+    },
+    "hash2": "af9377",
+    "choice": "7a8d9b"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320084,
+      "_nanoseconds": 559000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 0,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320083,
+      "_nanoseconds": 871000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 998000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 13,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 398000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 6,
+    "correct": false,
+    "hash1": "b4a4f6",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318298,
+      "_nanoseconds": 496000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318299,
+      "_nanoseconds": 223000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 14,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 874000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551319491,
+      "_nanoseconds": 266000000
+    }
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 845000000
+    },
+    "choice": "3cfff0",
+    "order": 12,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 372000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "94dc70",
+    "order": 12,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319968,
+      "_nanoseconds": 539000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319969,
+      "_nanoseconds": 366000000
+    }
+  },
+  {
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318352,
+      "_nanoseconds": 29000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318352,
+      "_nanoseconds": 442000000
+    },
+    "choice": "af9377",
+    "order": 19,
+    "correct": false,
+    "hash1": "7a8d9b"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318982,
+      "_nanoseconds": 173000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318983,
+      "_nanoseconds": 231000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "a086f6",
+    "order": 15,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42"
+  },
+  {
+    "choice": "af9377",
+    "order": 5,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318875,
+      "_nanoseconds": 401000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 8000000
+    }
+  },
+  {
+    "choice": "4d0db8",
+    "order": 0,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359682,
+      "_nanoseconds": 147000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551359726,
+      "_nanoseconds": 26000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319575,
+      "_nanoseconds": 167000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 14,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 632000000
+    }
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 74000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 781000000
+    },
+    "hash2": "94dc70",
+    "choice": "7a8d9b",
+    "order": 14,
+    "correct": true,
+    "hash1": "7a8d9b"
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318818,
+      "_nanoseconds": 215000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318818,
+      "_nanoseconds": 887000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "a086f6",
+    "order": 16,
+    "hash1": "a086f6",
+    "correct": true
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 12,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359994,
+      "_nanoseconds": 505000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551359998,
+      "_nanoseconds": 243000000
+    }
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318813,
+      "_nanoseconds": 869000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318814,
+      "_nanoseconds": 331000000
+    },
+    "hash2": "3cfff0",
+    "choice": "a086f6",
+    "order": 0,
+    "hash1": "a086f6",
+    "correct": true
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319799,
+      "_nanoseconds": 836000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551319800,
+      "_nanoseconds": 441000000
+    },
+    "hash2": "a086f6",
+    "choice": "b4a4f6",
+    "order": 15,
+    "hash1": "b4a4f6",
+    "correct": true,
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 10,
+    "hash1": "a086f6",
+    "correct": false,
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 689000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 189000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 2000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319655,
+      "_nanoseconds": 361000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "b4a4f6",
+    "order": 1,
+    "hash1": "4d0db8",
+    "correct": false
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 8000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 486000000
+    },
+    "choice": "b4a4f6",
+    "order": 7,
+    "correct": false,
+    "hash1": "a086f6"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319790,
+      "_nanoseconds": 777000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319791,
+      "_nanoseconds": 692000000
+    },
+    "choice": "fc7dfe",
+    "order": 1,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318818,
+      "_nanoseconds": 571000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 15,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318817,
+      "_nanoseconds": 998000000
+    }
+  },
+  {
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320018,
+      "_nanoseconds": 405000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 5000000
+    },
+    "choice": "b4a4f6",
+    "order": 5,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318342,
+      "_nanoseconds": 165000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318344,
+      "_nanoseconds": 16000000
+    },
+    "hash2": "4d0db8",
+    "choice": "a086f6",
+    "order": 0,
+    "hash1": "a086f6",
+    "correct": true,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319662,
+      "_nanoseconds": 517000000
+    },
+    "choice": "b4a4f6",
+    "order": 19,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319661,
+      "_nanoseconds": 705000000
+    }
+  },
+  {
+    "choice": "3cfff0",
+    "order": 16,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 315000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 999000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 675000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319491,
+      "_nanoseconds": 54000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 13,
+    "hash1": "4d0db8",
+    "correct": false,
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2"
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 735000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319437,
+      "_nanoseconds": 257000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 8,
+    "correct": true,
+    "hash1": "7a8d9b"
+  },
+  {
+    "order": 2,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318344,
+      "_nanoseconds": 611000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318345,
+      "_nanoseconds": 248000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "fc7dfe"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 9,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 486000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318876,
+      "_nanoseconds": 937000000
+    },
+    "hash2": "4d0db8"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 8,
+    "hash1": "fc7dfe",
+    "correct": true,
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33",
+    "initial_time": {
+      "_seconds": 1551359975,
+      "_nanoseconds": 197000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551359980,
+      "_nanoseconds": 441000000
+    },
+    "hash2": "af9377"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318389,
+      "_nanoseconds": 441000000
+    },
+    "hash2": "3cfff0",
+    "choice": "3cfff0",
+    "order": 17,
+    "hash1": "b4a4f6",
+    "correct": false,
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 593000000
+    }
+  },
+  {
+    "order": 14,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 357000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 71000000
+    },
+    "hash2": "af9377",
+    "choice": "94dc70"
+  },
+  {
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319278,
+      "_nanoseconds": 385000000
+    },
+    "hash2": "3cfff0",
+    "choice": "b4a4f6",
+    "order": 16,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 909000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "choice": "3cfff0",
+    "order": 6,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 625000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 225000000
+    },
+    "hash2": "b4a4f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 263000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 679000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 8,
+    "hash1": "7a8d9b",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2"
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 782000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 263000000
+    },
+    "hash2": "4d0db8",
+    "choice": "3cfff0",
+    "order": 6,
+    "correct": true,
+    "hash1": "3cfff0"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 357000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "94dc70",
+    "order": 11,
+    "correct": true,
+    "hash1": "94dc70",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320019,
+      "_nanoseconds": 869000000
+    }
+  },
+  {
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 401000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "94dc70",
+    "completion_time": {
+      "_seconds": 1551319277,
+      "_nanoseconds": 909000000
+    },
+    "choice": "af9377",
+    "order": 14,
+    "correct": true,
+    "hash1": "af9377"
+  },
+  {
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319791,
+      "_nanoseconds": 692000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319792,
+      "_nanoseconds": 272000000
+    },
+    "choice": "4d0db8",
+    "order": 2,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551319802,
+      "_nanoseconds": 728000000
+    },
+    "choice": "3cfff0",
+    "order": 19,
+    "correct": false,
+    "hash1": "4d0db8",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319801,
+      "_nanoseconds": 840000000
+    },
+    "phrase": "passarinho"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319271,
+      "_nanoseconds": 155000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319271,
+      "_nanoseconds": 893000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 1,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3"
+  },
+  {
+    "choice": "af9377",
+    "order": 17,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 71000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 665000000
+    },
+    "hash2": "af9377"
+  },
+  {
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 961000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "3cfff0",
+    "order": 11,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 438000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319656,
+      "_nanoseconds": 941000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 325000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70",
+    "order": 7,
+    "correct": false,
+    "hash1": "af9377",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 10,
+    "correct": false,
+    "hash1": "7a8d9b",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 380000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 897000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551320016,
+      "_nanoseconds": 488000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "3cfff0",
+    "completion_time": {
+      "_seconds": 1551320017,
+      "_nanoseconds": 53000000
+    },
+    "choice": "4d0db8",
+    "order": 1,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33"
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 122000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "hash2": "4d0db8",
+    "completion_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 490000000
+    },
+    "choice": "4d0db8",
+    "order": 10,
+    "correct": false,
+    "hash1": "a086f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318275,
+      "_nanoseconds": 202000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318296,
+      "_nanoseconds": 845000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 1,
+    "hash1": "af9377",
+    "correct": false,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03"
+  },
+  {
+    "choice": "4d0db8",
+    "order": 5,
+    "hash1": "4d0db8",
+    "correct": true,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 531000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318815,
+      "_nanoseconds": 947000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319575,
+      "_nanoseconds": 977000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319576,
+      "_nanoseconds": 635000000
+    },
+    "choice": "af9377",
+    "order": 17,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "choice": "fc7dfe",
+    "order": 4,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318345,
+      "_nanoseconds": 694000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 70000000
+    },
+    "hash2": "fc7dfe"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 18,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "Hrh84kiWe8dOe1QR2BV0sjQ831y1",
+    "initial_time": {
+      "_seconds": 1551319800,
+      "_nanoseconds": 441000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "fc7dfe",
+    "completion_time": {
+      "_seconds": 1551319801,
+      "_nanoseconds": 840000000
+    }
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319487,
+      "_nanoseconds": 742000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319488,
+      "_nanoseconds": 248000000
+    },
+    "hash2": "a086f6",
+    "choice": "a086f6",
+    "order": 2,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2"
+  },
+  {
+    "choice": "b4a4f6",
+    "order": 15,
+    "correct": true,
+    "hash1": "b4a4f6",
+    "author_id": "dnuo1bQ9IHXtFTH4Ot1S58CPKY33",
+    "initial_time": {
+      "_seconds": 1551320020,
+      "_nanoseconds": 729000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320021,
+      "_nanoseconds": 253000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "author_id": "8D31zl1EtaekOwsc2KsXQtD2L9z1",
+    "initial_time": {
+      "_seconds": 1551318877,
+      "_nanoseconds": 454000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318878,
+      "_nanoseconds": 29000000
+    },
+    "hash2": "af9377",
+    "choice": "fc7dfe",
+    "order": 13,
+    "correct": true,
+    "hash1": "fc7dfe"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 503000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318816,
+      "_nanoseconds": 967000000
+    },
+    "hash2": "af9377",
+    "choice": "af9377",
+    "order": 9,
+    "hash1": "94dc70",
+    "correct": false,
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2"
+  },
+  {
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 622000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 8,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 57000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 173000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318757,
+      "_nanoseconds": 689000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "7a8d9b",
+    "order": 15,
+    "hash1": "7a8d9b",
+    "correct": true
+  },
+  {
+    "order": 9,
+    "correct": true,
+    "hash1": "4d0db8",
+    "author_id": "WWUQmNdGtYgHOOYaKpnCkXC9GUt1",
+    "initial_time": {
+      "_seconds": 1551318755,
+      "_nanoseconds": 557000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551318756,
+      "_nanoseconds": 113000000
+    },
+    "choice": "4d0db8"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551360030,
+      "_nanoseconds": 719000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "hash2": "7a8d9b",
+    "completion_time": {
+      "_seconds": 1551360034,
+      "_nanoseconds": 325000000
+    },
+    "choice": "fc7dfe",
+    "order": 19,
+    "correct": true,
+    "hash1": "fc7dfe",
+    "author_id": "NM9Je6q6PZfF0I3WVC0MctSsRF33"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319575,
+      "_nanoseconds": 15000000
+    },
+    "choice": "af9377",
+    "order": 14,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "3PzRwIMeGxY13e7hjW5Frl3qiTF2",
+    "initial_time": {
+      "_seconds": 1551319571,
+      "_nanoseconds": 632000000
+    }
+  },
+  {
+    "choice": "3cfff0",
+    "order": 12,
+    "hash1": "3cfff0",
+    "correct": true,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320087,
+      "_nanoseconds": 607000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551320088,
+      "_nanoseconds": 144000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 717000000
+    },
+    "choice": "af9377",
+    "order": 1,
+    "correct": false,
+    "hash1": "94dc70",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318384,
+      "_nanoseconds": 883000000
+    },
+    "phrase": "filha"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 70000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318346,
+      "_nanoseconds": 466000000
+    },
+    "hash2": "b4a4f6",
+    "choice": "3cfff0",
+    "order": 5,
+    "correct": true,
+    "hash1": "3cfff0",
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2"
+  },
+  {
+    "choice": "a086f6",
+    "order": 10,
+    "hash1": "4d0db8",
+    "correct": false,
+    "author_id": "x8XP1mijWehC03fvvvtEK9q1IzK2",
+    "initial_time": {
+      "_seconds": 1551318347,
+      "_nanoseconds": 702000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318348,
+      "_nanoseconds": 290000000
+    },
+    "hash2": "a086f6"
+  },
+  {
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318296,
+      "_nanoseconds": 845000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318297,
+      "_nanoseconds": 878000000
+    },
+    "hash2": "3cfff0",
+    "choice": "4d0db8",
+    "order": 2,
+    "hash1": "4d0db8",
+    "correct": true
+  },
+  {
+    "order": 5,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03",
+    "initial_time": {
+      "_seconds": 1551318298,
+      "_nanoseconds": 212000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318298,
+      "_nanoseconds": 896000000
+    },
+    "hash2": "af9377",
+    "choice": "7a8d9b"
+  },
+  {
+    "author_id": "Urv1ucqJxsUKy5jEFt9WSxRDaiP2",
+    "initial_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 560000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319436,
+      "_nanoseconds": 912000000
+    },
+    "hash2": "4d0db8",
+    "choice": "3cfff0",
+    "order": 7,
+    "correct": true,
+    "hash1": "3cfff0"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 157000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551318385,
+      "_nanoseconds": 965000000
+    },
+    "choice": "a086f6",
+    "order": 2,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2"
+  },
+  {
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551320086,
+      "_nanoseconds": 393000000
+    },
+    "hash2": "94dc70",
+    "choice": "7a8d9b",
+    "order": 4,
+    "hash1": "7a8d9b",
+    "correct": true,
+    "author_id": "D0q7zOtqITXkqVylC5IYsS49mDx2",
+    "initial_time": {
+      "_seconds": 1551320085,
+      "_nanoseconds": 944000000
+    }
+  },
+  {
+    "author_id": "7U4UNjkD7sWBgvvZfVVGSQX4wob2",
+    "initial_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 490000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "b4a4f6",
+    "completion_time": {
+      "_seconds": 1551319490,
+      "_nanoseconds": 874000000
+    },
+    "choice": "b4a4f6",
+    "order": 12,
+    "correct": false,
+    "hash1": "3cfff0"
+  },
+  {
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318387,
+      "_nanoseconds": 897000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 417000000
+    },
+    "hash2": "af9377",
+    "choice": "fc7dfe",
+    "order": 13,
+    "hash1": "fc7dfe",
+    "correct": true
+  },
+  {
+    "choice": "a086f6",
+    "order": 19,
+    "correct": true,
+    "hash1": "a086f6",
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2",
+    "initial_time": {
+      "_seconds": 1551319971,
+      "_nanoseconds": 423000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319972,
+      "_nanoseconds": 128000000
+    },
+    "hash2": "3cfff0"
+  },
+  {
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 860000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551319659,
+      "_nanoseconds": 392000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "fc7dfe",
+    "order": 15,
+    "correct": false,
+    "hash1": "94dc70"
+  },
+  {
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319271,
+      "_nanoseconds": 893000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "hash2": "af9377",
+    "completion_time": {
+      "_seconds": 1551319272,
+      "_nanoseconds": 245000000
+    },
+    "choice": "af9377",
+    "order": 2,
+    "correct": false,
+    "hash1": "fc7dfe"
+  },
+  {
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318978,
+      "_nanoseconds": 870000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "completion_time": {
+      "_seconds": 1551318979,
+      "_nanoseconds": 469000000
+    },
+    "hash2": "a086f6",
+    "choice": "3cfff0",
+    "order": 3,
+    "hash1": "3cfff0",
+    "correct": true
+  },
+  {
+    "order": 10,
+    "correct": false,
+    "hash1": "3cfff0",
+    "author_id": "Jo6aAVmpXHW5KKaDB6Bx0Otx10B3",
+    "initial_time": {
+      "_seconds": 1551319657,
+      "_nanoseconds": 506000000
+    },
+    "phrase": "passarinho",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "pitch"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "hash2": "a086f6",
+    "completion_time": {
+      "_seconds": 1551319658,
+      "_nanoseconds": 245000000
+    },
+    "choice": "a086f6"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551318297,
+      "_nanoseconds": 878000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551318298,
+      "_nanoseconds": 496000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "af9377",
+    "order": 4,
+    "hash1": "af9377",
+    "correct": true,
+    "author_id": "XJkSFUAV6PTWxQgvYY1WkelQcN03"
+  },
+  {
+    "initial_time": {
+      "_seconds": 1551319966,
+      "_nanoseconds": 739000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551319967,
+      "_nanoseconds": 244000000
+    },
+    "hash2": "7a8d9b",
+    "choice": "7a8d9b",
+    "order": 3,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "lAsld1iB5dSiqkQSR032GLLz6jd2"
+  },
+  {
+    "author_id": "k2N0yB7YVBQLPjH4glnv0b7mfKL2",
+    "initial_time": {
+      "_seconds": 1551318818,
+      "_nanoseconds": 571000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "pitch",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318819,
+      "_nanoseconds": 95000000
+    },
+    "hash2": "fc7dfe",
+    "choice": "af9377",
+    "order": 17,
+    "correct": true,
+    "hash1": "af9377"
+  },
+  {
+    "choice": "94dc70",
+    "order": 10,
+    "hash1": "fc7dfe",
+    "correct": false,
+    "author_id": "9FyZg98G7zaaVMraolNCSl0Mxg42",
+    "initial_time": {
+      "_seconds": 1551318980,
+      "_nanoseconds": 385000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "anger",
+      "feature": "pitch"
+    },
+    "completion_time": {
+      "_seconds": 1551318981,
+      "_nanoseconds": 73000000
+    },
+    "hash2": "94dc70"
+  },
+  {
+    "order": 8,
+    "correct": false,
+    "hash1": "fc7dfe",
+    "author_id": "xFOWBe45buR52JEuJHXOmmy6MbD3",
+    "initial_time": {
+      "_seconds": 1551319274,
+      "_nanoseconds": 393000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "feature": "rms",
+      "emotion": "sadness"
+    },
+    "incorrect_metadata": {
+      "feature": "pitch",
+      "emotion": "anger"
+    },
+    "completion_time": {
+      "_seconds": 1551319275,
+      "_nanoseconds": 272000000
+    },
+    "hash2": "94dc70",
+    "choice": "94dc70"
+  },
+  {
+    "choice": "7a8d9b",
+    "order": 14,
+    "correct": true,
+    "hash1": "7a8d9b",
+    "author_id": "CvZJ5xxJHfTvuJbbpMWdf9sWvgB2",
+    "initial_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 74000000
+    },
+    "phrase": "filha",
+    "correct_metadata": {
+      "emotion": "anger",
+      "feature": "rms"
+    },
+    "incorrect_metadata": {
+      "emotion": "sadness",
+      "feature": "rms"
+    },
+    "completion_time": {
+      "_seconds": 1551318388,
+      "_nanoseconds": 593000000
+    },
+    "hash2": "94dc70"
+  }
+]
