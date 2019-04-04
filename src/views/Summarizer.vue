@@ -1,23 +1,26 @@
 <template>
   <div>
     <div>
-      <h2>Correct answers by Hash</h2>
+      <h2>Identification rate by hash</h2>
       <div v-for="(item, hash) in hashes_list" :key="hash">
-        <p>{{hash}} --> {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+        <p>
+          {{hash}} / {{item.phrase}} :
+          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}
+        </p>
       </div>
     </div>
     <hr>
     <div>
-      <h2>Correct answers by emotion</h2>
+      <h2>Identification rate by emotion</h2>
       <div v-for="(item, emotion) in emotions_list" :key="emotion">
-        <p>{{emotion}} {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+        <p>{{emotion}} : {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
       </div>
     </div>
     <hr>
     <div>
-      <h2>Correct answers by feature</h2>
+      <h2>Identification rate by feature</h2>
       <div v-for="(item, feature) in features_list" :key="feature">
-        <p>{{feature}} {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+        <p>{{feature}} : {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
       </div>
     </div>
   </div>
@@ -41,7 +44,8 @@ export default {
         if (!(e.choice in hashes)) {
           hashes[e.choice] = {
             correct: 0,
-            total: 0
+            total: 0,
+            phrase: e.phrase
           };
         }
         if (e.correct) {
