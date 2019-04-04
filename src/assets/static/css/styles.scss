@@ -98,6 +98,11 @@ h1 {
   margin-bottom: 2rem;
 }
 
+h2 {
+  @include fs(1);
+  margin-bottom: 1rem;
+}
+
 a:not(.next-step):not(.img-choice) {
   color: black;
   text-decoration-color: $accent;
@@ -183,4 +188,10 @@ p {
   span {
     background: $accent;
   }
+}
+
+hr {
+  border: none;
+  border: 1px solid $accent;
+  margin: 2rem 0;
 }
