@@ -2,7 +2,7 @@
   <div>
     <div>
       <h2>Identification rate by hash</h2>
-      <div v-for="(item, hash) in hashes_list" :key="hash">
+      <div v-for="(item, hash) in hashesList" :key="hash">
         <p>
           {{hash}} / {{item.phrase}} :
           {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
@@ -15,7 +15,7 @@
     <hr>
     <div>
       <h2>Identification rate by emotion</h2>
-      <div v-for="(item, emotion) in emotions_list" :key="emotion">
+      <div v-for="(item, emotion) in emotionsList" :key="emotion">
         <p>
           {{emotion}} :
           {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
@@ -28,7 +28,7 @@
     <hr>
     <div>
       <h2>Identification rate by feature</h2>
-      <div v-for="(item, feature) in features_list" :key="feature">
+      <div v-for="(item, feature) in featuresList" :key="feature">
         <p>
           {{feature}} :
           {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
@@ -53,14 +53,14 @@ export default {
     // console.log(data[0]);
   },
   methods: {
-    stErr: function(effect, n) {
+    stdErr: function(effect, n) {
       let z = 1.96; // +/- 2,5%
       // let z = 1.64;
       return z * Math.sqrt((effect * (1 - effect)) / n);
     }
   },
   computed: {
-    hashes_list: function() {
+    hashesList: function() {
       let hashes = {};
       data.forEach(e => {
         if (!(e.choice in hashes)) {
@@ -79,7 +79,7 @@ export default {
       for (let hash in hashes) {
         let item = hashes[hash];
         let measured_effect = item.correct / item.total;
-        let error = this.stErr(measured_effect, item.total);
+        let error = this.stdErr(measured_effect, item.total);
         item.min = measured_effect - error;
         item.max = measured_effect + error;
         item.stdErr = error;
@@ -87,7 +87,7 @@ export default {
 
       return hashes;
     },
-    emotions_list: function() {
+    emotionsList: function() {
       let emotions = {};
       data.forEach(e => {
         let em;
@@ -111,7 +111,7 @@ export default {
       for (let emotion in emotions) {
         let item = emotions[emotion];
         let measured_effect = item.correct / item.total;
-        let error = this.stErr(measured_effect, item.total);
+        let error = this.stdErr(measured_effect, item.total);
         item.min = measured_effect - error;
         item.max = measured_effect + error;
         item.stdErr = error;
@@ -119,7 +119,7 @@ export default {
       return emotions;
     },
 
-    features_list: function() {
+    featuresList: function() {
       let features = {};
       data.forEach(e => {
         let feat;
@@ -143,7 +143,7 @@ export default {
       for (let feature in features) {
         let item = features[feature];
         let measured_effect = item.correct / item.total;
-        let error = this.stErr(measured_effect, item.total);
+        let error = this.stdErr(measured_effect, item.total);
         item.min = measured_effect - error;
         item.max = measured_effect + error;
         item.stdErr = error;
