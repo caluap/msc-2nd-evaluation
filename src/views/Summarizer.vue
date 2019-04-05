@@ -5,22 +5,37 @@
       <div v-for="(item, hash) in hashes_list" :key="hash">
         <p>
           {{hash}} / {{item.phrase}} :
-          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}
+          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
+          <br>
+          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
         </p>
+        <br>
       </div>
     </div>
     <hr>
     <div>
       <h2>Identification rate by emotion</h2>
       <div v-for="(item, emotion) in emotions_list" :key="emotion">
-        <p>{{emotion}} : {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+        <p>
+          {{emotion}} :
+          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
+          <br>
+          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
+        </p>
+        <br>
       </div>
     </div>
     <hr>
     <div>
       <h2>Identification rate by feature</h2>
       <div v-for="(item, feature) in features_list" :key="feature">
-        <p>{{feature}} : {{Number.parseFloat(item.correct/item.total).toFixed(2)}}</p>
+        <p>
+          {{feature}} :
+          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
+          <br>
+          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
+        </p>
+        <br>
       </div>
     </div>
   </div>
@@ -36,6 +51,13 @@ export default {
   },
   mounted() {
     // console.log(data[0]);
+  },
+  methods: {
+    stErr: function(effect, n) {
+      let z = 1.96; // +/- 2,5%
+      // let z = 1.64;
+      return z * Math.sqrt((effect * (1 - effect)) / n);
+    }
   },
   computed: {
     hashes_list: function() {
@@ -53,6 +75,15 @@ export default {
         }
         hashes[e.choice].total += 1;
       });
+
+      for (let hash in hashes) {
+        let item = hashes[hash];
+        let measured_effect = item.correct / item.total;
+        let error = this.stErr(measured_effect, item.total);
+        item.min = measured_effect - error;
+        item.max = measured_effect + error;
+        item.stdErr = error;
+      }
 
       return hashes;
     },
@@ -76,6 +107,15 @@ export default {
         }
         emotions[em].total += 1;
       });
+
+      for (let emotion in emotions) {
+        let item = emotions[emotion];
+        let measured_effect = item.correct / item.total;
+        let error = this.stErr(measured_effect, item.total);
+        item.min = measured_effect - error;
+        item.max = measured_effect + error;
+        item.stdErr = error;
+      }
       return emotions;
     },
 
@@ -99,6 +139,15 @@ export default {
         }
         features[feat].total += 1;
       });
+
+      for (let feature in features) {
+        let item = features[feature];
+        let measured_effect = item.correct / item.total;
+        let error = this.stErr(measured_effect, item.total);
+        item.min = measured_effect - error;
+        item.max = measured_effect + error;
+        item.stdErr = error;
+      }
       return features;
     }
   }
