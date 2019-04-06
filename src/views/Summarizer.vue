@@ -5,9 +5,12 @@
       <div v-for="(item, hash) in hashesList" :key="hash">
         <p>
           {{hash}} / {{item.phrase}} :
-          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
-          <br>
-          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
+          <span
+            v-bind:class="reasonablenesOfMarginOfError(item.stdErr)"
+          >{{Number.parseFloat(item.correct/item.total).toFixed(2)}} ± {{Number.parseFloat(item.stdErr).toFixed(2)}}</span>
+          [n={{item.total}}]
+          <!-- <br> -->
+          <!-- <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span> -->
         </p>
         <br>
       </div>
@@ -18,9 +21,12 @@
       <div v-for="(item, emotion) in emotionsList" :key="emotion">
         <p>
           {{emotion}} :
-          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
-          <br>
-          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
+          <span
+            v-bind:class="reasonablenesOfMarginOfError(item.stdErr)"
+          >{{Number.parseFloat(item.correct/item.total).toFixed(2)}} ± {{Number.parseFloat(item.stdErr).toFixed(2)}}</span>
+          [n={{item.total}}]
+          <!-- <br> -->
+          <!-- <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span> -->
         </p>
         <br>
       </div>
@@ -31,9 +37,12 @@
       <div v-for="(item, feature) in featuresList" :key="feature">
         <p>
           {{feature}} :
-          {{Number.parseFloat(item.correct/item.total).toFixed(2)}}±{{Number.parseFloat(item.stdErr).toFixed(2)}} [n={{item.total}}]
-          <br>
-          <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span>
+          <span
+            v-bind:class="reasonablenesOfMarginOfError(item.stdErr)"
+          >{{Number.parseFloat(item.correct/item.total).toFixed(2)}} ± {{Number.parseFloat(item.stdErr).toFixed(2)}}</span>
+          [n={{item.total}}]
+          <!-- <br> -->
+          <!-- <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span> -->
         </p>
         <br>
       </div>
@@ -57,6 +66,14 @@ export default {
       let z = 1.96; // +/- 2,5%
       // let z = 1.64;
       return z * Math.sqrt((effect * (1 - effect)) / n);
+    },
+    reasonablenesOfMarginOfError: function(m) {
+      if (m <= 0.04) {
+        return "great-margin";
+      } else if (m <= 0.08) {
+        return "ok-margin";
+      }
+      return "bad-margin";
     }
   },
   computed: {
