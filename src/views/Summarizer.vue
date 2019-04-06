@@ -47,6 +47,22 @@
         <br>
       </div>
     </div>
+    <hr>
+    <div>
+      <h2>Identification rate by phrase</h2>
+      <div v-for="(item, phrase) in phrasesList" :key="phrase">
+        <p>
+          {{phrase}} :
+          <span
+            v-bind:class="reasonablenesOfMarginOfError(item.stdErr)"
+          >{{Number.parseFloat(item.correct/item.total).toFixed(2)}} ± {{Number.parseFloat(item.stdErr).toFixed(2)}}</span>
+          [n={{item.total}}]
+          <!-- <br> -->
+          <!-- <span>possibly {{Number.parseFloat(item.min).toFixed(2)}}—{{Number.parseFloat(item.max).toFixed(2)}}</span> -->
+        </p>
+        <br>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -166,6 +182,32 @@ export default {
         item.stdErr = error;
       }
       return features;
+    },
+    phrasesList: function() {
+      let phrases = {};
+      data.forEach(e => {
+        if (!(e.phrase in phrases)) {
+          phrases[e.phrase] = {
+            correct: 0,
+            total: 0
+          };
+        }
+        if (e.correct) {
+          phrases[e.phrase].correct += 1;
+        }
+        phrases[e.phrase].total += 1;
+      });
+
+      for (let phrase in phrases) {
+        let item = phrases[phrase];
+        let measured_effect = item.correct / item.total;
+        let error = this.stdErr(measured_effect, item.total);
+        item.min = measured_effect - error;
+        item.max = measured_effect + error;
+        item.stdErr = error;
+      }
+
+      return phrases;
     }
   }
 };
