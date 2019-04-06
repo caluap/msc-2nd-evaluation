@@ -4,7 +4,7 @@
       <h2>Identification rate by hash</h2>
       <div v-for="(item, hash) in hashesList" :key="hash">
         <p>
-          {{hash}} / {{item.phrase}} :
+          {{hash}} / {{item.phrase}} ({{item.emotion}}):
           <span
             v-bind:class="reasonablenesOfMarginOfError(item.stdErr)"
           >{{Number.parseFloat(item.correct/item.total).toFixed(2)}} ± {{Number.parseFloat(item.stdErr).toFixed(2)}}</span>
@@ -97,10 +97,17 @@ export default {
       let hashes = {};
       data.forEach(e => {
         if (!(e.choice in hashes)) {
+          let em;
+          if (e.correct) {
+            em = e.correct_metadata.emotion;
+          } else {
+            em = e.incorrect_metadata.emotion;
+          }
           hashes[e.choice] = {
             correct: 0,
             total: 0,
-            phrase: e.phrase
+            phrase: e.phrase,
+            emotion: em
           };
         }
         if (e.correct) {
