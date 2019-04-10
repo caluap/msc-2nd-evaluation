@@ -5,7 +5,7 @@ export var dataRef = {
 };
 
 let imgPath = "./assets/static/imgs/";
-let audioPath = "./assets/static/sounds/";
+let audioPath = "./assets/static/sounds/animals/";
 
 export var general_data = {
   sharedState: {
@@ -193,28 +193,28 @@ export var general_data = {
         {
           hash: "7a8d9b",
           img: require("./assets/static/imgs/animals/cat.jpg"),
-          audio: require("./assets/static/sounds/cat.mp3"),
+          audio: require("./assets/static/sounds/animals/cat.mp3"),
           feature: dataRef.features[0],
           emotion: dataRef.emotions[0]
         },
         {
           hash: "94dc70",
           img: require("./assets/static/imgs/animals/cow.jpg"),
-          audio: require("./assets/static/sounds/cow.mp3"),
+          audio: require("./assets/static/sounds/animals/cow.mp3"),
           feature: dataRef.features[0],
           emotion: dataRef.emotions[1]
         },
         {
           hash: "fc7dfe",
           img: require("./assets/static/imgs/animals/dog.jpg"),
-          audio: require("./assets/static/sounds/dog.mp3"),
+          audio: require("./assets/static/sounds/animals/dog.mp3"),
           feature: dataRef.features[1],
           emotion: dataRef.emotions[0]
         },
         {
           hash: "af9377",
           img: require("./assets/static/imgs/animals/duck.jpg"),
-          audio: require("./assets/static/sounds/duck.mp3"),
+          audio: require("./assets/static/sounds/animals/duck.mp3"),
           feature: dataRef.features[1],
           emotion: dataRef.emotions[1]
         }
@@ -226,28 +226,28 @@ export var general_data = {
         {
           hash: "4d0db8",
           img: require("./assets/static/imgs/animals/goose.jpg"),
-          audio: require("./assets/static/sounds/goose.mp3"),
+          audio: require("./assets/static/sounds/animals/goose.mp3"),
           feature: dataRef.features[0],
           emotion: dataRef.emotions[0]
         },
         {
           hash: "b4a4f6",
           img: require("./assets/static/imgs/animals/pig.jpg"),
-          audio: require("./assets/static/sounds/pig.mp3"),
+          audio: require("./assets/static/sounds/animals/pig.mp3"),
           feature: dataRef.features[0],
           emotion: dataRef.emotions[1]
         },
         {
           hash: "3cfff0",
           img: require("./assets/static/imgs/animals/rooster.jpg"),
-          audio: require("./assets/static/sounds/rooster.mp3"),
+          audio: require("./assets/static/sounds/animals/rooster.mp3"),
           feature: dataRef.features[1],
           emotion: dataRef.emotions[0]
         },
         {
           hash: "a086f6",
           img: require("./assets/static/imgs/animals/turkey.jpg"),
-          audio: require("./assets/static/sounds/turkey.mp3"),
+          audio: require("./assets/static/sounds/animals/turkey.mp3"),
           feature: dataRef.features[1],
           emotion: dataRef.emotions[1]
         }
