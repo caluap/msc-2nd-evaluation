@@ -44,7 +44,7 @@ export default {
   data() {
     return {
       sharedState: general_data.sharedState,
-      cardsData: general_data.cardsData,
+      eval2Data: general_data.eval2Data,
       possible_choices: [],
       img1: "",
       hash1: "",
@@ -121,9 +121,9 @@ export default {
     },
     calculatePossibleChoices: function() {
       this.possible_choices = [];
-      for (let phr = 0; phr < this.cardsData.length; phr++) {
-        for (let i = 0; i < this.cardsData[phr].data.length; i++) {
-          for (let j = 0; j < this.cardsData[phr].data.length; j++) {
+      for (let phr = 0; phr < this.eval2Data.length; phr++) {
+        for (let i = 0; i < this.eval2Data[phr].data.length; i++) {
+          for (let j = 0; j < this.eval2Data[phr].data.length; j++) {
             if (i != j) {
               let pc = {
                 phrase: phr,
@@ -151,10 +151,10 @@ export default {
 
       let i = Math.floor(Math.random() * this.possible_choices.length);
 
-      let opt1 = this.cardsData[this.possible_choices[i].phrase].data[
+      let opt1 = this.eval2Data[this.possible_choices[i].phrase].data[
         this.possible_choices[i].i1
       ];
-      let opt2 = this.cardsData[this.possible_choices[i].phrase].data[
+      let opt2 = this.eval2Data[this.possible_choices[i].phrase].data[
         this.possible_choices[i].i2
       ];
 
@@ -194,12 +194,12 @@ export default {
       }
 
       correct_metadata = {
-        feature: this.cardsData[this.phrase].data[i_right].feature,
-        emotion: this.cardsData[this.phrase].data[i_right].emotion
+        feature: this.eval2Data[this.phrase].data[i_right].feature,
+        emotion: this.eval2Data[this.phrase].data[i_right].emotion
       };
       incorrect_metadata = {
-        feature: this.cardsData[this.phrase].data[i_wrong].feature,
-        emotion: this.cardsData[this.phrase].data[i_wrong].emotion
+        feature: this.eval2Data[this.phrase].data[i_wrong].feature,
+        emotion: this.eval2Data[this.phrase].data[i_wrong].emotion
       };
 
       let aux_choice = {
@@ -211,7 +211,7 @@ export default {
         initial_time: this.initial_time,
         completion_time: new Date(),
         correct: correct,
-        phrase: this.cardsData[this.phrase].phrase,
+        phrase: this.eval2Data[this.phrase].phrase,
         correct_metadata: correct_metadata,
         incorrect_metadata: incorrect_metadata
       };
