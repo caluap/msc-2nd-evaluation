@@ -2,7 +2,7 @@
   <div>
     <div v-if="completedChoices" id="choices">
       <div id="audio-container">
-        <p id="audio-question">Quem sou eu que vos fala?</p>
+        <p id="audio-question">Qual frase corresponde ao&nbsp;áudio?</p>
         <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       </div>
       <div class="choice" id="first-choice">

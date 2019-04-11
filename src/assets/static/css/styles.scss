@@ -16,7 +16,7 @@ body {
 
   background: #dfdfdf;
 
-  padding: 2rem 0;
+  padding: 2rem;
   box-sizing: border-box;
   min-height: 100vh;
 }
@@ -37,24 +37,33 @@ body {
 
 #choices {
   margin: 0 auto;
-  max-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 2rem;
+
+  @include respond-below(sm) {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+  }
+
   #audio-container {
     #audio-question {
-      @include fs(2);
+      @include fs(1);
       margin-bottom: 1.5rem;
     }
     text-align: center;
-    grid-column: 1 / span 2;
+    @include respond-above(sm) {
+      grid-column: 1 / span 2;
+    }
   }
   .choice {
-    margin-top: 0.5rem;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    grid-row: 2;
+    @include respond-above(sm) {
+      margin-top: 0.5rem;
+      grid-row: 2;
+    }
     a.img-choice {
       cursor: pointer;
       transition: opacity 1s ease;
@@ -64,8 +73,11 @@ body {
     }
     img {
       width: 100%;
-      margin-bottom: 10px;
-      border-radius: 0.8rem;
+      box-sizing: border-box;
+      @include respond-above(sm) {
+        margin-bottom: 10px;
+        border-radius: 0.8rem;
+      }
       border: 3px solid transparent;
       &:hover {
         border-color: $accent;
@@ -75,7 +87,9 @@ body {
 
   .choice-number {
     text-align: center;
-    grid-column: 1 / span 2;
+    @include respond-above(sm) {
+      grid-column: 1 / span 2;
+    }
     color: #ccc;
     .choices-made {
       color: black;
@@ -83,11 +97,21 @@ body {
   }
 
   &.reverse-order {
-    #first-choice {
-      grid-column: 2;
+    @include respond-below(sm) {
+      #first-choice {
+        grid-row: 3;
+      }
+      #second-choice {
+        grid-row: 2;
+      }
     }
-    #second-choice {
-      grid-column: 1;
+    @include respond-above(sm) {
+      #first-choice {
+        grid-column: 2;
+      }
+      #second-choice {
+        grid-column: 1;
+      }
     }
   }
 }
