@@ -151,11 +151,19 @@ export default {
         }
       }
     },
+    /* 
+      This function picks a random option from the possible_choices
+      array of indexes. Sometimes the correct answer (meaning the card
+      whose origin audio is the one being played) will be the one the 
+      left, sometimes the one on the right.
+    */
     randomChoice: function() {
-      // shuffles the options 50% of the time
+      // shuffles the position of options 50% of the time
       let r = Math.random();
       var choices_div = document.getElementById("choices");
 
+      // the shuffling is done by css. I believe there isn't
+      // a perceptible lag, but I should test this.
       if (choices_div) {
         if (r >= 0.5) {
           choices_div.classList.add("reverse-order");
@@ -166,17 +174,16 @@ export default {
 
       let i = Math.floor(Math.random() * this.possible_choices.length);
 
-      let opt1 = this.eval2Data[this.possible_choices[i].phrase].data[
-        this.possible_choices[i].i1
-      ];
-      let opt2 = this.eval2Data[this.possible_choices[i].phrase].data[
-        this.possible_choices[i].i2
-      ];
+      let phrase = this.possible_choices[i].phrase;
+      let choice = this.possible_choices[i];
 
-      // save the indices to retriev the metadata later...
-      this.i1 = this.possible_choices[i].i1;
-      this.i2 = this.possible_choices[i].i2;
-      this.phrase = this.possible_choices[i].phrase;
+      let opt1 = this.eval2Data[phrase].data[choice.i1];
+      let opt2 = this.eval2Data[phrase].data[choice.i2];
+
+      // save the indices to retrieve the metadata later...
+      this.i1 = choice.i1;
+      this.i2 = choice.i2;
+      this.phrase = phrase;
 
       this.hash1 = opt1.hash;
       this.hash2 = opt2.hash;
@@ -192,6 +199,7 @@ export default {
         audio.currentTime = 0;
       }
 
+      // removes used choice from future possibilities
       this.possible_choices.splice(i, 1);
     },
     makeChoice: function(choice) {
