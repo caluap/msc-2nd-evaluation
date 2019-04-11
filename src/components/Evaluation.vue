@@ -119,12 +119,27 @@ export default {
           });
       }
     },
+    /* 
+      Creates an array (this.possible_choices) with indexes pointing
+      to pairs of cards where the phrase is the same but that were 
+      created with different audio files.
+
+      It doesn't forbid there to be cards with the same feature, so
+      it is possible to have a pair or RMSs or Pitches.
+    */
     calculatePossibleChoices: function() {
       this.possible_choices = [];
       for (let phr = 0; phr < this.eval2Data.length; phr++) {
         for (let i = 0; i < this.eval2Data[phr].data.length; i++) {
           for (let j = 0; j < this.eval2Data[phr].data.length; j++) {
-            if (i != j) {
+            let card1 = this.eval2Data[phr].data[i];
+            let card2 = this.eval2Data[phr].data[j];
+
+            // it can't be paired with itself (obviously), but also it
+            // can't be paired with a card created after the same sound
+            // file (for instance: if i'm comparing different features
+            // of the same audio, there isn't a wrong answer, which can't be!)
+            if (card1.audio != card2.audio) {
               let pc = {
                 phrase: phr,
                 i1: i,
