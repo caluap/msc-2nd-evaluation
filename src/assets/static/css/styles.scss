@@ -79,9 +79,24 @@ body {
         border-radius: 0.8rem;
       }
       border: 3px solid transparent;
-      &:hover {
+      &:hover,
+      &.selected-choice {
         border-color: $accent;
       }
+    }
+  }
+
+  .c-button {
+    @include respond-above(sm) {
+      grid-column: 1 / span 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      button {
+        grid-column: 2;
+      }
+    }
+    button {
+      @extend .generic-button;
     }
   }
 
@@ -150,22 +165,28 @@ p {
   }
 }
 
-.next-step {
-  margin-top: 2rem;
-  display: inline-block;
+.generic-button {
   background: $accent;
   color: white;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: 0.15s all ease;
-  &:not(.disabled):hover {
+  &:not(.disabled):hover,
+  &:not([disabled]):hover {
     background: black;
   }
-  &.disabled {
+  &.disabled,
+  &:disabled {
     cursor: not-allowed;
     opacity: 0.4;
   }
+}
+
+.next-step {
+  margin-top: 2rem;
+  display: inline-block;
+  @extend .generic-button;
 }
 
 #checkbox {

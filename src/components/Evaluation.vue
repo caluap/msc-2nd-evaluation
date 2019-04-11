@@ -6,14 +6,17 @@
         <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       </div>
       <div class="choice" id="first-choice">
-        <a @click="makeChoice(hash1)" class="img-choice">
+        <a @click="selectChoice(hash1, 1)" class="img-choice">
           <img id="img1" :src="img1">
         </a>
       </div>
       <div class="choice" id="second-choice">
-        <a @click="makeChoice(hash2)" class="img-choice">
+        <a @click="selectChoice(hash2, 2)" class="img-choice">
           <img id="img2" :src="img2">
         </a>
+      </div>
+      <div class="c-button">
+        <button id="choice-confirmer" disabled @click="makeChoice()">Confirmar escolha</button>
       </div>
       <div class="choice-number">
         <p>
@@ -57,7 +60,8 @@ export default {
       correct_choices: 0,
       choice_limit: 20,
       choices_made: 0,
-      initial_time: -1
+      initial_time: -1,
+      currentChoice: null
     };
   },
   mounted() {
@@ -202,54 +206,77 @@ export default {
       // removes used choice from future possibilities
       this.possible_choices.splice(i, 1);
     },
-    makeChoice: function(choice) {
-      let correct = choice == this.hash1;
-      let correct_metadata, incorrect_metadata;
-      let i_right, i_wrong;
-
-      if (correct) {
-        this.correct_choices++;
-        i_right = this.i1;
-        i_wrong = this.i2;
-      } else {
-        i_right = this.i2;
-        i_wrong = this.i1;
+    removeChoices: function() {
+      document.getElementById("img1").classList.remove("selected-choice");
+      document.getElementById("img2").classList.remove("selected-choice");
+      document.getElementById("choice-confirmer").disabled = true;
+      this.currentChoice = null;
+    },
+    selectChoice: function(choice, i_choice) {
+      let unselected_choice = i_choice == 1 ? 2 : 1;
+      document
+        .getElementById("img" + i_choice)
+        .classList.add("selected-choice");
+      if (this.currentChoice == null) {
+        document.getElementById("choice-confirmer").disabled = false;
       }
+      document
+        .getElementById("img" + unselected_choice)
+        .classList.remove("selected-choice");
+      this.currentChoice = choice;
+    },
+    makeChoice: function() {
+      if (this.currentChoice) {
+        let correct = this.currentChoice == this.hash1;
+        let correct_metadata, incorrect_metadata;
+        let i_right, i_wrong;
 
-      correct_metadata = {
-        feature: this.eval2Data[this.phrase].data[i_right].feature,
-        emotion: this.eval2Data[this.phrase].data[i_right].emotion
-      };
-      incorrect_metadata = {
-        feature: this.eval2Data[this.phrase].data[i_wrong].feature,
-        emotion: this.eval2Data[this.phrase].data[i_wrong].emotion
-      };
+        if (correct) {
+          this.correct_choices++;
+          i_right = this.i1;
+          i_wrong = this.i2;
+        } else {
+          i_right = this.i2;
+          i_wrong = this.i1;
+        }
 
-      let aux_choice = {
-        author_id: this.sharedState.author_id,
-        hash1: this.hash1,
-        hash2: this.hash2,
-        choice: choice,
-        order: this.choices_made,
-        initial_time: this.initial_time,
-        completion_time: new Date(),
-        correct: correct,
-        phrase: this.eval2Data[this.phrase].phrase,
-        correct_metadata: correct_metadata,
-        incorrect_metadata: incorrect_metadata
-      };
-      if (!this.sharedState.offline_mode) {
-        db.collection("card_answers")
-          .add(aux_choice)
-          .then(() => {
-            this.choices_made++;
-            this.randomChoice();
-            this.initial_time = aux_choice.completion_time;
-          });
-      } else {
-        this.choices_made++;
-        this.randomChoice();
-        this.initial_time = aux_choice.completion_time;
+        correct_metadata = {
+          feature: this.eval2Data[this.phrase].data[i_right].feature,
+          emotion: this.eval2Data[this.phrase].data[i_right].emotion
+        };
+        incorrect_metadata = {
+          feature: this.eval2Data[this.phrase].data[i_wrong].feature,
+          emotion: this.eval2Data[this.phrase].data[i_wrong].emotion
+        };
+
+        let aux_choice = {
+          author_id: this.sharedState.author_id,
+          hash1: this.hash1,
+          hash2: this.hash2,
+          choice: this.currentChoice,
+          order: this.choices_made,
+          initial_time: this.initial_time,
+          completion_time: new Date(),
+          correct: correct,
+          phrase: this.eval2Data[this.phrase].phrase,
+          correct_metadata: correct_metadata,
+          incorrect_metadata: incorrect_metadata
+        };
+        if (!this.sharedState.offline_mode) {
+          db.collection("card_answers")
+            .add(aux_choice)
+            .then(() => {
+              this.choices_made++;
+              this.removeChoices();
+              this.randomChoice();
+              this.initial_time = aux_choice.completion_time;
+            });
+        } else {
+          this.choices_made++;
+          this.removeChoices();
+          this.randomChoice();
+          this.initial_time = aux_choice.completion_time;
+        }
       }
     }
   }
