@@ -5,7 +5,7 @@
       <p>
         Para participar deste teste, precisamos que você concorde com nossos termos de privacidade. Você pode lê-los
         <a
-          href="http://www.google.com/"
+          href="/pdfs/tcle.pdf"
           target="_blank"
         >aqui</a>.
       </p>
