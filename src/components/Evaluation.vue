@@ -144,12 +144,19 @@ export default {
             // file (for instance: if i'm comparing different features
             // of the same audio, there isn't a wrong answer, which can't be!)
             if (card1.audio != card2.audio) {
-              let pc = {
-                phrase: phr,
-                i1: i,
-                i2: j
-              };
-              this.possible_choices.push(pc);
+              // To make selection easier, I'll only allow options where one of
+              // the choices is “Neutral”, but not the other.
+              if (
+                (card1.emotion == "Neutral" || card2.emotion == "Neutral") &&
+                !(card1.emotion == "Neutral" && card2.emotion == "Neutral")
+              ) {
+                let pc = {
+                  phrase: phr,
+                  i1: i,
+                  i2: j
+                };
+                this.possible_choices.push(pc);
+              }
             }
           }
         }
@@ -201,6 +208,10 @@ export default {
       if (audio) {
         audio.pause();
         audio.currentTime = 0;
+      }
+
+      if (this.sharedState.debug) {
+        console.log(opt1.feature + " / " + opt1.emotion);
       }
 
       // removes used choice from future possibilities
