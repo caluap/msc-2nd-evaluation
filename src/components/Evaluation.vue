@@ -16,7 +16,7 @@
         </a>
       </div>
       <div class="c-button">
-        <button id="choice-confirmer" disabled @click="makeChoice()">Confirmar escolha</button>
+        <button id="choice-confirmer" disabled @click="submitChoice()">Confirmar escolha</button>
       </div>
       <div class="choice-number">
         <p>
@@ -224,8 +224,15 @@ export default {
         .getElementById("img" + unselected_choice)
         .classList.remove("selected-choice");
       this.currentChoice = choice;
+      if (this.sharedState.debug) {
+        if (this.currentChoice == this.hash1) {
+          console.log("Right answer");
+        } else {
+          console.log("Wrong answer");
+        }
+      }
     },
-    makeChoice: function() {
+    submitChoice: function() {
       if (this.currentChoice) {
         let correct = this.currentChoice == this.hash1;
         let correct_metadata, incorrect_metadata;

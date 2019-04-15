@@ -11,7 +11,8 @@ export var general_data = {
   sharedState: {
     author_id: "",
     accepted_terms: false,
-    offline_mode: false
+    offline_mode: false,
+    debug: true
   },
 
   eval2Data: [
