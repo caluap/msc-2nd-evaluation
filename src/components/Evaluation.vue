@@ -65,6 +65,7 @@ export default {
     };
   },
   mounted() {
+    // can't be here unless terms were accepted
     if (this.sharedState.accepted_terms == false) {
       this.$router.push("terms");
     }
@@ -150,12 +151,14 @@ export default {
                 (card1.emotion == "Neutral" || card2.emotion == "Neutral") &&
                 !(card1.emotion == "Neutral" && card2.emotion == "Neutral")
               ) {
+                // if (card1.feature == card2.feature) {
                 let pc = {
                   phrase: phr,
                   i1: i,
                   i2: j
                 };
                 this.possible_choices.push(pc);
+                // }
               }
             }
           }
