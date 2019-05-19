@@ -47,6 +47,7 @@ export default {
   data() {
     return {
       sharedState: general_data.sharedState,
+      testData: general_data.data3,
       eval2Data: general_data.eval2Data,
       possible_choices: [],
       img1: "",
@@ -85,6 +86,10 @@ export default {
       this.initial_time = new Date();
 
       // has this user been here before?
+      // TODO: decide if this really makes sense. maybe upon repeat
+      // visits you should either reset the test or, in case the
+      // person has already finished it, quit it or give the option
+      // to take it again.
       if (!this.sharedState.offline_mode) {
         db.collection("card_answers")
           .where("author_id", "==", this.sharedState.author_id)
@@ -134,35 +139,14 @@ export default {
     */
     calculatePossibleChoices: function() {
       this.possible_choices = [];
-      for (let phr = 0; phr < this.eval2Data.length; phr++) {
-        for (let i = 0; i < this.eval2Data[phr].data.length; i++) {
-          for (let j = 0; j < this.eval2Data[phr].data.length; j++) {
-            let card1 = this.eval2Data[phr].data[i];
-            let card2 = this.eval2Data[phr].data[j];
-
-            // it can't be paired with itself (obviously), but also it
-            // can't be paired with a card created after the same sound
-            // file (for instance: if i'm comparing different features
-            // of the same audio, there isn't a wrong answer, which can't be!)
-            if (card1.audio != card2.audio) {
-              // To make selection easier, I'll only allow options where one of
-              // the choices is “Neutral”, but not the other.
-              if (
-                (card1.emotion == "Neutral" || card2.emotion == "Neutral") &&
-                !(card1.emotion == "Neutral" && card2.emotion == "Neutral")
-              ) {
-                // if (card1.feature == card2.feature) {
-                let pc = {
-                  phrase: phr,
-                  i1: i,
-                  i2: j
-                };
-                this.possible_choices.push(pc);
-                // }
-              }
-            }
-          }
-        }
+      for (let i = 0; i < this.testData.combinations.length; i++) {
+        let i1 = this.testData.combinations[i][0];
+        let pc = {
+          phrase: this.testData.cards[i1].phrase,
+          i1: i1,
+          i2: this.testData.combinations[i][1]
+        };
+        this.possible_choices.push(pc);
       }
     },
     /* 
@@ -191,8 +175,8 @@ export default {
       let phrase = this.possible_choices[i].phrase;
       let choice = this.possible_choices[i];
 
-      let opt1 = this.eval2Data[phrase].data[choice.i1];
-      let opt2 = this.eval2Data[phrase].data[choice.i2];
+      let opt1 = this.testData.cards[choice.i1];
+      let opt2 = this.testData.cards[choice.i2];
 
       // save the indices to retrieve the metadata later...
       this.i1 = choice.i1;
@@ -262,12 +246,12 @@ export default {
         }
 
         correct_metadata = {
-          feature: this.eval2Data[this.phrase].data[i_right].feature,
-          emotion: this.eval2Data[this.phrase].data[i_right].emotion
+          feature: this.testData.cards[i_right].feature,
+          emotion: this.testData.cards[i_right].emotion
         };
         incorrect_metadata = {
-          feature: this.eval2Data[this.phrase].data[i_wrong].feature,
-          emotion: this.eval2Data[this.phrase].data[i_wrong].emotion
+          feature: this.testData.cards[i_wrong].feature,
+          emotion: this.testData.cards[i_wrong].emotion
         };
 
         let aux_choice = {
@@ -279,7 +263,7 @@ export default {
           initial_time: this.initial_time,
           completion_time: new Date(),
           correct: correct,
-          phrase: this.eval2Data[this.phrase].phrase,
+          phrase: this.phrase,
           correct_metadata: correct_metadata,
           incorrect_metadata: incorrect_metadata
         };
