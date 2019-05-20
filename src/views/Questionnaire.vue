@@ -15,7 +15,11 @@
         </select>
       </div>
       <template v-if="selectedAgeGroup != '' && selectedEducation != ''">
-        <router-link to="/eval" class="next-step">Começar teste</router-link>
+        <router-link
+          to="/eval"
+          class="next-step"
+          v-on:click.native="saveParticipantData()"
+        >Começar teste</router-link>
       </template>
       <template v-else>
         <a class="next-step disabled">Começar teste</a>
@@ -30,6 +34,7 @@
 <script>
 import "../assets/static/css/styles.scss";
 import { general_data } from "../data";
+import { db } from "../firebase";
 export default {
   name: "questionnaire",
   data() {
@@ -63,6 +68,25 @@ export default {
       selectedAgeGroup: "",
       selectedEducation: ""
     };
+  },
+  methods: {
+    saveParticipantData: function() {
+      if (!this.sharedState.offline_mode) {
+        let userData = {
+          age_group: this.selectedAgeGroup,
+          education: this.selectedEducation
+        };
+        db.collection("participants_data")
+          .doc(this.sharedState.author_id)
+          .update(userData)
+          .then(function() {
+            console.log("Saved age and education data.");
+          })
+          .catch(function(error) {
+            console.error("Error updating document: ", error);
+          });
+      }
+    }
   }
 };
 </script>
