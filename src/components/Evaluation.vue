@@ -2,7 +2,7 @@
   <div>
     <div v-if="completedChoices" id="choices">
       <div id="audio-container">
-        <p id="audio-question">Qual frase corresponde ao&nbsp;áudio?</p>
+        <p id="audio-question">Qual imagem melhor corresponde ao&nbsp;áudio?</p>
         <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
       </div>
       <div class="choice" id="first-choice">
@@ -62,6 +62,7 @@ export default {
       choice_limit: 20,
       choices_made: 0,
       initial_time: -1,
+      is_inverted: false,
       currentChoice: null
     };
   },
@@ -91,7 +92,7 @@ export default {
       // person has already finished it, quit it or give the option
       // to take it again.
       if (!this.sharedState.offline_mode) {
-        db.collection("card_answers")
+        db.collection(this.testData.name)
           .where("author_id", "==", this.sharedState.author_id)
           .get()
           .then(querySnapshot => {
@@ -165,8 +166,10 @@ export default {
       if (choices_div) {
         if (r >= 0.5) {
           choices_div.classList.add("reverse-order");
+          this.is_inverted = true;
         } else {
           choices_div.classList.remove("reverse-order");
+          this.is_inverted = false;
         }
       }
 
@@ -222,7 +225,7 @@ export default {
         .getElementById("img" + unselected_choice)
         .classList.remove("selected-choice");
       this.currentChoice = choice;
-      if (this.sharedState.debug) {
+      if (this.sharedState.debug && this.testData.should_hits_be_measured) {
         if (this.currentChoice == this.hash1) {
           console.log("Right answer");
         } else {
@@ -231,44 +234,95 @@ export default {
       }
     },
     submitChoice: function() {
+      let aux_choice;
       if (this.currentChoice) {
-        let correct = this.currentChoice == this.hash1;
-        let correct_metadata, incorrect_metadata;
-        let i_right, i_wrong;
+        // in this case, there is a right answer (meaning the participant
+        // was able to correctly find which card was generated using the
+        // audio file)
+        if (this.testData.should_hits_be_measured) {
+          let correct = this.currentChoice == this.hash1;
+          let correct_metadata, incorrect_metadata;
+          let i_right, i_wrong;
 
-        if (correct) {
-          this.correct_choices++;
-          i_right = this.i1;
-          i_wrong = this.i2;
+          if (correct) {
+            this.correct_choices++;
+            i_right = this.i1;
+            i_wrong = this.i2;
+          } else {
+            i_right = this.i2;
+            i_wrong = this.i1;
+          }
+
+          correct_metadata = {
+            feature: this.testData.cards[i_right].feature,
+            emotion: this.testData.cards[i_right].emotion
+          };
+          incorrect_metadata = {
+            feature: this.testData.cards[i_wrong].feature,
+            emotion: this.testData.cards[i_wrong].emotion
+          };
+
+          aux_choice = {
+            author_id: this.sharedState.author_id,
+            hash1: this.hash1,
+            hash2: this.hash2,
+            choice: this.currentChoice,
+            order: this.choices_made,
+            initial_time: this.initial_time,
+            completion_time: new Date(),
+            correct: correct,
+            phrase: this.phrase,
+            correct_metadata: correct_metadata,
+            incorrect_metadata: incorrect_metadata
+          };
         } else {
-          i_right = this.i2;
-          i_wrong = this.i1;
+          let choice_i, rejectee_i, chose_the_first, choice_hash, rejectee_hash;
+          if (this.currentChoice == this.hash1) {
+            // has the participant clicked on the left card?
+            // (which may or not be hash1 if the positions have
+            // been reversed!)
+            chose_the_first = true && !this.is_inverted;
+
+            choice_i = this.i1;
+            rejectee_i = this.i2;
+
+            choice_hash = this.hash1;
+            rejectee_hash = this.hash2;
+          } else {
+            chose_the_first = false || this.is_inverted;
+            choice_i = this.i2;
+            rejectee_i = this.i1;
+            choice_hash = this.hash2;
+            rejectee_hash = this.hash1;
+          }
+          let choice_metadata = {
+              feature: this.testData.cards[choice_i].feature,
+              emotion: this.testData.cards[choice_i].emotion,
+              axis: this.testData.cards[choice_i].axis,
+              hash: choice_hash
+            },
+            rejectee_metada = {
+              feature: this.testData.cards[rejectee_i].feature,
+              emotion: this.testData.cards[rejectee_i].emotion,
+              axis: this.testData.cards[rejectee_i].axis,
+              hash: rejectee_hash
+            };
+
+          aux_choice = {
+            author_id: this.sharedState.author_id,
+            chose_the_first: chose_the_first,
+            choice: this.currentChoice,
+            order: this.choices_made,
+            initial_time: this.initial_time,
+            completion_time: new Date(),
+            phrase: this.phrase,
+            choice_metadata: choice_metadata,
+            rejectee_metadata: rejectee_metada
+          };
         }
 
-        correct_metadata = {
-          feature: this.testData.cards[i_right].feature,
-          emotion: this.testData.cards[i_right].emotion
-        };
-        incorrect_metadata = {
-          feature: this.testData.cards[i_wrong].feature,
-          emotion: this.testData.cards[i_wrong].emotion
-        };
-
-        let aux_choice = {
-          author_id: this.sharedState.author_id,
-          hash1: this.hash1,
-          hash2: this.hash2,
-          choice: this.currentChoice,
-          order: this.choices_made,
-          initial_time: this.initial_time,
-          completion_time: new Date(),
-          correct: correct,
-          phrase: this.phrase,
-          correct_metadata: correct_metadata,
-          incorrect_metadata: incorrect_metadata
-        };
         if (!this.sharedState.offline_mode) {
-          db.collection("card_answers")
+          db.collection(this.testData.name)
             .add(aux_choice)
             .then(() => {
               this.choices_made++;

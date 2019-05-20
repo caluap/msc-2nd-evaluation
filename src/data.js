@@ -18,6 +18,7 @@ export var general_data = {
   },
 
   data3: {
+    name: "data3",
     cards: [
       // FILHA
       // anger
@@ -552,6 +553,7 @@ export var general_data = {
         axis: dataRef.axes[3] // _b_
       }
     ],
+    should_hits_be_measured: false,
     combinations: [
       [0, 1],
       [0, 2],
