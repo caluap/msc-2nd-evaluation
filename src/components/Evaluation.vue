@@ -59,7 +59,9 @@ export default {
       i2: -1,
       phrase: -1,
       correct_choices: 0,
-      choice_limit: 20,
+      choice_limit: general_data.sharedState.rounds,
+      play_counter: 0,
+      play_has_started: false,
       choices_made: 0,
       initial_time: -1,
       is_inverted: false,
@@ -101,6 +103,16 @@ export default {
           });
       }
     }
+
+    // sets up audio play counter
+    let audio = document.getElementById("audio-player");
+    audio.onplay = () => {
+      this.play_has_started = true;
+    };
+    audio.onended = () => {
+      this.play_counter += 1;
+      this.play_has_started = false;
+    };
   },
   computed: {
     completedChoices: function() {
@@ -234,7 +246,19 @@ export default {
       }
     },
     submitChoice: function() {
-      let aux_choice;
+      // i'll count a play even if the participant has started but not ended
+      // the audio file (a more sofisticated way of doing this could be to)
+      // define a treshold before which a “play” is discarded).
+      if (this.play_has_started) {
+        this.play_has_started = false;
+        this.play_counter += 1;
+      }
+      let aux_choice = {
+        author_id: this.sharedState.author_id,
+        initial_time: this.initial_time,
+        completion_time: new Date(),
+        play_counter: this.play_counter
+      };
       if (this.currentChoice) {
         // in this case, there is a right answer (meaning the participant
         // was able to correctly find which card was generated using the
@@ -262,19 +286,14 @@ export default {
             emotion: this.testData.cards[i_wrong].emotion
           };
 
-          aux_choice = {
-            author_id: this.sharedState.author_id,
-            hash1: this.hash1,
-            hash2: this.hash2,
-            choice: this.currentChoice,
-            order: this.choices_made,
-            initial_time: this.initial_time,
-            completion_time: new Date(),
-            correct: correct,
-            phrase: this.phrase,
-            correct_metadata: correct_metadata,
-            incorrect_metadata: incorrect_metadata
-          };
+          aux_choice.hash1 = this.hash1;
+          aux_choice.hash2 = this.hash2;
+          aux_choice.choice = this.currentChoice;
+          aux_choice.order = this.choices_made;
+          aux_choice.correct = correct;
+          aux_choice.phrase = this.phrase;
+          aux_choice.correct_metadata = correct_metadata;
+          aux_choice.incorrect_metadata = incorrect_metadata;
         } else {
           let choice_i, rejectee_i, chose_the_first, choice_hash, rejectee_hash;
           if (this.currentChoice == this.hash1) {
@@ -308,17 +327,12 @@ export default {
               hash: rejectee_hash
             };
 
-          aux_choice = {
-            author_id: this.sharedState.author_id,
-            chose_the_first: chose_the_first,
-            choice: this.currentChoice,
-            order: this.choices_made,
-            initial_time: this.initial_time,
-            completion_time: new Date(),
-            phrase: this.phrase,
-            choice_metadata: choice_metadata,
-            rejectee_metadata: rejectee_metada
-          };
+          aux_choice.chose_the_first = chose_the_first;
+          aux_choice.choice = this.currentChoice;
+          aux_choice.order = this.choices_made;
+          aux_choice.phrase = this.phrase;
+          aux_choice.choice_metadata = choice_metadata;
+          aux_choice.rejectee_metadata = rejectee_metada;
         }
 
         if (!this.sharedState.offline_mode) {
@@ -329,12 +343,14 @@ export default {
               this.removeChoices();
               this.randomChoice();
               this.initial_time = aux_choice.completion_time;
+              this.play_counter = 0;
             });
         } else {
           this.choices_made++;
           this.removeChoices();
           this.randomChoice();
           this.initial_time = aux_choice.completion_time;
+          this.play_counter = 0;
         }
       }
     }
