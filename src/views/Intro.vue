@@ -24,12 +24,15 @@
       <h2>Como funciona o teste?</h2>
       <p>Serão {{sharedState.rounds}} rodadas (curtas!).</p>
       <p>
-        Em cada uma, você deve ouvir o arquivo de áudio (1) e, olhando para os dois cartões abaixo (2 e 3), escolher qual casa melhor com o som. Para tanto, basta clicar no cartão e, quando estiver seguro da escolha, clicar no botão (4) para avançar para a próxima rodada.
+        Em cada uma, você deve ouvir o arquivo de áudio (1) e, olhando para os dois cartões abaixo (2), escolher qual casa melhor com o som. Para tanto, basta clicar no cartão e, quando estiver seguro da escolha, clicar no botão (3) para avançar para a próxima rodada.
         <!-- <strong>A ideia é ouvir o áudio e clicar na imagem que corresponde à voz da atriz.</strong> -->
       </p>
+      <img class="scheme" src="@/assets/static/imgs/misc/scheme-1.svg">
+      <img class="scheme" src="@/assets/static/imgs/misc/scheme-2.svg">
+      <img class="scheme" src="@/assets/static/imgs/misc/scheme-3.svg">
       <p>Estimamos que o teste leve entre 10 a 20 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho que fizermos não vai incomodar ninguém. Mais uma vez: nosso muito obrigado pela ajuda.</p>
       <p>
-        Caluã Pataca e Paula Dornhofer
+        <br>Caluã Pataca e Paula Dornhofer
         <br>FEEC / Unicamp
         <br>Campinas, maio de 2019.
       </p>

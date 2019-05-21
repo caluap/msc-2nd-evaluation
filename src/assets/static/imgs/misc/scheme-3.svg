@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="608.5px" height="63.832px" viewBox="0 0 608.5 63.832" enable-background="new 0 0 608.5 63.832" xml:space="preserve">
+<g id="Layer_1_1_">
+	<g>
+		<path fill="#206BF8" d="M434.67,51.832c0,6.628-5.373,12-12,12H203.332c-6.628,0-12-5.372-12-12V28.498c0-6.628,5.372-12,12-12
+			H422.67c6.627,0,12,5.372,12,12V51.832z"/>
+		<rect x="191.5" y="31.123" fill="none" width="243.169" height="16.084"/>
+		<text transform="matrix(1 0 0 1 227.2866 45.9229)" fill="#FFFFFF" font-family="'IBMPlexSans-Bold'" font-size="20">Confirmar escolha</text>
+	</g>
+	<g>
+		<circle cx="13.25" cy="13.25" r="13.25"/>
+		<rect x="0.221" y="5" fill="none" width="25.53" height="21.5"/>
+		<text transform="matrix(1 0 0 1 6.9858 19.7988)" fill="#FFFFFF" font-family="'IBMPlexSans'" font-size="20">3</text>
+	</g>
+</g>
+</svg>

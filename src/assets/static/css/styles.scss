@@ -252,7 +252,7 @@ label {
 }
 
 .next-step {
-  margin-top: 4rem;
+  margin-top: 6rem;
   display: inline-block;
   @extend .generic-button;
 }
@@ -321,16 +321,32 @@ hr {
   color: #bb0000;
 }
 
-img.bd {
+.generic-img {
   box-sizing: border-box;
   width: 100%;
   margin: 2rem 0;
-  padding: 1rem;
   max-height: 50vh;
   object-fit: contain;
+}
+
+img.bd {
+  @extend .generic-img;
+  padding: 1rem;
   background: white;
-  & + img.bd {
+  & + img {
     margin-top: -1rem;
+  }
+}
+
+img.scheme {
+  @extend .generic-img;
+  & + img {
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid black;
+    & + p {
+      margin-top: 4rem;
+    }
   }
 }
 
