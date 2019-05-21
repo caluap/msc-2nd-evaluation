@@ -338,22 +338,42 @@ img.bd {
   }
 }
 
-img.scheme {
-  @extend .generic-img;
-  & + img {
-    padding-top: 2rem;
-    margin-bottom: 1rem;
-    border-top: 1px solid black;
-    & + p {
-      margin-top: 4rem;
-    }
-  }
-}
-
 p.caption {
   margin-top: -1rem;
   padding-left: 6rem;
   margin-bottom: 2rem;
   @include fs(-1, 1.4, true);
   opacity: 0.5;
+}
+
+p + img.scheme {
+  margin-top: 1rem;
+  border-top: 1px solid black;
+}
+
+img.scheme {
+  @extend .generic-img;
+  padding: 2rem 1rem;
+  margin: 0rem 0;
+  transition: background-color 0.5s ease;
+  &.hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  border-bottom: 1px solid black;
+  & + p {
+    margin-top: 2rem;
+  }
+}
+
+.img-identifier {
+  $s: 1.4rem;
+  @include fs(-1);
+  display: inline-block;
+  background: $accent;
+  color: white;
+  width: $s;
+  height: $s;
+  text-align: center;
+  border-radius: 50%;
+  cursor: help;
 }

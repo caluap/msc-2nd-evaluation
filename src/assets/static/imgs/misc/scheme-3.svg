@@ -5,15 +5,15 @@
 	 width="608.5px" height="63.832px" viewBox="0 0 608.5 63.832" enable-background="new 0 0 608.5 63.832" xml:space="preserve">
 <g id="Layer_1_1_">
 	<g>
-		<path fill="none" stroke="#206BF8" stroke-width="3" stroke-miterlimit="10" d="M434.67,47.832c0,6.628-5.373,12-12,12H203.332
-			c-6.628,0-12-5.372-12-12V24.498c0-6.628,5.372-12,12-12H422.67c6.627,0,12,5.372,12,12V47.832z"/>
-		<rect x="191.5" y="27.123" fill="none" width="243.169" height="16.084"/>
-		<text transform="matrix(1 0 0 1 227.2866 41.9229)" font-family="'IBMPlexSans'" font-size="20">Confirmar escolha</text>
+		<path d="M425.919,47.832c0,6.628-5.373,12-12,12H194.581c-6.628,0-12-5.372-12-12V24.498c0-6.628,5.372-12,12-12h219.338
+			c6.627,0,12,5.372,12,12V47.832z"/>
+		<rect x="182.749" y="27.123" fill="none" width="243.169" height="16.084"/>
+		<text transform="matrix(1 0 0 1 218.5356 41.9229)" fill="#FFFFFF" font-family="'IBMPlexSans'" font-size="20">Confirmar escolha</text>
 	</g>
 	<g>
-		<circle cx="13.25" cy="13.25" r="13.25"/>
-		<rect x="0.221" y="5" fill="none" width="25.53" height="21.5"/>
-		<text transform="matrix(1 0 0 1 6.9858 19.7988)" fill="#FFFFFF" font-family="'IBMPlexSans'" font-size="20">3</text>
+		<circle fill="none" cx="595.25" cy="13.25" r="13.25"/>
+		<rect x="582.221" y="5" fill="none" width="25.53" height="21.5"/>
+		<text transform="matrix(1 0 0 1 588.9863 19.7988)" fill="#206BF8" font-family="'IBMPlexSans'" font-size="20">3</text>
 	</g>
 </g>
 </svg>
