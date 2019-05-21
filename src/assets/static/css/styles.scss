@@ -20,7 +20,7 @@ body {
 
   background: #dfdfdf;
 
-  padding: 2rem;
+  padding: 6rem 2rem;
   box-sizing: border-box;
   min-height: 100vh;
 }
@@ -168,6 +168,9 @@ label {
   & + p {
     margin-top: 1rem;
   }
+  & + h2 {
+    margin-top: 4rem;
+  }
 }
 
 .select-css {
@@ -249,7 +252,7 @@ label {
 }
 
 .next-step {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: inline-block;
   @extend .generic-button;
 }
@@ -316,4 +319,25 @@ hr {
 
 .bad-margin {
   color: #bb0000;
+}
+
+img.bd {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 2rem 0;
+  padding: 1rem;
+  max-height: 50vh;
+  object-fit: contain;
+  background: white;
+  & + img.bd {
+    margin-top: -1rem;
+  }
+}
+
+p.caption {
+  margin-top: -1rem;
+  padding-left: 6rem;
+  margin-bottom: 2rem;
+  @include fs(-1, 1.4, true);
+  opacity: 0.5;
 }

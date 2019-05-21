@@ -14,7 +14,8 @@ export var general_data = {
     author_id: "",
     accepted_terms: false,
     offline_mode: false,
-    debug: true
+    debug: true,
+    rounds: 30
   },
 
   data3: {
