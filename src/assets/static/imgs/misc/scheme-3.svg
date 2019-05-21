@@ -5,10 +5,10 @@
 	 width="608.5px" height="63.832px" viewBox="0 0 608.5 63.832" enable-background="new 0 0 608.5 63.832" xml:space="preserve">
 <g id="Layer_1_1_">
 	<g>
-		<path fill="#206BF8" d="M434.67,51.832c0,6.628-5.373,12-12,12H203.332c-6.628,0-12-5.372-12-12V28.498c0-6.628,5.372-12,12-12
-			H422.67c6.627,0,12,5.372,12,12V51.832z"/>
-		<rect x="191.5" y="31.123" fill="none" width="243.169" height="16.084"/>
-		<text transform="matrix(1 0 0 1 227.2866 45.9229)" fill="#FFFFFF" font-family="'IBMPlexSans-Bold'" font-size="20">Confirmar escolha</text>
+		<path fill="none" stroke="#206BF8" stroke-width="3" stroke-miterlimit="10" d="M434.67,47.832c0,6.628-5.373,12-12,12H203.332
+			c-6.628,0-12-5.372-12-12V24.498c0-6.628,5.372-12,12-12H422.67c6.627,0,12,5.372,12,12V47.832z"/>
+		<rect x="191.5" y="27.123" fill="none" width="243.169" height="16.084"/>
+		<text transform="matrix(1 0 0 1 227.2866 41.9229)" font-family="'IBMPlexSans'" font-size="20">Confirmar escolha</text>
 	</g>
 	<g>
 		<circle cx="13.25" cy="13.25" r="13.25"/>
