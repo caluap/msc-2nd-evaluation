@@ -348,7 +348,6 @@ p.caption {
 
 p + img.scheme {
   margin-top: 1rem;
-  border-top: 1px solid black;
 }
 
 img.scheme {
@@ -356,18 +355,22 @@ img.scheme {
   padding: 2rem 1rem;
   margin: 0rem 0;
   transition: background-color 0.5s ease;
+  background: rgba(255, 255, 255, 0.4);
   &.hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: white;
   }
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #dfdfdf;
   & + p {
     margin-top: 2rem;
   }
 }
 
 .img-identifier {
-  $s: 1.4rem;
-  @include fs(-1);
+  margin: 0 0.15rem;
+  $s: 1.25rem;
+  position: relative;
+  top: -2px;
+  @include fs(-2);
   display: inline-block;
   background: $accent;
   color: white;

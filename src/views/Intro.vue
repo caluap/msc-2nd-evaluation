@@ -24,28 +24,29 @@
       <h2>Como funciona o teste?</h2>
       <p>Serão {{sharedState.rounds}} rodadas (curtas!).</p>
       <p>
-        Em cada uma, você deve ouvir o arquivo de áudio
+        Em cada rodada, você deverá ouvir o arquivo de áudio
         <span
           class="img-identifier"
           @mouseover="hoverImg('img1')"
           @mouseleave="unhoverImg('img1')"
-        >1</span> e, olhando para os dois cartões abaixo
+        >1</span> e, lendo os dois cartões de texto abaixo
         <span
           class="img-identifier"
           @mouseover="hoverImg('img2')"
           @mouseleave="unhoverImg('img2')"
-        >2</span>, escolher qual casa melhor com o som. Para tanto, basta clicar no cartão e, quando estiver seguro da escolha, clicar no botão
+        >2</span>, escolher qual deles casa melhor com o som. Ouça o áudio quantas vezes quiser. Para escolher o cartnao basta clicar nele e, quando estiver seguro de sua escolha, clicar no botão
         <span
           class="img-identifier"
           @mouseover="hoverImg('img3')"
           @mouseleave="unhoverImg('img3')"
-        >3</span> para avançar para a próxima rodada.
+        >3</span> para avançar para a rodada seguinte.
         <!-- <strong>A ideia é ouvir o áudio e clicar na imagem que corresponde à voz da atriz.</strong> -->
       </p>
       <img class="scheme" id="img1" src="@/assets/static/imgs/misc/scheme-1.svg">
       <img class="scheme" id="img2" src="@/assets/static/imgs/misc/scheme-2.svg">
       <img class="scheme" id="img3" src="@/assets/static/imgs/misc/scheme-3.svg">
-      <p>Estimamos que o teste leve entre 10 a 20 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho que fizermos não vai incomodar ninguém. Mais uma vez: nosso muito obrigado pela ajuda.</p>
+      <p>Estimamos que o teste leve cerca de 10 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho não vá incomodar ninguém.</p>
+      <p>Mais uma vez: nosso muito obrigado pela ajuda!</p>
       <p>
         <br>Caluã Pataca e Paula Dornhofer
         <br>FEEC / Unicamp
