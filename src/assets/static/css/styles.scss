@@ -26,6 +26,8 @@ body {
 }
 
 #app {
+  margin: 0 auto;
+  max-width: 1280px;
   width: 100%;
 
   display: flex;
@@ -265,15 +267,14 @@ label {
 .main-container {
   width: 100%;
   display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
+  @include respond-above(md) {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
   @include respond-below(md) {
-    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-columns: 1fr 8fr 1fr;
   }
   @include respond-below(sm) {
-    grid-template-columns: 1fr 6fr 1fr;
-  }
-  @include respond-below(sm) {
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 0fr 1fr 0fr;
   }
   .text-container {
     grid-column: 2;
