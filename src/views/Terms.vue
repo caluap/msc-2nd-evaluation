@@ -3,12 +3,13 @@
     <div class="text-container">
       <h1>Antes de começar...</h1>
       <p>
-        Para participar deste teste, precisamos que você concorde com nossos termos de privacidade. Você pode lê-los
+        Antes de começar, precisamos que você leia e esteja de acordo com nossos termos de privacidade. Você pode encontrá-los na íntegra
         <a
           href="/pdfs/tcle.pdf"
           target="_blank"
         >aqui</a>.
       </p>
+      <p>Importante ressaltar um ponto: se a qualquer momento e por qualquer razão você quiser abandonar o teste fique a vontade — não estará causando nenhum mal ao teste.</p>
       <p>
         <input type="checkbox" id="cbx" style="display: none;" v-model="sharedState.accepted_terms">
         <label class="lbl" for="cbx">

@@ -2,6 +2,7 @@
   <div class="main-container">
     <div class="text-container" v-if="sharedState.accepted_terms">
       <h1>Nos fale um pouco sobre você</h1>
+      <p>Vale ressaltar que todos os dados coletados são totalmente anônimos (nem mesmo os pesquisadores terão como recuperar a identidade dos participantes) e servirão apenas para traçar um perfil não-individualizado dos participantes como um todo.</p>
       <div id="questionnaire">
         <label for="education">Formação acadêmica</label>
         <select name="education" v-model="selectedEducation">
