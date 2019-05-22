@@ -12,7 +12,7 @@
         Preparamos a seguir um teste para avaliar algumas maneiras de se representar na tipografia características que
         <em>imitam</em> a voz humana.
       </p>
-      <p>Como você talvez tenha reparado, esse é um recurso muito comum nas histórias em quadrinhos. Nelas, o desenho expressivo das letras imprime no texto ritmos, ênfases, entonações etc:</p>
+      <p>Como você talvez já tenha reparado, esse é um recurso muito comum nas histórias em quadrinhos. Nelas, o desenho expressivo das letras imprime no texto ritmos, ênfases, entonações etc:</p>
       <img class="bd" src="@/assets/static/imgs/bd/maus.png">
       <img class="bd" src="@/assets/static/imgs/bd/persepolis.png">
       <img class="bd" src="@/assets/static/imgs/bd/pilules_bleues.png">
