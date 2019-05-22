@@ -18,7 +18,7 @@
       <img class="bd" src="@/assets/static/imgs/bd/pilules_bleues.png">
       <p
         class="caption"
-      >Imagens de: The complete Maus, de Art Spiegelman, The complete Persepolis, de Marjane Satrapi e Pilules Bleus, de Fredrik Peeters.</p>
+      >Imagens de: The complete Maus, de Art Spiegelman, The complete Persepolis, de Marjane Satrapi e Pilules Bleues, de Fredrik Peeters.</p>
       <p>As possibilidades são muitas, mas trazem algumas restrições: os melhores exemplos de expressividade na letra são desenhados à mão — muitas vezes há um profissional especializado cuidando só disso —, e dependem de uma sofisticada interação entre os diversos elementos que compõe a cena.</p>
       <p>Nosso experimento vai por outro caminho: queremos encontrar uma maneira de representar a voz na tipografia que, embora simples, sirva para imprimir na letra algumas características da voz. É nesse contexto que lhe pedimos ajuda.</p>
       <h2>Como funciona o teste?</h2>
