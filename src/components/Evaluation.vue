@@ -25,11 +25,22 @@
         </p>
       </div>
     </div>
-    <div v-else>
-      <h1>Teste concluído.</h1>
-      <p>Você acertou {{correct_choices}} de {{choices_made}}.</p>
-      <br>
-      <a @click="logOut()" href="#">Começar de novo?</a>
+    <div class="main-container" v-else>
+      <div class="text-container">
+        <h1>Parabéns, você concluiu o teste!</h1>
+        <p>
+          Caso queira trocar impressões, ficar sabendo de novidades de nossa pesquisa ou mesmo receber convites para as etapas seguintes, mande uma mensagem para
+          <a
+            href="mailto:calua.pataca@gmail.com"
+          >calua.pataca@gmail.com</a> que a gente entra em contato.
+        </p>
+        <p>
+          Muito obrigado pela ajuda e até a próxima!
+          <br>
+          <br>:-)
+        </p>
+      </div>
+      <!-- <a @click="logOut()" href="#">Começar de novo?</a> -->
     </div>
   </div>
 </template>
