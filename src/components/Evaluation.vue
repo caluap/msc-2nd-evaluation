@@ -328,7 +328,6 @@ export default {
             };
 
           aux_choice.chose_the_first = chose_the_first;
-          aux_choice.choice = this.currentChoice;
           aux_choice.order = this.choices_made;
           aux_choice.phrase = this.phrase;
           aux_choice.choice_metadata = choice_metadata;
