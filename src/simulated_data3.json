@@ -1,0 +1,5104 @@
+{
+  "simulated_data": [
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 2,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 3,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 0,
+      "chose_the_first": false,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 10,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 12,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 13,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 15,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 18,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": false,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 1,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 1,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 7,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 8,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 16,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 21,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 2,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 2,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 3,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 11,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 12,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 28,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 3,
+      "chose_the_first": false,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 6,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 10,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 11,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 26,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": false,
+      "order": 27,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 4,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 3,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 6,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 10,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 14,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 18,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": false,
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 5,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 4,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 12,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 16,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 6,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 6,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 13,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 16,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 18,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 7,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 3,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 7,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 10,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 12,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 16,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 17,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 18,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 19,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 23,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 25,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 8,
+      "chose_the_first": false,
+      "order": 29,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 0,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 1,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 2,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 3,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 4,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 5,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 7,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 8,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 10,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 11,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 13,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 16,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 17,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 18,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 20,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 21,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 23,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": false,
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 25,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 26,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 27,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 5,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms"
+      }
+    },
+    {
+      "author_id": 9,
+      "chose_the_first": true,
+      "order": 29,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      },
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms"
+      }
+    }
+  ]
+}
