@@ -1,7 +1,18 @@
 <template>
   <div>
     <h1>Data 3, summary</h1>
-    <p>{{axisByEmotion}}</p>
+    <h2>Axis by emotion</h2>
+    <div v-for="(emotion_list, emotion_name, index) in axisByEmotion" :key="'em-'+index">
+      <h3>{{emotion_name}}</h3>
+      <ul class="axis-by-emotion">
+        <li
+          v-for="(axis_count, axis_name, index2) in emotion_list"
+          :key="'em-'+index+'-ax-'+index2"
+        >{{axis_name}} / {{Math.round(100*parseInt(axis_count)/sumAxis(emotion_list))}}%</li>
+      </ul>
+      <!-- <p>{{emotion_list}}</p>
+      <p>{{emotion_name}}</p>-->
+    </div>
   </div>
 </template>
 
@@ -14,7 +25,15 @@ export default {
     return {};
   },
   mounted() {},
-  methods: {},
+  methods: {
+    sumAxis: function(axis_list) {
+      let total = 0;
+      for (let key in axis_list) {
+        total += parseInt(axis_list[key]);
+      }
+      return total;
+    }
+  },
   computed: {
     axisByEmotion: function() {
       let results = {
@@ -39,7 +58,16 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-
+<style lang="scss" scoped>
+h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.axis-by-emotion {
+  margin-bottom: 2rem;
+  li + li {
+    margin-top: 0.25rem;
+  }
+}
 </style>
 
