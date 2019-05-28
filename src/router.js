@@ -31,6 +31,11 @@ export default new Router({
       path: "/summarizer",
       name: "summarizer",
       component: () => import("./views/Summarizer.vue")
+    },
+    {
+      path: "/summarizer-data3",
+      name: "summarizer-data3",
+      component: () => import("./views/SummarizerData3.vue")
     }
   ]
 });
