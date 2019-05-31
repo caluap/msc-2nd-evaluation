@@ -34,7 +34,7 @@
           class="img-identifier"
           @mouseover="hoverImg('img2')"
           @mouseleave="unhoverImg('img2')"
-        >2</span>, escolher qual deles casa melhor com o som. Ouça o áudio quantas vezes quiser. Para escolher o cartnao basta clicar nele e, quando estiver seguro de sua escolha, clicar no botão
+        >2</span>, escolher qual deles casa melhor com o som. Ouça o áudio quantas vezes quiser. Para escolher o cartão basta clicar nele e, quando estiver seguro de sua escolha, clicar no botão
         <span
           class="img-identifier"
           @mouseover="hoverImg('img3')"
