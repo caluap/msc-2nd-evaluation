@@ -16,13 +16,22 @@
         </a>
       </div>
       <div class="c-button">
-        <button id="choice-confirmer" disabled @click="submitChoice()">Confirmar escolha</button>
+        <button
+          id="choice-confirmer"
+          :disabled="!currentChoice || (play_counter == 0 && !play_has_started)"
+          @click="submitChoice()"
+        >Confirmar escolha</button>
       </div>
       <div class="choice-number">
         <p>
           <span class="choices-made">{{ choices_made}}</span> /
           <span class="choice-limit">{{choice_limit}}</span>
         </p>
+        <div class="small-notice">
+          <p
+            v-if="currentChoice && (play_counter == 0 && !play_has_started)"
+          >É preciso ouvir o áudio pelo menos uma vez antes de seguir em frente.</p>
+        </div>
       </div>
     </div>
     <div class="main-container" v-else>
@@ -233,7 +242,7 @@ export default {
     removeChoices: function() {
       document.getElementById("img1").classList.remove("selected-choice");
       document.getElementById("img2").classList.remove("selected-choice");
-      document.getElementById("choice-confirmer").disabled = true;
+      // document.getElementById("choice-confirmer").disabled = true;
       this.currentChoice = null;
     },
     selectChoice: function(choice, i_choice) {
@@ -242,7 +251,7 @@ export default {
         .getElementById("img" + i_choice)
         .classList.add("selected-choice");
       if (this.currentChoice == null) {
-        document.getElementById("choice-confirmer").disabled = false;
+        // document.getElementById("choice-confirmer").disabled = false;
       }
       document
         .getElementById("img" + unselected_choice)

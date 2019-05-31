@@ -382,3 +382,18 @@ img.scheme {
   border-radius: 50%;
   cursor: help;
 }
+
+.small-notice {
+  grid-row: 2;
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 2 * $pad;
+  p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
