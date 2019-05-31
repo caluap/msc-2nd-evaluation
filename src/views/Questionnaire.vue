@@ -54,8 +54,6 @@ export default {
         "Pós-graduação / Doutorado"
       ],
       ageGroup: [
-        "0 a 13 anos",
-        "14 a 17 anos",
         "18 a 24 anos",
         "25 a 39 anos",
         "40 a 59 anos",
