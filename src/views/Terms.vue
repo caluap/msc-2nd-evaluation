@@ -7,10 +7,12 @@
         <a
           href="/pdfs/tcle.pdf"
           target="_blank"
-        >aqui</a>.
+        >
+          <strong>aqui</strong>
+        </a>.
       </p>
       <p>
-        Esta é uma pesquisa homologada pelo
+        <br>Esta é uma pesquisa homologada pelo
         <a
           href="https://prp-web.cenapad.unicamp.br/pt-br/cep-comite-de-etica-em-pesquisa"
           target="_blank"
@@ -20,7 +22,7 @@
       <p>
         <input type="checkbox" id="cbx" style="display: none;" v-model="sharedState.accepted_terms">
         <label class="lbl" for="cbx">
-          <span></span>Li e estou de acordo com os termos.
+          <span></span>Declaro ter recebido esclarecimentos sobre a natureza da pesquisa, seus objetivos, métodos, benefícios previstos e seus potenciais riscos e, sob esses termos, aceito participar.
         </label>
       </p>
       <div v-if="sharedState.accepted_terms">
