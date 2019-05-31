@@ -396,7 +396,8 @@ export default {
       if (!this.sharedState.offline_mode) {
         let commentData = {
           author_id: this.sharedState.author_id,
-          comment: this.comment
+          comment: this.comment,
+          test_id: this.testData.name
         };
         db.collection("comments")
           .add(commentData)
