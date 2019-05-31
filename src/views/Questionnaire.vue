@@ -14,6 +14,11 @@
           <option disabled value>Clique para escolher</option>
           <option v-for="(ag, index) in ageGroup" :key="'ag-'+index">{{ag}}</option>
         </select>
+        <label for="sex">Sexo</label>
+        <select name="sex" v-model="selectedSex">
+          <option disabled value>Clique para escolher</option>
+          <option v-for="(sex, index) in sexes" :key="'sex-'+index">{{sex}}</option>
+        </select>
       </div>
       <template v-if="selectedAgeGroup != '' && selectedEducation != ''">
         <router-link
@@ -66,8 +71,10 @@ export default {
         "40 a 59 anos",
         "60 anos ou mais"
       ],
+      sexes: ["Masculino", "Feminino", "Prefiro não responder"],
       selectedAgeGroup: "",
-      selectedEducation: ""
+      selectedEducation: "",
+      selectedSex: ""
     };
   },
   methods: {
@@ -75,7 +82,8 @@ export default {
       if (!this.sharedState.offline_mode) {
         let userData = {
           age_group: this.selectedAgeGroup,
-          education: this.selectedEducation
+          education: this.selectedEducation,
+          sex: this.selectedSex
         };
         db.collection("participants_data")
           .doc(this.sharedState.author_id)
