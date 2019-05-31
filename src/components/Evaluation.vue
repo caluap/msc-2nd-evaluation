@@ -49,6 +49,14 @@
             href="mailto:calua.pataca@gmail.com"
           >calua.pataca@gmail.com</a> que a gente entra em contato.
         </p>
+        <div v-if="!comment_sent" class="comment-sender">
+          <p>Você pode também nos enviar algum comentário (de maneira anônima) usando o campo abaixo:</p>
+          <textarea v-model="comment"></textarea>
+          <button @click="submitComments()">Enviar o comentário</button>
+        </div>
+        <div v-else class="comment-sent">
+          <p>Comentário enviado!</p>
+        </div>
         <p>
           Muito obrigado pela ajuda e até a próxima!
           <br>
@@ -91,7 +99,9 @@ export default {
       choices_made: 0,
       initial_time: -1,
       is_inverted: false,
-      currentChoice: null
+      currentChoice: null,
+      comment_sent: false,
+      comment: ""
     };
   },
   mounted() {
@@ -377,6 +387,19 @@ export default {
           this.initial_time = aux_choice.completion_time;
           this.play_counter = 0;
         }
+      }
+    },
+    submitComments: function() {
+      if (!this.sharedState.offline_mode) {
+        let commentData = {
+          author_id: this.sharedState.author_id,
+          comment: this.comment
+        };
+        db.collection("comments")
+          .add(commentData)
+          .then(() => {
+            this.comment_sent = true;
+          });
       }
     }
   }

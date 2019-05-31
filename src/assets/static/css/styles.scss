@@ -41,6 +41,33 @@ body {
   }
 }
 
+.comment-sent {
+  margin: $pad * 2 0;
+  p {
+    font-weight: bold;
+    color: $accent;
+  }
+}
+
+.comment-sender {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin-top: $pad * 2;
+  margin-bottom: $pad * 4;
+  textarea {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+    margin: $pad * 2 0 $pad;
+    padding: $pad;
+    min-height: $pad * 12;
+  }
+  button {
+    @extend .generic-button;
+  }
+}
+
 #choices {
   margin: 0 auto;
   display: grid;
