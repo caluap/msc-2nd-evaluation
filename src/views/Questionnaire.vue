@@ -51,13 +51,15 @@ export default {
         "Ensino Médio (2º grau)",
         "Ensino superior",
         "Pós-graduação / Mestrado",
-        "Pós-graduação / Doutorado"
+        "Pós-graduação / Doutorado",
+        "Prefiro não responder"
       ],
       ageGroup: [
         "18 a 24 anos",
         "25 a 39 anos",
         "40 a 59 anos",
-        "60 anos ou mais"
+        "60 anos ou mais",
+        "Prefiro não responder"
       ],
       sexes: ["Masculino", "Feminino", "Prefiro não responder"],
       selectedAgeGroup: "",
@@ -77,7 +79,7 @@ export default {
           .doc(this.sharedState.author_id)
           .update(userData)
           .then(function() {
-            console.log("Saved age and education data.");
+            console.log("Saved age, education and sex data.");
           })
           .catch(function(error) {
             console.error("Error updating document: ", error);
