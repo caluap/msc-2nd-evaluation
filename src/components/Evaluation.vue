@@ -7,12 +7,18 @@
       </div>
       <div class="choice" id="first-choice">
         <a @click="selectChoice(hash1, 1)" class="img-choice">
-          <img id="img1" :src="img1">
+          <transition name="fade">
+            <img id="img1" :key="img1" :src="img1">
+          </transition>
+          <img class="shown-but-not-really" :src="img1">
         </a>
       </div>
       <div class="choice" id="second-choice">
         <a @click="selectChoice(hash2, 2)" class="img-choice">
-          <img id="img2" :src="img2">
+          <transition name="fade">
+            <img id="img2" :key="img2" :src="img2">
+          </transition>
+          <img class="shown-but-not-really" :src="img2">
         </a>
       </div>
       <div class="c-button">
@@ -376,3 +382,29 @@ export default {
   }
 };
 </script>
+
+
+<style lang="scss" scoped>
+.img-choice {
+  position: relative;
+}
+
+.shown-but-not-really {
+  visibility: hidden;
+}
+
+#img1,
+#img2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 0.4s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
