@@ -47,21 +47,11 @@ export default {
     return {
       sharedState: general_data.sharedState,
       education: [
-        "Ensino Fundamental (1º grau) / Interrompido",
-        "Ensino Fundamental (1º grau) / Cursando",
-        "Ensino Fundamental (1º grau) / Completo",
-        "Ensino Médio (2º grau) / Interrompido",
-        "Ensino Médio (2º grau) / Cursando",
-        "Ensino Médio (2º grau) / Completo",
-        "Ensino superior / Interrompido",
-        "Ensino superior / Cursando",
-        "Ensino superior / Completo",
-        "Pós-graduação / Mestrado / Interrompido",
-        "Pós-graduação / Mestrado / Cursando",
-        "Pós-graduação / Mestrado / Completo",
-        "Pós-graduação / Doutorado / Interrompido",
-        "Pós-graduação / Doutorado / Cursando",
-        "Pós-graduação / Doutorado / Completo"
+        "Ensino Fundamental (1º grau)",
+        "Ensino Médio (2º grau)",
+        "Ensino superior",
+        "Pós-graduação / Mestrado",
+        "Pós-graduação / Doutorado"
       ],
       ageGroup: [
         "0 a 13 anos",
