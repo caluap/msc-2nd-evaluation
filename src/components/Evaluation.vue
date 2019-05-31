@@ -36,18 +36,21 @@
         <div class="small-notice">
           <p
             v-if="currentChoice && (play_counter == 0 && !play_has_started)"
-          >É preciso ouvir o áudio pelo menos uma vez antes de seguir em frente.</p>
+          >Para enviar sua escolha é preciso ouvir o áudio pelo menos uma vez.</p>
         </div>
       </div>
     </div>
     <div class="main-container" v-else>
       <div class="text-container">
-        <h1>Parabéns, você concluiu o teste!</h1>
+        <h1>Você concluiu o teste!</h1>
+        <p>Estamos ainda em uma etapa preliminar de nossas explorações sobre como representar a voz na tipografia, mas acreditamos que este caminho tem bastante potencial e poderá futuramente desembocar em aplicações úteis para a sociedade como um todo.</p>
+        <p>Esse longo processo depende de voluntários como você. Pelo seu tempo e disposição, somos muitissimamente gratos!</p>
+        <hr>
         <p>
           Caso queira trocar impressões, ficar sabendo de novidades de nossa pesquisa ou mesmo receber convites para as etapas seguintes, mande uma mensagem para
           <a
-            href="mailto:calua.pataca@gmail.com"
-          >calua.pataca@gmail.com</a> que a gente entra em contato.
+            href="mailto:paula@fee.unicamp.br"
+          >paula@fee.unicamp.br</a> que a gente entra em contato.
         </p>
         <div v-if="!comment_sent" class="comment-sender">
           <p>Você pode também nos enviar algum comentário (de maneira anônima) usando o campo abaixo:</p>
@@ -58,7 +61,7 @@
           <p>Comentário enviado!</p>
         </div>
         <p>
-          Muito obrigado pela ajuda e até a próxima!
+          Mais uma vez, obrigado pela ajuda e até a próxima!
           <br>
           <br>:-)
         </p>
