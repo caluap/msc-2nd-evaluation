@@ -3,7 +3,11 @@
     <div v-if="completedChoices" id="choices">
       <div id="audio-container">
         <p id="audio-question">Qual imagem melhor corresponde ao&nbsp;áudio?</p>
-        <audio id="audio-player" controls :src="audio">Your browser does not support the audio tag.</audio>
+        <audio
+          id="audio-player"
+          controls
+          :src="audio"
+        >Sentimos muito, mas seu navegador não é compatível com nosso tocador de áudio!</audio>
       </div>
       <div class="choice" id="first-choice">
         <a @click="selectChoice(hash1, 1)" class="img-choice">
