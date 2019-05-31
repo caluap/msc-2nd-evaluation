@@ -46,6 +46,11 @@
       <img class="scheme" id="img2" src="@/assets/static/imgs/misc/scheme-2.svg">
       <img class="scheme" id="img3" src="@/assets/static/imgs/misc/scheme-3.svg">
       <p>Estimamos que o teste leve cerca de 10 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho não vá incomodar ninguém.</p>
+      <p>
+        Se você tiver qualquer dúvida ou reclamação poderá falar conosco em
+        <a href="mailto:paula@fee.unicamp.br">paula@fee.unicamp.br</a> ou
+        <a href="tel:+551935210246">+55 19 3521-0246</a>
+      </p>
       <p>Mais uma vez: nosso muito obrigado pela ajuda!</p>
       <p>
         <br>Caluã Pataca e Paula Dornhofer
