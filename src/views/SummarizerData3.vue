@@ -29,7 +29,8 @@ export default {
   name: "summarizer-data3",
   data() {
     return {
-      test_data: null,
+      raw_data: null,
+      blacklist: [],
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -40,11 +41,11 @@ export default {
     };
   },
   created() {
-    this.setData(data3);
+    this.setData(data3.simulated_data);
   },
   methods: {
     setData: function(fetchedData) {
-      this.test_data = fetchedData;
+      this.raw_data = fetchedData;
     },
     calcFlexGrow: function(axis, total) {
       let p = Math.round((100 * parseInt(axis)) / total);
@@ -59,6 +60,17 @@ export default {
     }
   },
   computed: {
+    // here I'll return valid data. This'll exclude blacklisted
+    // users, but in time I can add other criteria.
+    filteredData: function() {
+      let filtered_data = [];
+      this.raw_data.forEach(d => {
+        if (!this.blacklist.includes(d.author_id)) {
+          filtered_data.push(d);
+        }
+      });
+      return filtered_data;
+    },
     axisByEmotion: function() {
       let results = {
         Anger: [0, 0, 0, 0],
@@ -67,7 +79,7 @@ export default {
         Sad: [0, 0, 0, 0],
         Surprise: [0, 0, 0, 0]
       };
-      this.test_data.simulated_data.forEach(e => {
+      this.filteredData.forEach(e => {
         let emotion = e.choice_metadata.emotion;
         let chosen_axis = e.choice_metadata.axis;
         results[emotion][this.axes_key[chosen_axis]] += 1;
