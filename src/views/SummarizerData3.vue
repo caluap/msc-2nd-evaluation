@@ -29,6 +29,7 @@ export default {
   name: "summarizer-data3",
   data() {
     return {
+      test_data: null,
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -38,8 +39,13 @@ export default {
       axes_names: ["Wei", "Wid", "Ita", "_b_"]
     };
   },
-  mounted() {},
+  created() {
+    this.setData(data3);
+  },
   methods: {
+    setData: function(fetchedData) {
+      this.test_data = fetchedData;
+    },
     calcFlexGrow: function(axis, total) {
       let p = Math.round((100 * parseInt(axis)) / total);
       return p;
@@ -61,7 +67,7 @@ export default {
         Sad: [0, 0, 0, 0],
         Surprise: [0, 0, 0, 0]
       };
-      data3.simulated_data.forEach(e => {
+      this.test_data.simulated_data.forEach(e => {
         let emotion = e.choice_metadata.emotion;
         let chosen_axis = e.choice_metadata.axis;
         results[emotion][this.axes_key[chosen_axis]] += 1;
