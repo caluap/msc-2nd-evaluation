@@ -4,7 +4,10 @@
       <h1>Data 3, summary</h1>
       <h2>Axis, by emotion</h2>
       <div v-for="(axis_list, emotion_name, index) in axisByEmotion" :key="'em-'+index">
-        <h3>{{emotion_name}}</h3>
+        <h3>
+          {{emotion_name}}
+          <span class="norm">/ {{sumAxis(axis_list)}}</span>
+        </h3>
         <ul class="axis-by-emotion">
           <li
             v-for="(axis, i_axis) in axis_list"
@@ -12,9 +15,9 @@
             :style="{flexGrow: calcFlexGrow(axis, sumAxis(axis_list))}"
             :class="axes_names[i_axis]"
           >
-            {{calcFlexGrow(axis, sumAxis(axis_list))}}%
-            <br>
             {{axes_names[i_axis]}}
+            <br>
+            {{calcFlexGrow(axis, sumAxis(axis_list))}}
           </li>
         </ul>
       </div>
@@ -48,7 +51,7 @@ export default {
       this.raw_data = fetchedData;
     },
     calcFlexGrow: function(axis, total) {
-      let p = Math.round((100 * parseInt(axis)) / total);
+      let p = Math.round(100 * (parseInt(axis) / total)) / 100;
       return p;
     },
     sumAxis: function(axis_list) {
@@ -95,6 +98,9 @@ export default {
 h3 {
   font-weight: bold;
   margin-bottom: 0.6rem;
+  .norm {
+    font-weight: 400;
+  }
 }
 .axis-by-emotion {
   margin-bottom: 1rem;
