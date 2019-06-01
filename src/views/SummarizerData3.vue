@@ -17,7 +17,7 @@
           >
             {{axes_names[i_axis]}}
             <br>
-            {{calcFlexGrow(axis, sumAxis(axis_list))}}
+            {{calcFlexGrow(axis, sumAxis(axis_list))/100}}
           </li>
         </ul>
       </div>
@@ -51,7 +51,7 @@ export default {
       this.raw_data = fetchedData;
     },
     calcFlexGrow: function(axis, total) {
-      let p = Math.round(100 * (parseInt(axis) / total)) / 100;
+      let p = Math.round(100 * (parseInt(axis) / total));
       return p;
     },
     sumAxis: function(axis_list) {
