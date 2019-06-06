@@ -3,10 +3,14 @@
     <div class="text-container">
       <h1>Data 3, summary</h1>
       <h2 class="graph-name">Axis, by emotion</h2>
-      <div v-for="(axis_list, emotion_name, index) in axisByEmotion" :key="'em-'+index">
+      <div
+        class="graph-grid"
+        v-for="(axis_list, emotion_name, index) in axisByEmotion"
+        :key="'em-'+index"
+      >
         <h3 class="emotion">
           {{emotion_name}}
-          <span class="norm">/ {{sumAxis(axis_list)}}</span>
+          <span class="norm">{{sumAxis(axis_list)}}</span>
         </h3>
         <ul class="axis-by-emotion">
           <li
@@ -29,12 +33,13 @@
       >
         <h3 class="phrase">{{phrase_name}}</h3>
         <div
+          class="graph-grid"
           v-for="(axis_list, emotion_name, index) in phrase_list"
           :key="'ph-'+index_phrase+'-em-'+index"
         >
           <h3 class="emotion">
             {{emotion_name}}
-            <span class="norm">/ {{sumAxis(axis_list)}}</span>
+            <span class="norm">{{sumAxis(axis_list)}}</span>
           </h3>
           <ul class="axis-by-emotion">
             <li
@@ -152,34 +157,43 @@ export default {
 
 <style lang="scss" scoped>
 h2.graph-name {
-  margin-top: 9rem;
+  margin-top: 5rem;
   @at-root h1 + & {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 }
 
 h3.phrase {
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 h3.emotion {
   font-size: 12px;
-  margin: 0.6rem 0;
   .norm {
+    float: right;
+    padding-right: 0.5rem;
     opacity: 0.6;
   }
 }
+
+.graph-grid {
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: 1fr 5fr;
+  margin-top: 2px;
+  align-items: center;
+}
 .axis-by-emotion {
-  margin-bottom: 1rem;
   display: flex;
   width: 100%;
   li {
-    text-align: center;
-    font-size: 11px;
-    line-height: 15px;
+    text-align: right;
+    font-size: 9px;
+    line-height: 12px;
     flex-grow: 1;
 
     box-sizing: border-box;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0.5rem;
     border-radius: 0.4rem;
 
     &.Wei {
@@ -189,10 +203,10 @@ h3.emotion {
       background: #b4c1a3;
     }
     &.Ita {
-      background: #90b389;
+      background: #89b396;
     }
     &._b_ {
-      background: #7b8e70;
+      background: #84a89d;
     }
     & + li {
       margin-left: 2px;
