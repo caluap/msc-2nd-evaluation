@@ -136,6 +136,14 @@ export default {
           Surprise: [0, 0, 0, 0]
         }
       };
+
+      this.filteredData.forEach(e => {
+        let phrase = e.phrase;
+        let emotion = e.choice_metadata.emotion;
+        let chosen_axis = e.choice_metadata.axis;
+        results[phrase][emotion][this.axes_key[chosen_axis]] += 1;
+      });
+
       return results;
     }
   }
