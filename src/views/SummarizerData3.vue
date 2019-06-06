@@ -2,6 +2,7 @@
   <div class="main-container">
     <div class="text-container">
       <h1>Data 3, summary</h1>
+
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
         class="graph-grid"
@@ -56,6 +57,9 @@
           </ul>
         </div>
       </div>
+
+      <h2 class="graph-name">Performance, por eixo</h2>
+      <p>{{axisPerformance}}</p>
     </div>
   </div>
 </template>
@@ -147,6 +151,82 @@ export default {
         let emotion = e.choice_metadata.emotion;
         let chosen_axis = e.choice_metadata.axis;
         results[phrase][emotion][this.axes_key[chosen_axis]] += 1;
+      });
+
+      return results;
+    },
+    axisPerformance: function() {
+      let results = {
+        rounds: 0,
+        byAxis: {
+          Wei: {
+            absolute: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Wid: {
+            absolute: 0,
+            Wei: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Ita: {
+            absolute: 0,
+            Wei: 0,
+            Wid: 0,
+            _b_: 0
+          },
+          _b_: {
+            absolute: 0,
+            Wei: 0,
+            Wid: 0,
+            Ita: 0
+          }
+        },
+        byEmotions: {
+          Anger: {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Happy: {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Neutral: {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Sad: {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          },
+          Surprise: {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          }
+        }
+      };
+
+      this.filteredData.forEach(e => {
+        let winner = e.choice_metadata.axis,
+          loser = e.rejectee_metadata.axis,
+          emotion = e.choice_metadata.emotion;
+
+        results.byAxis[winner].absolute += 1;
+        results.byAxis[winner][loser] += 1;
+        results.byEmotions[emotion][winner] += 1;
+        results.rounds += 1;
       });
 
       return results;
