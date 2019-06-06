@@ -71,7 +71,7 @@
         </h4>
         <div class="graph-joiner">
           <ul class="axis-distribution-graph">
-            <li :class="axis_name + ' main-axis'">
+            <li :class="'main-axis'">
               <em>{{axis_name}}</em>
               : {{axis_obj.absolute}} ({{calcFlexGrow(axis_obj.absolute, axis_obj.totalAppearances)/100}})
               / {{axis_obj.totalAppearances - axis_obj.absolute}} ({{calcFlexGrow(axis_obj.totalAppearances-axis_obj.absolute, axis_obj.totalAppearances)/100}})
@@ -367,6 +367,10 @@ h4 {
       mix-blend-mode: multiply;
       opacity: 0.1;
       border-radius: 0.2rem;
+    }
+
+    &.main-axis {
+      background: #ccc;
     }
 
     &.Wei {
