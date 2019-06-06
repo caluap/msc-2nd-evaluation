@@ -9,11 +9,11 @@
         v-for="(axis_list, emotion_name, index) in axisByEmotion"
         :key="'em-'+index"
       >
-        <h3 class="emotion">
+        <h4>
           {{emotion_name}}
           <span class="norm">{{sumAxis(axis_list)}}</span>
-        </h3>
-        <ul class="axis-by-emotion">
+        </h4>
+        <ul class="axis-distribution-graph">
           <li
             v-for="(axis, i_axis) in axis_list"
             :key="emotion_name+'-ax-'+i_axis"
@@ -32,17 +32,17 @@
         v-for="(phrase_list, phrase_name, index_phrase) in axisByPhrase"
         :key="'ph-'+index_phrase"
       >
-        <h3 class="phrase">{{phrase_name}}</h3>
+        <h3>{{phrase_name}}</h3>
         <div
           class="graph-grid"
           v-for="(axis_list, emotion_name, index) in phrase_list"
           :key="'ph-'+index_phrase+'-em-'+index"
         >
-          <h3 class="emotion">
+          <h4>
             {{emotion_name}}
             <span class="norm">{{sumAxis(axis_list)}}</span>
-          </h3>
-          <ul class="axis-by-emotion">
+          </h4>
+          <ul class="axis-distribution-graph">
             <li
               v-for="(axis, i_axis) in axis_list"
               :key="emotion_name+'-ax-'+i_axis"
@@ -58,8 +58,52 @@
         </div>
       </div>
 
-      <h2 class="graph-name">Performance, por eixo</h2>
-      <p>{{axisPerformance}}</p>
+      <h2 class="graph-name">Performance</h2>
+      <h3>Por eixo</h3>
+      <div
+        class="graph-grid"
+        v-for="(axis_obj, axis_name, axis_index) in axisPerformance.byAxis"
+        :key="'perf-ax-'+axis_index"
+      >
+        <h4>
+          {{axis_name}}
+          <span class="norm">{{axis_obj.totalAppearances}}</span>
+        </h4>
+        <div class="graph-joiner">
+          <ul class="axis-distribution-graph">
+            <li :class="axis_name + ' main-axis'">
+              <em>{{axis_name}}</em>
+              : {{axis_obj.absolute}} ({{calcFlexGrow(axis_obj.absolute, axis_obj.totalAppearances)/100}})
+              / {{axis_obj.totalAppearances - axis_obj.absolute}} ({{calcFlexGrow(axis_obj.totalAppearances-axis_obj.absolute, axis_obj.totalAppearances)/100}})
+            </li>
+          </ul>
+          <ul class="axis-distribution-graph">
+            <li
+              v-for="(sub_ax, sub_ax_name, sub_ax_index) in axis_obj.againstOtherAxes"
+              :key="'perf-ax-'+axis_name+'-sub-'+sub_ax_name+'-'+sub_ax_index"
+              :style="{flexGrow: calcFlexGrow(sub_ax, axis_obj.absolute)}"
+              :class="sub_ax_name"
+            >
+              vs
+              <em>{{sub_ax_name}}</em>
+              :
+              {{sub_ax}}
+              ({{calcFlexGrow(sub_ax, axis_obj.absolute)/100}})
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h3>Por emoção</h3>
+      <div
+        class="graph-grid"
+        v-for="(emo_obj, emo_name, emo_index) in axisPerformance.byEmotion"
+        :key="'perf-emo-'+emo_index"
+      >
+        <h4>
+          {{emo_name}}
+          <span class="norm">{{emo_obj.totalAppearances}}</span>
+        </h4>
+      </div>
     </div>
   </div>
 </template>
@@ -160,56 +204,73 @@ export default {
         rounds: 0,
         byAxis: {
           Wei: {
+            totalAppearances: 0,
             absolute: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            againstOtherAxes: {
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Wid: {
+            totalAppearances: 0,
             absolute: 0,
-            Wei: 0,
-            Ita: 0,
-            _b_: 0
+            againstOtherAxes: {
+              Wei: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Ita: {
+            totalAppearances: 0,
             absolute: 0,
-            Wei: 0,
-            Wid: 0,
-            _b_: 0
+            againstOtherAxes: {
+              Wei: 0,
+              Wid: 0,
+              _b_: 0
+            }
           },
           _b_: {
+            totalAppearances: 0,
             absolute: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0
+            againstOtherAxes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0
+            }
           }
         },
-        byEmotions: {
+        byEmotion: {
           Anger: {
+            totalAppearances: 0,
             Wei: 0,
             Wid: 0,
             Ita: 0,
             _b_: 0
           },
           Happy: {
+            totalAppearances: 0,
             Wei: 0,
             Wid: 0,
             Ita: 0,
             _b_: 0
           },
           Neutral: {
+            totalAppearances: 0,
             Wei: 0,
             Wid: 0,
             Ita: 0,
             _b_: 0
           },
           Sad: {
+            totalAppearances: 0,
             Wei: 0,
             Wid: 0,
             Ita: 0,
             _b_: 0
           },
           Surprise: {
+            totalAppearances: 0,
             Wei: 0,
             Wid: 0,
             Ita: 0,
@@ -223,9 +284,17 @@ export default {
           loser = e.rejectee_metadata.axis,
           emotion = e.choice_metadata.emotion;
 
+        // axes
         results.byAxis[winner].absolute += 1;
-        results.byAxis[winner][loser] += 1;
-        results.byEmotions[emotion][winner] += 1;
+        results.byAxis[winner].againstOtherAxes[loser] += 1;
+
+        results.byAxis[winner].totalAppearances += 1;
+        results.byAxis[loser].totalAppearances += 1;
+
+        // emotions
+        results.byEmotion[emotion][winner] += 1;
+        results.byEmotion[emotion].totalAppearances += 1;
+
         results.rounds += 1;
       });
 
@@ -236,6 +305,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$mar_g: 2px;
+
+em {
+  font-style: italic;
+}
+
 h2.graph-name {
   margin-top: 5rem;
   @at-root h1 + & {
@@ -243,11 +318,11 @@ h2.graph-name {
   }
 }
 
-h3.phrase {
+h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-h3.emotion {
+h4 {
   font-size: 12px;
   .norm {
     float: right;
@@ -260,10 +335,15 @@ h3.emotion {
   display: grid;
   grid-row-gap: 1rem;
   grid-template-columns: 1fr 5fr;
-  margin-top: 2px;
+  margin-top: $mar_g;
   align-items: center;
 }
-.axis-by-emotion {
+
+.axis-distribution-graph {
+  & + .axis-distribution-graph {
+    margin-top: $mar_g;
+    padding-bottom: $mar_g * 3;
+  }
   display: flex;
   width: 100%;
   li {
@@ -274,7 +354,20 @@ h3.emotion {
 
     box-sizing: border-box;
     padding: 0.2rem 0.5rem;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      border: 1px solid black;
+      mix-blend-mode: multiply;
+      opacity: 0.1;
+      border-radius: 0.2rem;
+    }
 
     &.Wei {
       background: #e3d7bd;
@@ -289,7 +382,7 @@ h3.emotion {
       background: #84a89d;
     }
     & + li {
-      margin-left: 2px;
+      margin-left: $mar_g;
     }
   }
 }
