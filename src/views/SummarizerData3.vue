@@ -93,6 +93,7 @@
           </ul>
         </div>
       </div>
+
       <h3>Por emoção</h3>
       <div
         class="graph-grid"
@@ -103,6 +104,18 @@
           {{emo_name}}
           <span class="norm">{{emo_obj.totalAppearances}}</span>
         </h4>
+        <ul class="axis-distribution-graph">
+          <li
+            v-for="(ax, ax_name, ax_index) in emo_obj.axes"
+            :key="'perf-em-'+emo_name+'-'+ax_name+'-'+ax_index"
+            :style="{flexGrow: calcFlexGrow(ax, emo_obj.totalAppearances)}"
+            :class="ax_name"
+          >
+            {{ax_name}}
+            <br>
+            {{calcFlexGrow(ax, emo_obj.totalAppearances)/100}}
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -243,38 +256,48 @@ export default {
         byEmotion: {
           Anger: {
             totalAppearances: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Happy: {
             totalAppearances: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Neutral: {
             totalAppearances: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Sad: {
             totalAppearances: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           },
           Surprise: {
             totalAppearances: 0,
-            Wei: 0,
-            Wid: 0,
-            Ita: 0,
-            _b_: 0
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
           }
         }
       };
@@ -292,7 +315,7 @@ export default {
         results.byAxis[loser].totalAppearances += 1;
 
         // emotions
-        results.byEmotion[emotion][winner] += 1;
+        results.byEmotion[emotion].axes[winner] += 1;
         results.byEmotion[emotion].totalAppearances += 1;
 
         results.rounds += 1;
