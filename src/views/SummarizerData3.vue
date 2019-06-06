@@ -2,9 +2,9 @@
   <div class="main-container">
     <div class="text-container">
       <h1>Data 3, summary</h1>
-      <h2>Axis, by emotion</h2>
+      <h2 class="graph-name">Axis, by emotion</h2>
       <div v-for="(axis_list, emotion_name, index) in axisByEmotion" :key="'em-'+index">
-        <h3>
+        <h3 class="emotion">
           {{emotion_name}}
           <span class="norm">/ {{sumAxis(axis_list)}}</span>
         </h3>
@@ -20,6 +20,36 @@
             {{calcFlexGrow(axis, sumAxis(axis_list))/100}}
           </li>
         </ul>
+      </div>
+
+      <h2 class="graph-name">Axis, by emotion, by phrase</h2>
+      <div
+        v-for="(phrase_list, phrase_name, index_phrase) in axisByPhrase"
+        :key="'ph-'+index_phrase"
+      >
+        <h3 class="phrase">{{phrase_name}}</h3>
+        <div
+          v-for="(axis_list, emotion_name, index) in phrase_list"
+          :key="'ph-'+index_phrase+'-em-'+index"
+        >
+          <h3 class="emotion">
+            {{emotion_name}}
+            <span class="norm">/ {{sumAxis(axis_list)}}</span>
+          </h3>
+          <ul class="axis-by-emotion">
+            <li
+              v-for="(axis, i_axis) in axis_list"
+              :key="emotion_name+'-ax-'+i_axis"
+              :style="{flexGrow: calcFlexGrow(axis, sumAxis(axis_list))}"
+              :class="axes_names[i_axis]"
+            >
+              {{axes_names[i_axis]}}
+              <br>
+              <template v-if="sumAxis(axis_list) > 0">{{calcFlexGrow(axis, sumAxis(axis_list))/100}}</template>
+              <template v-else>0</template>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -89,17 +119,45 @@ export default {
       });
       return results;
     },
-    axisByPhrase: function() {}
+    axisByPhrase: function() {
+      let results = {
+        Filha: {
+          Anger: [0, 0, 0, 0],
+          Happy: [0, 0, 0, 0],
+          Neutral: [0, 0, 0, 0],
+          Sad: [0, 0, 0, 0],
+          Surprise: [0, 0, 0, 0]
+        },
+        Passarinho: {
+          Anger: [0, 0, 0, 0],
+          Happy: [0, 0, 0, 0],
+          Neutral: [0, 0, 0, 0],
+          Sad: [0, 0, 0, 0],
+          Surprise: [0, 0, 0, 0]
+        }
+      };
+      return results;
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
-h3 {
-  font-weight: bold;
-  margin-bottom: 0.6rem;
+h2.graph-name {
+  margin-top: 9rem;
+  @at-root h1 + & {
+    margin-top: 3rem;
+  }
+}
+
+h3.phrase {
+  margin-top: 2rem;
+}
+h3.emotion {
+  font-size: 12px;
+  margin: 0.6rem 0;
   .norm {
-    font-weight: 400;
+    opacity: 0.6;
   }
 }
 .axis-by-emotion {
@@ -110,7 +168,7 @@ h3 {
     text-align: center;
     font-size: 11px;
     line-height: 15px;
-    // color: white;
+    flex-grow: 1;
 
     box-sizing: border-box;
     padding: 0.5rem 0;
