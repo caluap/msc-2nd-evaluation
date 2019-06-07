@@ -355,8 +355,11 @@ h4 {
 }
 
 .axis-distribution-graph {
+  margin-top: 0;
   & + .axis-distribution-graph {
     margin-top: $mar_g;
+  }
+  &:nth-child(3) {
     padding-bottom: $mar_g * 3;
   }
   display: flex;
@@ -366,6 +369,7 @@ h4 {
     font-size: 9px;
     line-height: 12px;
     flex-grow: 1;
+    overflow: hidden;
 
     box-sizing: border-box;
     padding: 0.2rem 0.5rem;
