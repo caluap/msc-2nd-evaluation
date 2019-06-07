@@ -100,7 +100,12 @@ export default {
   data() {
     return {
       raw_data: null,
-      blacklist: [],
+      blacklist: [
+        "WhKE8JPEKgfi9vt2Wb1yKSijJ762",
+        "emW3JMw9AGXje40TaFhk3Cj0BXp1",
+        "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
+        "snEqVOFjJ2Pyud9pYkkk6M45lGk1"
+      ],
       axes_key: {
         Wei: 0,
         Wid: 1,
