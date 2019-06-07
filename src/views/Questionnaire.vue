@@ -77,7 +77,7 @@ export default {
         };
         db.collection("participants_data")
           .doc(this.sharedState.author_id)
-          .update(userData)
+          .set(userData, { merge: true })
           .then(function() {
             console.log("Saved age, education and sex data.");
           })
