@@ -3,6 +3,8 @@
     <div class="text-container">
       <h1>Data 3, summary</h1>
 
+      <p>There are, at the moment, {{n_participants}} participants.</p>
+
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
         class="graph-grid"
@@ -101,6 +103,7 @@ export default {
   name: "summarizer-data3",
   data() {
     return {
+      n_participants: 0,
       raw_data: null,
       blacklist: [
         "WhKE8JPEKgfi9vt2Wb1yKSijJ762",
@@ -162,11 +165,16 @@ export default {
     // users, but in time I can add other criteria.
     filteredData: function() {
       let filtered_data = [];
+      let users = [];
       this.raw_data.forEach(d => {
         if (!this.blacklist.includes(d.author_id)) {
+          if (!users.includes(d.author_id)) {
+            users.push(d.author_id);
+          }
           filtered_data.push(d);
         }
       });
+      this.n_participants = users.length;
       return filtered_data;
     },
     axisByEmotion: function() {
@@ -331,6 +339,11 @@ $mar_g: 2px;
 
 em {
   font-style: italic;
+}
+
+h1 + p {
+  margin-top: -1rem;
+  margin-bottom: -2rem;
 }
 
 h2.graph-name {
