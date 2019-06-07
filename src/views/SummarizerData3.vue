@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container">
+  <div class="main-container" v-if="raw_data != null">
     <div class="text-container">
       <h1>Data 3, summary</h1>
 
