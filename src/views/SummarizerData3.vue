@@ -93,30 +93,6 @@
           </ul>
         </div>
       </div>
-
-      <h3>Por emoção</h3>
-      <div
-        class="graph-grid"
-        v-for="(emo_obj, emo_name, emo_index) in axisPerformance.byEmotion"
-        :key="'perf-emo-'+emo_index"
-      >
-        <h4>
-          {{emo_name}}
-          <span class="norm">{{emo_obj.totalAppearances}}</span>
-        </h4>
-        <ul class="axis-distribution-graph">
-          <li
-            v-for="(ax, ax_name, ax_index) in emo_obj.axes"
-            :key="'perf-em-'+emo_name+'-'+ax_name+'-'+ax_index"
-            :style="{flexGrow: calcFlexGrow(ax, emo_obj.totalAppearances)}"
-            :class="ax_name"
-          >
-            {{ax_name}}
-            <br>
-            {{calcFlexGrow(ax, emo_obj.totalAppearances)/100}}
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </template>
