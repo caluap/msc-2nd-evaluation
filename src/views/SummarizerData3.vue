@@ -17,12 +17,12 @@
           <li
             v-for="(axis, i_axis) in axis_list"
             :key="emotion_name+'-ax-'+i_axis"
-            :style="{flexGrow: calcFlexGrow(axis, sumAxis(axis_list))}"
+            :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
             :class="axes_names[i_axis]"
           >
             {{axes_names[i_axis]}}
             <br>
-            {{calcFlexGrow(axis, sumAxis(axis_list))/100}}
+            {{calcPerc(axis, sumAxis(axis_list))/100}}
           </li>
         </ul>
       </div>
@@ -46,12 +46,12 @@
             <li
               v-for="(axis, i_axis) in axis_list"
               :key="emotion_name+'-ax-'+i_axis"
-              :style="{flexGrow: calcFlexGrow(axis, sumAxis(axis_list))}"
+              :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
               :class="axes_names[i_axis]"
             >
               {{axes_names[i_axis]}}
               <br>
-              <template v-if="sumAxis(axis_list) > 0">{{calcFlexGrow(axis, sumAxis(axis_list))/100}}</template>
+              <template v-if="sumAxis(axis_list) > 0">{{calcPerc(axis, sumAxis(axis_list))/100}}</template>
               <template v-else>0</template>
             </li>
           </ul>
@@ -70,26 +70,19 @@
           <span class="norm">{{axis_obj.totalAppearances}}</span>
         </h4>
         <div class="graph-joiner">
-          <ul class="axis-distribution-graph">
-            <li :class="'main-axis'">
-              <em>{{axis_name}}</em>
-              : {{axis_obj.absolute}} ({{calcFlexGrow(axis_obj.absolute, axis_obj.totalAppearances)/100}})
-              / {{axis_obj.totalAppearances - axis_obj.absolute}} ({{calcFlexGrow(axis_obj.totalAppearances-axis_obj.absolute, axis_obj.totalAppearances)/100}})
-            </li>
-          </ul>
-          <ul class="axis-distribution-graph">
+          <ul
+            v-for="(sub_ax, sub_ax_name, sub_ax_index) in axis_obj.againstOtherAxes"
+            class="axis-distribution-graph"
+            :key="'perf-ax-'+axis_name+'-vs-'+sub_ax_name"
+          >
             <li
-              v-for="(sub_ax, sub_ax_name, sub_ax_index) in axis_obj.againstOtherAxes"
-              :key="'perf-ax-'+axis_name+'-sub-'+sub_ax_name+'-'+sub_ax_index"
-              :style="{flexGrow: calcFlexGrow(sub_ax, axis_obj.absolute)}"
+              :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
+              class="main-axis"
+            >{{calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100}}</li>
+            <li
+              :style="{width: calcPerc(axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
-            >
-              vs
-              <em>{{sub_ax_name}}</em>
-              :
-              {{sub_ax}}
-              ({{calcFlexGrow(sub_ax, axis_obj.absolute)/100}})
-            </li>
+            >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</li>
           </ul>
         </div>
       </div>
@@ -142,7 +135,7 @@ export default {
     }
   },
   methods: {
-    calcFlexGrow: function(axis, total) {
+    calcPerc: function(axis, total) {
       let p = Math.round(100 * (parseInt(axis) / total));
       return p;
     },
