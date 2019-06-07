@@ -22,7 +22,7 @@
           >
             {{axes_names[i_axis]}}
             <br>
-            {{calcPerc(axis, sumAxis(axis_list))/100}}
+            {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
           </li>
         </ul>
       </div>
@@ -51,7 +51,9 @@
             >
               {{axes_names[i_axis]}}
               <br>
-              <template v-if="sumAxis(axis_list) > 0">{{calcPerc(axis, sumAxis(axis_list))/100}}</template>
+              <template
+                v-if="sumAxis(axis_list) > 0"
+              >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
               <template v-else>0</template>
             </li>
           </ul>
@@ -78,7 +80,7 @@
             <li
               :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               class="main-axis"
-            >{{calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100}}</li>
+            >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</li>
             <li
               :style="{width: calcPerc(axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
@@ -377,7 +379,7 @@ h4 {
     overflow: hidden;
 
     box-sizing: border-box;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.3rem;
     border-radius: 0.2rem;
     position: relative;
     &:after {
