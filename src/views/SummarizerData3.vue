@@ -61,7 +61,7 @@
       </div>
 
       <h2 class="graph-name">Performance</h2>
-      <h3>Por eixo</h3>
+      <h3>By axis</h3>
       <div
         class="graph-grid"
         v-for="(axis_obj, axis_name, axis_index) in axisPerformance.byAxis"
