@@ -123,7 +123,9 @@
 
 <script>
 import "../assets/static/css/styles.scss";
+import { db } from "../firebase";
 import data3 from "../assets/static/data/simulated_data3.json";
+import real_data3 from "../assets/static/data/firebase_dump.json";
 export default {
   name: "summarizer-data3",
   data() {
@@ -139,13 +141,31 @@ export default {
       axes_names: ["Wei", "Wid", "Ita", "_b_"]
     };
   },
-  created() {
-    this.setData(data3.simulated_data);
+  beforeRouteEnter: function(to, from, next) {
+    if (false) {
+      console.log("will attempt to read the collection");
+      db.collection("data3")
+        .get()
+        .then(querySnapshot => {
+          console.log("has read. will create array of data.");
+          let retrievedData = [];
+          // console.log("Hello");
+          querySnapshot.forEach(function(doc) {
+            // console.log(doc.id, " => ", doc.data());
+            retrievedData.push(doc.data());
+          });
+          // console.log(retrievedData);
+          console.log(JSON.stringify(retrievedData));
+          next(vm => vm.setData(retrievedData));
+        });
+    } else {
+      // console.log(data3.simulated_data);
+      // next(vm => vm.setData(data3.simulated_data));
+      // console.log(real_data3.data);
+      next(vm => vm.setData(real_data3.data));
+    }
   },
   methods: {
-    setData: function(fetchedData) {
-      this.raw_data = fetchedData;
-    },
     calcFlexGrow: function(axis, total) {
       let p = Math.round(100 * (parseInt(axis) / total));
       return p;
@@ -156,6 +176,9 @@ export default {
         total += axis_list[i];
       }
       return total;
+    },
+    setData(fetchedData) {
+      this.raw_data = fetchedData;
     }
   },
   computed: {
