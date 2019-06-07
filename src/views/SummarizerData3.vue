@@ -109,7 +109,12 @@ export default {
         "WhKE8JPEKgfi9vt2Wb1yKSijJ762",
         "emW3JMw9AGXje40TaFhk3Cj0BXp1",
         "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
-        "snEqVOFjJ2Pyud9pYkkk6M45lGk1"
+        "snEqVOFjJ2Pyud9pYkkk6M45lGk1",
+        "FHShKwoMZChTupayk68X9R5gknX2",
+        "wuhl2HXAU2bvpHDK6zWAhPi2GwE3",
+        "SPB8B3dLXfg5FLiejwEdkrjVYC82",
+        "JosIpk8p2NfNmI6uPyIR9OS7m3F3",
+        "bs2n4jBcBSRp5eNCaoat2YXOZRt2"
       ],
       axes_key: {
         Wei: 0,
