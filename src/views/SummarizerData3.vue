@@ -27,6 +27,10 @@
             {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
           </li>
         </ul>
+        <div class="p-value">
+          <p v-if="pLessThan005(axis_list)">p &lt; 0.05</p>
+          <p class="ops" v-else>💩</p>
+        </div>
       </div>
 
       <h2 class="graph-name">Axis, by emotion, by phrase</h2>
@@ -59,6 +63,10 @@
               <template v-else>0</template>
             </li>
           </ul>
+          <div class="p-value">
+            <p v-if="pLessThan005(axis_list)">p &lt; 0.05</p>
+            <p class="ops" v-else>💩</p>
+          </div>
         </div>
       </div>
 
@@ -89,6 +97,7 @@
             >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</li>
           </ul>
         </div>
+        <div></div>
       </div>
     </div>
   </div>
@@ -385,9 +394,16 @@ h4 {
 .graph-grid {
   display: grid;
   grid-row-gap: 1rem;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 2fr 10fr 1fr;
   margin-top: $mar_g;
   align-items: center;
+}
+.p-value p {
+  font-size: 9px;
+  text-align: center;
+  &.ops {
+    font-size: 16px;
+  }
 }
 
 .axis-distribution-graph {
