@@ -13,7 +13,6 @@
     "@firebase/firestore": "^1.0.4",
     "@firebase/util": "^0.2.7",
     "vue": "^2.5.22",
-    "vue-analytics": "^5.16.4",
     "vue-firestore": "^0.3.18",
     "vue-router": "^3.0.2"
   },
