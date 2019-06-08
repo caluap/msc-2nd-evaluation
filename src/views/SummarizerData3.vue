@@ -150,6 +150,17 @@ export default {
     }
   },
   methods: {
+    pLessThan005: function(axes) {
+      let sum = axes.reduce((a, b) => a + b, 0);
+      let n = axes.length;
+      let expectedValue = sum / n;
+      let err = 0;
+      for (let i = 0; i < n; i++) {
+        let diff = axes[i] - expectedValue;
+        err += (diff * diff) / expectedValue;
+      }
+      return err > 7.814727903;
+    },
     calcPerc: function(axis, total) {
       let p = Math.round(100 * (parseInt(axis) / total));
       return p;
