@@ -3,7 +3,7 @@
     <div class="text-container">
       <h1>Data 3, summary</h1>
 
-      <p>We've had {{n_participants}} participants so far.</p>
+      <p>We’ve had {{n_participants}} participants so far.</p>
 
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
