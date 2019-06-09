@@ -28,8 +28,16 @@
           </li>
         </ul>
         <div class="p-value">
-          <p v-if="pLessThan005(axis_list)">p &lt; 0.05</p>
-          <p class="ops" v-else>💩</p>
+          <p v-if="pLessThan005(axis_list).pLessThan005">
+            p &lt; 0.05
+            <br>
+            <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+          </p>
+          <p class="ops" v-else>
+            <span class="emoji">💩</span>
+            <br>
+            <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+          </p>
         </div>
       </div>
 
@@ -64,8 +72,16 @@
             </li>
           </ul>
           <div class="p-value">
-            <p v-if="pLessThan005(axis_list)">p &lt; 0.05</p>
-            <p class="ops" v-else>💩</p>
+            <p v-if="pLessThan005(axis_list).pLessThan005">
+              p &lt; 0.05
+              <br>
+              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+            </p>
+            <p class="ops" v-else>
+              <span class="emoji">💩</span>
+              <br>
+              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+            </p>
           </div>
         </div>
       </div>
@@ -168,7 +184,7 @@ export default {
         let diff = axes[i] - expectedValue;
         err += (diff * diff) / expectedValue;
       }
-      return err > 7.814727903;
+      return { err: err, pLessThan005: err > 7.814727903 };
     },
     calcPerc: function(axis, total) {
       let p = Math.round(100 * (parseInt(axis) / total));
@@ -400,9 +416,13 @@ h4 {
 }
 .p-value p {
   font-size: 9px;
+  line-height: 12px;
   text-align: center;
-  &.ops {
-    font-size: 16px;
+  &.ops span.emoji {
+    font-size: 13px;
+  }
+  span.curve-position {
+    opacity: 0.3;
   }
 }
 
