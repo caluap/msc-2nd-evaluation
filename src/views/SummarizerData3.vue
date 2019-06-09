@@ -89,7 +89,7 @@
       <h2 class="graph-name">Performance</h2>
       <h3>By axis</h3>
       <div
-        class="graph-grid"
+        class="graph-grid performance-grid"
         v-for="(axis_obj, axis_name, axis_index) in axisPerformance.byAxis"
         :key="'perf-ax-'+axis_index"
       >
@@ -478,6 +478,54 @@ h4 {
     }
     & + li {
       margin-left: $mar_g;
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .text-container {
+    // hacky way to fix problems in the body
+    width: calc(100% + 32px);
+    position: relative;
+    left: -16px;
+    top: -64px;
+  }
+
+  .graph-grid {
+    &.performance-grid {
+      grid-template-columns: 1fr !important;
+    }
+    grid-template-columns: 1fr 1fr !important;
+    grid-row-gap: 0.5rem;
+    & + .graph-grid {
+      margin-top: 2rem;
+    }
+    h4 {
+      grid-column: 1;
+      grid-row: 1;
+      span {
+        float: none;
+        &:before {
+          content: "/ ";
+        }
+      }
+    }
+    .p-value {
+      grid-column: 2;
+      grid-row: 1;
+      p {
+        text-align: right;
+        .curve-position:before {
+          content: "/ ";
+        }
+      }
+      br {
+        display: none;
+      }
+    }
+    .axis-distribution-graph {
+      grid-column: 1 / span 2;
+      grid-row: 2;
     }
   }
 }
