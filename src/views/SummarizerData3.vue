@@ -125,6 +125,9 @@ import { general_data } from "../data";
 import { db } from "../firebase";
 import real_data3 from "../assets/static/data/firebase_dump.data3.json";
 import real_data4 from "../assets/static/data/firebase_dump.data4.json";
+
+let __readFromServer = false;
+
 export default {
   name: "summarizer-data3",
   data() {
@@ -148,11 +151,12 @@ export default {
         Ita: 2,
         _b_: 3
       },
+      readFromServer: __readFromServer,
       axes_names: ["Wei", "Wid", "Ita", "_b_"]
     };
   },
   beforeRouteEnter: function(to, from, next) {
-    if (false) {
+    if (__readFromServer) {
       console.log("will attempt to read the collection");
       db.collection(general_data.sharedState.data)
         .get()
