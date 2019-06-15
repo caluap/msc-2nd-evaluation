@@ -121,9 +121,10 @@
 
 <script>
 import "../assets/static/css/styles.scss";
+import { general_data } from "../data";
 import { db } from "../firebase";
-import data3 from "../assets/static/data/simulated_data3.json";
-import real_data3 from "../assets/static/data/firebase_dump.json";
+import real_data3 from "../assets/static/data/firebase_dump.data3.json";
+import real_data4 from "../assets/static/data/firebase_dump.data4.json";
 export default {
   name: "summarizer-data3",
   data() {
@@ -153,7 +154,7 @@ export default {
   beforeRouteEnter: function(to, from, next) {
     if (false) {
       console.log("will attempt to read the collection");
-      db.collection("data3")
+      db.collection(general_data.sharedState.data)
         .get()
         .then(querySnapshot => {
           console.log("has read. will create array of data.");
@@ -168,10 +169,9 @@ export default {
           next(vm => vm.setData(retrievedData));
         });
     } else {
-      // console.log(data3.simulated_data);
-      // next(vm => vm.setData(data3.simulated_data));
-      // console.log(real_data3.data);
-      next(vm => vm.setData(real_data3.data));
+      next(vm =>
+        vm.setData({ data3: real_data3.data, data4: real_data4.data })
+      );
     }
   },
   methods: {
@@ -198,7 +198,7 @@ export default {
       return total;
     },
     setData(fetchedData) {
-      this.raw_data = fetchedData;
+      this.raw_data = fetchedData[general_data.sharedState.data];
     }
   },
   computed: {
