@@ -21,6 +21,7 @@
         </h4>
         <ul class="axis-distribution-graph">
           <li
+            v-if="sumAxis(axis_list) > 0"
             v-for="(axis, i_axis) in axis_list"
             :key="emotion_name+'-ax-'+i_axis"
             :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
@@ -67,12 +68,14 @@
               :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
               :class="axes_names[i_axis]"
             >
-              {{axes_names[i_axis]}}
-              <br>
-              <template
-                v-if="sumAxis(axis_list) > 0"
-              >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
-              <template v-else>0</template>
+              <template v-if="sumAxis(axis_list) > 0">
+                {{axes_names[i_axis]}}
+                <br>
+                <template
+                  v-if="sumAxis(axis_list) > 0"
+                >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
+                <template v-else>0</template>
+              </template>
             </li>
           </ul>
           <div class="p-value">
@@ -108,10 +111,12 @@
             :key="'perf-ax-'+axis_name+'-vs-'+sub_ax_name"
           >
             <li
+              v-if="sub_ax>0"
               :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               class="main-axis"
             >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</li>
             <li
+              v-if="sub_ax>0"
               :style="{width: calcPerc(axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
             >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</li>
@@ -188,6 +193,9 @@ export default {
   methods: {
     pLessThan005: function(axes) {
       let sum = axes.reduce((a, b) => a + b, 0);
+      if (sum == 0) {
+        return { err: 0, pLessThan005: false };
+      }
       let n = axes.length;
       let expectedValue = sum / n;
       let err = 0;
@@ -198,6 +206,9 @@ export default {
       return { err: err, pLessThan005: err > 7.814727903 };
     },
     calcPerc: function(axis, total) {
+      if (total == 0) {
+        return 0;
+      }
       let p = Math.round(100 * (parseInt(axis) / total));
       return p;
     },
@@ -425,6 +436,9 @@ h4 {
   grid-template-columns: 2fr 10fr 1fr;
   margin-top: $mar_g;
   align-items: center;
+  &.performance-grid {
+    min-height: 2rem;
+  }
 }
 .p-value p {
   font-size: 9px;
@@ -454,6 +468,8 @@ h4 {
     line-height: 12px;
     flex-grow: 1;
     overflow: hidden;
+
+    white-space: nowrap;
 
     box-sizing: border-box;
     padding: 0.2rem 0.3rem;
