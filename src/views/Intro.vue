@@ -80,7 +80,8 @@ export default {
   data() {
     return {
       sharedState: general_data.sharedState,
-      audio_file: general_data.data3.cards[0].audio
+      audio_file:
+        general_data.data[general_data.sharedState.data].cards[0].audio
     };
   },
   methods: {

@@ -88,8 +88,7 @@ export default {
   data() {
     return {
       sharedState: general_data.sharedState,
-      testData: general_data.data3,
-      eval2Data: general_data.eval2Data,
+      testData: general_data.data[general_data.sharedState.data],
       possible_choices: [],
       img1: "",
       hash1: "",
