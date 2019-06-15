@@ -1,7 +1,11 @@
 <template>
   <div class="main-container" v-if="raw_data != null">
     <div class="text-container">
-      <h1>Data 3, summary</h1>
+      <h1>{{dataName}}, summary</h1>
+
+      <select v-if="!readFromServer" name="data-name" v-model="dataName">
+        <option v-for="(d, index) in dataRounds" :key="'d-'+index">{{d}}</option>
+      </select>
 
       <p>We’ve had {{n_participants}} participants so far.</p>
 
@@ -134,6 +138,9 @@ export default {
     return {
       n_participants: 0,
       raw_data: null,
+      sharedState: general_data.sharedState,
+      dataName: general_data.sharedState.data,
+      dataRounds: ["data3", "data4"],
       blacklist: [
         "WhKE8JPEKgfi9vt2Wb1yKSijJ762",
         "emW3JMw9AGXje40TaFhk3Cj0BXp1",
@@ -202,7 +209,8 @@ export default {
       return total;
     },
     setData(fetchedData) {
-      this.raw_data = fetchedData[general_data.sharedState.data];
+      // this.raw_data = fetchedData[general_data.sharedState.data];
+      this.raw_data = fetchedData;
     }
   },
   computed: {
@@ -211,7 +219,7 @@ export default {
     filteredData: function() {
       let filtered_data = [];
       let users = [];
-      this.raw_data.forEach(d => {
+      this.raw_data[this.dataName].forEach(d => {
         if (!this.blacklist.includes(d.author_id)) {
           if (!users.includes(d.author_id)) {
             users.push(d.author_id);
