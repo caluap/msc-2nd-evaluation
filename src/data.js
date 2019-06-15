@@ -30,7 +30,7 @@ export var general_data = {
     offline_mode: true,
     debug: true,
     rounds: 30,
-    data: "data3"
+    data: "data4"
   },
   data: {
     data3: {
