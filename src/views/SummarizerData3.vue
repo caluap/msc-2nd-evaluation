@@ -2,12 +2,30 @@
   <div class="main-container" v-if="raw_data != null">
     <div class="text-container">
       <h1>{{dataName}}, summary</h1>
+      <p>We’ve had {{n_participants}} participants so far.</p>
 
+      <label for="data-name">ID da avaliação</label>
       <select v-if="!readFromServer" name="data-name" v-model="dataName">
         <option v-for="(d, index) in dataRounds" :key="'d-'+index">{{d}}</option>
       </select>
 
-      <p>We’ve had {{n_participants}} participants so far.</p>
+      <label for="education">Educação</label>
+      <select v-if="!readFromServer" name="education" v-model="filters.education">
+        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+        <option v-for="(ed, index) in filterValues.education" :key="'filt-education-'+index">{{ed}}</option>
+      </select>
+
+      <label for="age">Idade</label>
+      <select v-if="!readFromServer" name="age" v-model="filters.ageGroup">
+        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+        <option v-for="(ageG, index) in filterValues.ageGroup" :key="'filt-age-'+index">{{ageG}}</option>
+      </select>
+
+      <label for="sex">Sexo</label>
+      <select v-if="!readFromServer" name="sex" v-model="filters.sex">
+        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+        <option v-for="(sex, index) in filterValues.sexes" :key="'filt-sex-'+index">{{sex}}</option>
+      </select>
 
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
@@ -137,6 +155,7 @@ import real_data4 from "../assets/static/data/firebase_dump.data4.json";
 import real_partipants from "../assets/static/data/firebase_dump.participants.json";
 
 let __readFromServer = false;
+let __emptyFilterString = "---";
 
 export default {
   name: "summarizer-data3",
@@ -166,7 +185,31 @@ export default {
         _b_: 3
       },
       readFromServer: __readFromServer,
-      axes_names: ["Wei", "Wid", "Ita", "_b_"]
+      axes_names: ["Wei", "Wid", "Ita", "_b_"],
+      emptyFilterString: __emptyFilterString,
+      filters: {
+        education: __emptyFilterString,
+        ageGroup: __emptyFilterString,
+        sex: __emptyFilterString
+      },
+      filterValues: {
+        education: [
+          "Ensino Fundamental (1º grau)",
+          "Ensino Médio (2º grau)",
+          "Ensino superior",
+          "Pós-graduação / Mestrado",
+          "Pós-graduação / Doutorado",
+          "Prefiro não responder"
+        ],
+        ageGroup: [
+          "18 a 24 anos",
+          "25 a 39 anos",
+          "40 a 59 anos",
+          "60 anos ou mais",
+          "Prefiro não responder"
+        ],
+        sexes: ["Masculino", "Feminino", "Prefiro não responder"]
+      }
     };
   },
   beforeRouteEnter: function(to, from, next) {
@@ -250,10 +293,32 @@ export default {
       let users = [];
       this.raw_data[this.dataName].forEach(d => {
         if (!this.blacklist.includes(d.author_id)) {
-          if (!users.includes(d.author_id)) {
-            users.push(d.author_id);
+          let filtered = false;
+          if (this.filters.education != this.emptyFilterString) {
+            if (
+              this.participants[d.author_id].education != this.filters.education
+            ) {
+              filtered = true;
+            }
           }
-          filtered_data.push(d);
+          if (this.filters.ageGroup != this.emptyFilterString) {
+            if (
+              this.participants[d.author_id].age_group != this.filters.ageGroup
+            ) {
+              filtered = true;
+            }
+          }
+          if (this.filters.sex != this.emptyFilterString) {
+            if (this.participants[d.author_id].sex != this.filters.sex) {
+              filtered = true;
+            }
+          }
+          if (!filtered) {
+            if (!users.includes(d.author_id)) {
+              users.push(d.author_id);
+            }
+            filtered_data.push(d);
+          }
         }
       });
       this.n_participants = users.length;
@@ -419,13 +484,19 @@ export default {
 <style lang="scss" scoped>
 $mar_g: 2px;
 
+label {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: 2rem;
+  display: block;
+}
+
 em {
   font-style: italic;
 }
 
 h1 + p {
   margin-top: -1rem;
-  margin-bottom: -2rem;
 }
 
 h2.graph-name {
