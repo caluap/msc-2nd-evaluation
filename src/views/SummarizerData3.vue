@@ -134,6 +134,7 @@ import { general_data } from "../data";
 import { db } from "../firebase";
 import real_data3 from "../assets/static/data/firebase_dump.data3.json";
 import real_data4 from "../assets/static/data/firebase_dump.data4.json";
+import real_partipants from "../assets/static/data/firebase_dump.participants.json";
 
 let __readFromServer = false;
 
@@ -146,6 +147,7 @@ export default {
       sharedState: general_data.sharedState,
       dataName: general_data.sharedState.data,
       dataRounds: ["data3", "data4"],
+      participants: {},
       blacklist: [
         "WhKE8JPEKgfi9vt2Wb1yKSijJ762",
         "emW3JMw9AGXje40TaFhk3Cj0BXp1",
@@ -169,25 +171,41 @@ export default {
   },
   beforeRouteEnter: function(to, from, next) {
     if (__readFromServer) {
-      console.log("will attempt to read the collection");
+      console.log("will attempt to read the results");
       db.collection(general_data.sharedState.data)
         .get()
         .then(querySnapshot => {
           console.log("has read. will create array of data.");
           let retrievedData = [];
-          // console.log("Hello");
           querySnapshot.forEach(function(doc) {
             // console.log(doc.id, " => ", doc.data());
             retrievedData.push(doc.data());
           });
-          // console.log(retrievedData);
           console.log(JSON.stringify(retrievedData));
-          next(vm => vm.setData(retrievedData));
+          console.log(
+            "and, also, will now attempt to read the participants' data"
+          );
+          db.collection("participants_data")
+            .get()
+            .then(querySnapshot => {
+              console.log("has read participants. will create array of data.");
+              let retrievedParticipantsData = {};
+              querySnapshot.forEach(function(doc) {
+                retrievedParticipantsData[doc.id] = doc.data();
+              });
+              console.log(JSON.stringify(retrievedParticipantsData));
+
+              let input = { data: {} };
+              input["data"][general_data.sharedState.data] = retrievedData;
+              input["participants"] = retrievedParticipantsData;
+              next(vm => vm.setData(input));
+            });
         });
     } else {
-      next(vm =>
-        vm.setData({ data3: real_data3.data, data4: real_data4.data })
-      );
+      let input = {};
+      input["data"] = { data3: real_data3.data, data4: real_data4.data };
+      input["participants"] = real_partipants;
+      next(vm => vm.setData(input));
     }
   },
   methods: {
@@ -220,8 +238,8 @@ export default {
       return total;
     },
     setData(fetchedData) {
-      // this.raw_data = fetchedData[general_data.sharedState.data];
-      this.raw_data = fetchedData;
+      this.raw_data = fetchedData["data"];
+      this.participants = fetchedData["participants"];
     }
   },
   computed: {
