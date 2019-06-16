@@ -520,6 +520,12 @@ export default {
 <style lang="scss" scoped>
 $mar_g: 2px;
 
+.main-container {
+  @media screen and (min-width: 992px) {
+    grid-template-columns: auto minmax(auto, 960px) auto;
+  }
+}
+
 #filter-container {
   position: fixed;
   bottom: 0;
