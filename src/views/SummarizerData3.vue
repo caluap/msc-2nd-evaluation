@@ -34,10 +34,12 @@
             <option v-for="(sex, index) in filterValues.sexes" :key="'filt-sex-'+index">{{sex}}</option>
           </select>
         </div>
-        <p>
-          <span>{{n_participants}}</span>
-          <br>participants
-        </p>
+        <header>
+          <p>
+            <span>{{n_participants}}</span>
+            <br>participants
+          </p>
+        </header>
       </div>
 
       <h2 class="graph-name">Axis, by emotion</h2>
@@ -525,21 +527,31 @@ $mar_g: 2px;
   left: 0;
   display: grid;
   grid-template-columns: 2fr 3fr 3fr 2fr 1fr;
-  padding: 0.5rem 1rem;
   grid-gap: 1rem;
   background: #eee;
   z-index: 10;
   box-shadow: 0 -2px 9px rgba(0, 0, 0, 0.1);
 
-  align-items: center;
+  align-items: stretch;
   & > div {
+    margin: 0.5rem 0;
     display: flex;
     align-items: center;
+    &:first-child {
+      margin-left: 1rem;
+    }
     label {
       padding-right: 1rem;
     }
   }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
   p {
+    color: white;
     text-align: center;
     font-size: 11px;
     line-height: 15px;
