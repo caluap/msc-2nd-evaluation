@@ -64,16 +64,21 @@
           </li>
         </ul>
         <div class="p-value">
-          <p v-if="pLessThan005(axis_list).pLessThan005">
-            p &lt; 0.05
-            <br>
-            <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
-          </p>
-          <p class="ops" v-else>
-            <span class="emoji">💩</span>
-            <br>
-            <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
-          </p>
+          <template v-if="pLessThan005(axis_list).canUseChi">
+            <p v-if="pLessThan005(axis_list).pLessThan005">
+              p &lt; 0.05
+              <br>
+              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+            </p>
+            <p class="ops" v-else>
+              <span class="emoji">💩</span>
+              <br>
+              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+            </p>
+          </template>
+          <template v-else>
+            <p>n/a</p>
+          </template>
         </div>
       </div>
 
@@ -110,16 +115,21 @@
             </li>
           </ul>
           <div class="p-value">
-            <p v-if="pLessThan005(axis_list).pLessThan005">
-              p &lt; 0.05
-              <br>
-              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
-            </p>
-            <p class="ops" v-else>
-              <span class="emoji">💩</span>
-              <br>
-              <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
-            </p>
+            <template v-if="pLessThan005(axis_list).canUseChi">
+              <p v-if="pLessThan005(axis_list).pLessThan005">
+                p &lt; 0.05
+                <br>
+                <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+              </p>
+              <p class="ops" v-else>
+                <span class="emoji">💩</span>
+                <br>
+                <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
+              </p>
+            </template>
+            <template v-else>
+              <p>n/a</p>
+            </template>
           </div>
         </div>
       </div>
@@ -277,7 +287,11 @@ export default {
         let diff = axes[i] - expectedValue;
         err += (diff * diff) / expectedValue;
       }
-      return { err: err, pLessThan005: err > 7.814727903 };
+      return {
+        err: err,
+        pLessThan005: err > 7.814727903,
+        canUseChi: expectedValue >= 5
+      };
     },
     calcPerc: function(axis, total) {
       if (total == 0) {
