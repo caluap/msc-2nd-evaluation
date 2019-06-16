@@ -169,6 +169,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "ca03f035fc97804d3e70ae2d121a24e1e119eab1"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682239, "nanoseconds": 897000000 },
+      "initial_time": { "seconds": 1560682236, "nanoseconds": 491000000 },
+      "order": 22,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "49a32c4d8de32f02a5892c9836f5520ad03c4099"
+      }
+    },
+    {
       "author_id": "K7IgA2ZXx7bpd48gzi7dZywj05l2",
       "choice_metadata": {
         "axis": "Wid",
@@ -250,6 +271,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "b07a4f14113af09ea5dad9c0ecaa76f236b61b82"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "d84c7a6d35f94e2d423f559e372a1ca3fc7dc456"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682228, "nanoseconds": 643000000 },
+      "initial_time": { "seconds": 1560682222, "nanoseconds": 749000000 },
+      "order": 19,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "b0331e78b80aa12820b1fc406153202a22a3a445"
       }
     },
     {
@@ -358,6 +400,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "2926782a6c0c0269391f35fbffe8a301dfc0f951"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682337, "nanoseconds": 234000000 },
+      "initial_time": { "seconds": 1560682332, "nanoseconds": 892000000 },
+      "order": 28,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "b07a4f14113af09ea5dad9c0ecaa76f236b61b82"
+      }
+    },
+    {
       "author_id": "pnZC7jAdpGULZ09eCx4OpDUIT0X2",
       "choice_metadata": {
         "axis": "_b_",
@@ -418,6 +481,27 @@
         "emotion": "Sad",
         "feature": "Rms",
         "hash": "90c03859448359e93e820030de9aa8a100620c0e"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "fa0d305e27775517cf7c46a2214a52a7d4534237"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682130, "nanoseconds": 870000000 },
+      "initial_time": { "seconds": 1560682111, "nanoseconds": 702000000 },
+      "order": 11,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "c0e72b6bbb17600ba69bda5bd8b0e9deb03099e2"
       }
     },
     {
@@ -778,6 +862,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "05deed435f240f1e94f89b124f6456f6c0f11fa3"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682222, "nanoseconds": 749000000 },
+      "initial_time": { "seconds": 1560682216, "nanoseconds": 996000000 },
+      "order": 18,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "9da4d230f99cfc07ccbf9d3f927396b749495288"
+      }
+    },
+    {
       "author_id": "kjiYscXSolYuXFE8lV180iO5g213",
       "choice_metadata": {
         "axis": "Wei",
@@ -1111,6 +1216,27 @@
         "emotion": "Surprise",
         "feature": "Rms",
         "hash": "d84c7a6d35f94e2d423f559e372a1ca3fc7dc456"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "291e8055b6a00308c5823ee3554f4bfb877110bb"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682090, "nanoseconds": 836000000 },
+      "initial_time": { "seconds": 1560682084, "nanoseconds": 283000000 },
+      "order": 8,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "e7bae80ae8567b6cdef35e052e2bca6e5cb1f2db"
       }
     },
     {
@@ -2185,6 +2311,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "2fd0af05b853879ee0cb954d7140df516fd3436e"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682161, "nanoseconds": 394000000 },
+      "initial_time": { "seconds": 1560682139, "nanoseconds": 998000000 },
+      "order": 14,
+      "phrase": "Filha",
+      "play_counter": 7,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "6c038a1069389b16d3ce7ac3f9d1cef5d33f0b3b"
+      }
+    },
+    {
       "author_id": "IL6RfXAtg4MFmgWPdnro9FWwTTi1",
       "choice_metadata": {
         "axis": "Wei",
@@ -2329,6 +2476,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "b07a4f14113af09ea5dad9c0ecaa76f236b61b82"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "2c984d4fe9bc05960b6f3476f24d3ff35c75e0d4"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682005, "nanoseconds": 195000000 },
+      "initial_time": { "seconds": 1560681987, "nanoseconds": 302000000 },
+      "order": 1,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "f678bea196e86969449a694a9375d18a2974006a"
       }
     },
     {
@@ -2815,6 +2983,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "7d47211352f4949871072fb2295913e93cd9f887"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682232, "nanoseconds": 421000000 },
+      "initial_time": { "seconds": 1560682228, "nanoseconds": 643000000 },
+      "order": 20,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "f77f2a328f31a7a9e587b132a3d50905ec93b5e8"
+      }
+    },
+    {
       "author_id": "6n5iACC6qPaYqFMQEGjiYqP9h0o2",
       "choice_metadata": {
         "axis": "Wei",
@@ -2959,6 +3148,27 @@
         "emotion": "Anger",
         "feature": "Rms",
         "hash": "f77f2a328f31a7a9e587b132a3d50905ec93b5e8"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Neutral",
+        "feature": "Rms",
+        "hash": "58b32a333641e891666b43ef3f246885da59f11d"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682139, "nanoseconds": 998000000 },
+      "initial_time": { "seconds": 1560682135, "nanoseconds": 965000000 },
+      "order": 13,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms",
+        "hash": "54efcf3140c072d9c36045910d43d97c715ea388"
       }
     },
     {
@@ -3610,6 +3820,27 @@
         "emotion": "Sad",
         "feature": "Rms",
         "hash": "7dd2a24473f13fc328e19a314143cf4bb0788990"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "2926782a6c0c0269391f35fbffe8a301dfc0f951"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682017, "nanoseconds": 697000000 },
+      "initial_time": { "seconds": 1560682005, "nanoseconds": 195000000 },
+      "order": 2,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "cceb349a26f1b29675418b323572aac3ddbe7f53"
       }
     },
     {
@@ -4891,6 +5122,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "2926782a6c0c0269391f35fbffe8a301dfc0f951"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "ca03f035fc97804d3e70ae2d121a24e1e119eab1"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682236, "nanoseconds": 491000000 },
+      "initial_time": { "seconds": 1560682232, "nanoseconds": 421000000 },
+      "order": 21,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "0cca94a17e805a84d3ae5b609c39a68fede8780f"
       }
     },
     {
@@ -6868,6 +7120,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Neutral",
+        "feature": "Rms",
+        "hash": "8ff9c638709ee2893398c4cde2afcbbaca3087a8"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682191, "nanoseconds": 709000000 },
+      "initial_time": { "seconds": 1560682161, "nanoseconds": 394000000 },
+      "order": 15,
+      "phrase": "Filha",
+      "play_counter": 10,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Neutral",
+        "feature": "Rms",
+        "hash": "de32d331e8ed427f3f42c8159a82fb318da92793"
+      }
+    },
+    {
       "author_id": "K7IgA2ZXx7bpd48gzi7dZywj05l2",
       "choice_metadata": {
         "axis": "Ita",
@@ -6907,6 +7180,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "2926782a6c0c0269391f35fbffe8a301dfc0f951"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "2fd0af05b853879ee0cb954d7140df516fd3436e"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682342, "nanoseconds": 602000000 },
+      "initial_time": { "seconds": 1560682337, "nanoseconds": 234000000 },
+      "order": 29,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "f77f2a328f31a7a9e587b132a3d50905ec93b5e8"
       }
     },
     {
@@ -7138,6 +7432,27 @@
         "emotion": "Sad",
         "feature": "Rms",
         "hash": "54735172e2e2b000550698048341647f5c903c77"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "7d47211352f4949871072fb2295913e93cd9f887"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682084, "nanoseconds": 283000000 },
+      "initial_time": { "seconds": 1560682072, "nanoseconds": 511000000 },
+      "order": 7,
+      "phrase": "Filha",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "6c038a1069389b16d3ce7ac3f9d1cef5d33f0b3b"
       }
     },
     {
@@ -9262,6 +9577,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "f6b3ada380b026bf01308740aaf79cf93d6e1da5"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682111, "nanoseconds": 702000000 },
+      "initial_time": { "seconds": 1560682102, "nanoseconds": 419000000 },
+      "order": 10,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "d84c7a6d35f94e2d423f559e372a1ca3fc7dc456"
+      }
+    },
+    {
       "author_id": "pnZC7jAdpGULZ09eCx4OpDUIT0X2",
       "choice_metadata": {
         "axis": "Wid",
@@ -10270,6 +10606,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "c6b5e415343bf392471011690a62cdf6cd9034ca"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682199, "nanoseconds": 129000000 },
+      "initial_time": { "seconds": 1560682191, "nanoseconds": 709000000 },
+      "order": 16,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "fa0d305e27775517cf7c46a2214a52a7d4534237"
+      }
+    },
+    {
       "author_id": "uQkU5w4Td5Q4rmikuM4q1VvqvcX2",
       "choice_metadata": {
         "axis": "Ita",
@@ -10351,6 +10708,27 @@
         "emotion": "Neutral",
         "feature": "Rms",
         "hash": "58b32a333641e891666b43ef3f246885da59f11d"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "54735172e2e2b000550698048341647f5c903c77"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682304, "nanoseconds": 70000000 },
+      "initial_time": { "seconds": 1560682287, "nanoseconds": 154000000 },
+      "order": 25,
+      "phrase": "Passarinho",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "2c984d4fe9bc05960b6f3476f24d3ff35c75e0d4"
       }
     },
     {
@@ -10582,6 +10960,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "3212c18785813afc2291de4fd1776eb4d7de7107"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "30398ed83341eb1a4038b70d50a1c6066c9fbfce"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682055, "nanoseconds": 357000000 },
+      "initial_time": { "seconds": 1560682044, "nanoseconds": 893000000 },
+      "order": 5,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "49a32c4d8de32f02a5892c9836f5520ad03c4099"
       }
     },
     {
@@ -11278,6 +11677,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "f678bea196e86969449a694a9375d18a2974006a"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682328, "nanoseconds": 769000000 },
+      "initial_time": { "seconds": 1560682304, "nanoseconds": 70000000 },
+      "order": 26,
+      "phrase": "Passarinho",
+      "play_counter": 3,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "54735172e2e2b000550698048341647f5c903c77"
+      }
+    },
+    {
       "author_id": "lyEPkIkfVhPosci1M0j6e283MPl1",
       "choice_metadata": {
         "axis": "_b_",
@@ -11338,6 +11758,27 @@
         "emotion": "Anger",
         "feature": "Rms",
         "hash": "ddde3e70fc3511a1e1c8135fd8f17c7cc267b6a0"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "f678bea196e86969449a694a9375d18a2974006a"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682332, "nanoseconds": 892000000 },
+      "initial_time": { "seconds": 1560682328, "nanoseconds": 769000000 },
+      "order": 27,
+      "phrase": "Passarinho",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "7dd2a24473f13fc328e19a314143cf4bb0788990"
       }
     },
     {
@@ -11548,6 +11989,27 @@
         "emotion": "Anger",
         "feature": "Rms",
         "hash": "f77f2a328f31a7a9e587b132a3d50905ec93b5e8"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "291e8055b6a00308c5823ee3554f4bfb877110bb"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682287, "nanoseconds": 154000000 },
+      "initial_time": { "seconds": 1560682282, "nanoseconds": 388000000 },
+      "order": 24,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "84091c386f6133ed4d451b912178c6d13ddf30d2"
       }
     },
     {
@@ -12727,6 +13189,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "30398ed83341eb1a4038b70d50a1c6066c9fbfce"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682216, "nanoseconds": 996000000 },
+      "initial_time": { "seconds": 1560682199, "nanoseconds": 129000000 },
+      "order": 17,
+      "phrase": "Passarinho",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Ita",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "0cca94a17e805a84d3ae5b609c39a68fede8780f"
+      }
+    },
+    {
       "author_id": "qNVW8zPA2xPEjSDbUumpjmCoy4p2",
       "choice_metadata": {
         "axis": "Ita",
@@ -13042,6 +13525,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "291e8055b6a00308c5823ee3554f4bfb877110bb"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682044, "nanoseconds": 893000000 },
+      "initial_time": { "seconds": 1560682037, "nanoseconds": 321000000 },
+      "order": 4,
+      "phrase": "Filha",
+      "play_counter": 2,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "ae2269201e227df61591d52783ea24e2008d9415"
+      }
+    },
+    {
       "author_id": "lyEPkIkfVhPosci1M0j6e283MPl1",
       "choice_metadata": {
         "axis": "Wid",
@@ -13249,6 +13753,27 @@
         "emotion": "Anger",
         "feature": "Rms",
         "hash": "fa0d305e27775517cf7c46a2214a52a7d4534237"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "d84c7a6d35f94e2d423f559e372a1ca3fc7dc456"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682072, "nanoseconds": 511000000 },
+      "initial_time": { "seconds": 1560682055, "nanoseconds": 357000000 },
+      "order": 6,
+      "phrase": "Passarinho",
+      "play_counter": 6,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "7f2e34eded29797bd216a5503478a3f845d2cce2"
       }
     },
     {
@@ -13711,6 +14236,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "cceb349a26f1b29675418b323572aac3ddbe7f53"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "_b_",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "54735172e2e2b000550698048341647f5c903c77"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682282, "nanoseconds": 388000000 },
+      "initial_time": { "seconds": 1560682239, "nanoseconds": 897000000 },
+      "order": 23,
+      "phrase": "Passarinho",
+      "play_counter": 9,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Sad",
+        "feature": "Rms",
+        "hash": "7dd2a24473f13fc328e19a314143cf4bb0788990"
       }
     },
     {
@@ -14260,6 +14806,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "f6b3ada380b026bf01308740aaf79cf93d6e1da5"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560681987, "nanoseconds": 302000000 },
+      "initial_time": { "seconds": 1560681962, "nanoseconds": 511000000 },
+      "order": 0,
+      "phrase": "Passarinho",
+      "play_counter": 7,
+      "rejectee_metadata": {
+        "axis": "Wei",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "b0331e78b80aa12820b1fc406153202a22a3a445"
+      }
+    },
+    {
       "author_id": "LTAPZaxxMuM0q7DZiCMIlwITMKz1",
       "choice_metadata": {
         "axis": "Wei",
@@ -14446,6 +15013,27 @@
         "emotion": "Sad",
         "feature": "Rms",
         "hash": "90c03859448359e93e820030de9aa8a100620c0e"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Ita",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "e7bae80ae8567b6cdef35e052e2bca6e5cb1f2db"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682102, "nanoseconds": 419000000 },
+      "initial_time": { "seconds": 1560682090, "nanoseconds": 836000000 },
+      "order": 9,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "Wid",
+        "emotion": "Surprise",
+        "feature": "Rms",
+        "hash": "ae2269201e227df61591d52783ea24e2008d9415"
       }
     },
     {
@@ -14974,6 +15562,27 @@
       }
     },
     {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wei",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "7d47211352f4949871072fb2295913e93cd9f887"
+      },
+      "chose_the_first": false,
+      "completion_time": { "seconds": 1560682135, "nanoseconds": 965000000 },
+      "initial_time": { "seconds": 1560682130, "nanoseconds": 870000000 },
+      "order": 12,
+      "phrase": "Filha",
+      "play_counter": 1,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Anger",
+        "feature": "Rms",
+        "hash": "2fd0af05b853879ee0cb954d7140df516fd3436e"
+      }
+    },
+    {
       "author_id": "hMRjKjtVMAa7FUhfLVpetK7iFV23",
       "choice_metadata": {
         "axis": "_b_",
@@ -15307,6 +15916,27 @@
         "emotion": "Happy",
         "feature": "Rms",
         "hash": "2926782a6c0c0269391f35fbffe8a301dfc0f951"
+      }
+    },
+    {
+      "author_id": "KqGznQab5FNe8mxbOCkfjpJ0zv83",
+      "choice_metadata": {
+        "axis": "Wid",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "cceb349a26f1b29675418b323572aac3ddbe7f53"
+      },
+      "chose_the_first": true,
+      "completion_time": { "seconds": 1560682037, "nanoseconds": 321000000 },
+      "initial_time": { "seconds": 1560682017, "nanoseconds": 697000000 },
+      "order": 3,
+      "phrase": "Filha",
+      "play_counter": 4,
+      "rejectee_metadata": {
+        "axis": "_b_",
+        "emotion": "Happy",
+        "feature": "Rms",
+        "hash": "3212c18785813afc2291de4fd1776eb4d7de7107"
       }
     },
     {
