@@ -52,15 +52,16 @@
         </h4>
         <ul class="axis-distribution-graph">
           <li
-            v-if="sumAxis(axis_list) > 0"
             v-for="(axis, i_axis) in axis_list"
             :key="emotion_name+'-ax-'+i_axis"
             :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
             :class="axes_names[i_axis]"
           >
-            {{axes_names[i_axis]}}
-            <br>
-            {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
+            <template v-if="sumAxis(axis_list) > 0">
+              {{axes_names[i_axis]}}
+              <br>
+              {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
+            </template>
           </li>
         </ul>
         <div class="p-value">
@@ -152,15 +153,21 @@
             :key="'perf-ax-'+axis_name+'-vs-'+sub_ax_name"
           >
             <li
-              v-if="sub_ax>0"
               :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               class="main-axis"
-            >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</li>
+            >
+              <template
+                v-if="sub_ax>0"
+              >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</template>
+            </li>
             <li
-              v-if="sub_ax>0"
               :style="{width: calcPerc(axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
-            >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</li>
+            >
+              <template
+                v-if="sub_ax>0"
+              >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</template>
+            </li>
           </ul>
         </div>
         <div></div>
