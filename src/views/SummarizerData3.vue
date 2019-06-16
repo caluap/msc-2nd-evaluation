@@ -541,7 +541,7 @@ $mar_g: 2px;
   right: 0;
   left: 0;
   display: grid;
-  &.just-participants {
+  &.just-participants header {
     padding: 0.5rem 0;
   }
   &:not(.just-participants) {
