@@ -2,30 +2,43 @@
   <div class="main-container" v-if="raw_data != null">
     <div class="text-container">
       <h1>{{dataName}}, summary</h1>
-      <p>We’ve had {{n_participants}} participants so far.</p>
 
-      <label for="data-name">ID da avaliação</label>
-      <select v-if="!readFromServer" name="data-name" v-model="dataName">
-        <option v-for="(d, index) in dataRounds" :key="'d-'+index">{{d}}</option>
-      </select>
-
-      <label for="education">Educação</label>
-      <select v-if="!readFromServer" name="education" v-model="filters.education">
-        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
-        <option v-for="(ed, index) in filterValues.education" :key="'filt-education-'+index">{{ed}}</option>
-      </select>
-
-      <label for="age">Idade</label>
-      <select v-if="!readFromServer" name="age" v-model="filters.ageGroup">
-        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
-        <option v-for="(ageG, index) in filterValues.ageGroup" :key="'filt-age-'+index">{{ageG}}</option>
-      </select>
-
-      <label for="sex">Sexo</label>
-      <select v-if="!readFromServer" name="sex" v-model="filters.sex">
-        <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
-        <option v-for="(sex, index) in filterValues.sexes" :key="'filt-sex-'+index">{{sex}}</option>
-      </select>
+      <div id="filter-container">
+        <div>
+          <label for="data-name">ID da avaliação</label>
+          <select v-if="!readFromServer" name="data-name" v-model="dataName">
+            <option v-for="(d, index) in dataRounds" :key="'d-'+index">{{d}}</option>
+          </select>
+        </div>
+        <div>
+          <label for="education">Educação</label>
+          <select v-if="!readFromServer" name="education" v-model="filters.education">
+            <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+            <option
+              v-for="(ed, index) in filterValues.education"
+              :key="'filt-education-'+index"
+            >{{ed}}</option>
+          </select>
+        </div>
+        <div>
+          <label for="age">Idade</label>
+          <select v-if="!readFromServer" name="age" v-model="filters.ageGroup">
+            <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+            <option v-for="(ageG, index) in filterValues.ageGroup" :key="'filt-age-'+index">{{ageG}}</option>
+          </select>
+        </div>
+        <div>
+          <label for="sex">Sexo</label>
+          <select v-if="!readFromServer" name="sex" v-model="filters.sex">
+            <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
+            <option v-for="(sex, index) in filterValues.sexes" :key="'filt-sex-'+index">{{sex}}</option>
+          </select>
+        </div>
+        <p>
+          <span>{{n_participants}}</span>
+          <br>participants
+        </p>
+      </div>
 
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
@@ -484,10 +497,46 @@ export default {
 <style lang="scss" scoped>
 $mar_g: 2px;
 
+#filter-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 2fr 1fr;
+  padding: 0.5rem 1rem;
+  grid-gap: 1rem;
+  background: #eee;
+  z-index: 10;
+  box-shadow: 0 -2px 9px rgba(0, 0, 0, 0.1);
+
+  align-items: center;
+  & > div {
+    display: flex;
+    align-items: center;
+    label {
+      padding-right: 1rem;
+    }
+  }
+  p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    span {
+      font-size: 18px;
+    }
+  }
+  select {
+    margin: 0;
+    padding: 0.3em 1.4em 0.2em 0.8em;
+    font-size: 11px;
+  }
+}
+
 label {
   text-transform: uppercase;
   font-size: 11px;
-  margin-top: 2rem;
+  line-height: 15px;
   display: block;
 }
 
@@ -564,6 +613,9 @@ h4 {
     padding: 0.2rem 0.3rem;
     border-radius: 0.2rem;
     position: relative;
+
+    transition: all 0.6s ease;
+
     &:after {
       content: "";
       position: absolute;
