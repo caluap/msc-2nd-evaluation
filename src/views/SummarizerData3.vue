@@ -3,16 +3,16 @@
     <div class="text-container">
       <h1>{{dataName}}, summary</h1>
 
-      <div id="filter-container">
+      <div id="filter-container" v-if="!readFromServer">
         <div>
           <label for="data-name">ID da avaliação</label>
-          <select v-if="!readFromServer" name="data-name" v-model="dataName">
+          <select name="data-name" v-model="dataName">
             <option v-for="(d, index) in dataRounds" :key="'d-'+index">{{d}}</option>
           </select>
         </div>
         <div>
           <label for="education">Educação</label>
-          <select v-if="!readFromServer" name="education" v-model="filters.education">
+          <select name="education" v-model="filters.education">
             <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
             <option
               v-for="(ed, index) in filterValues.education"
@@ -22,18 +22,27 @@
         </div>
         <div>
           <label for="age">Idade</label>
-          <select v-if="!readFromServer" name="age" v-model="filters.ageGroup">
+          <select name="age" v-model="filters.ageGroup">
             <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
             <option v-for="(ageG, index) in filterValues.ageGroup" :key="'filt-age-'+index">{{ageG}}</option>
           </select>
         </div>
         <div>
           <label for="sex">Sexo</label>
-          <select v-if="!readFromServer" name="sex" v-model="filters.sex">
+          <select name="sex" v-model="filters.sex">
             <option selected :value="emptyFilterString">{{emptyFilterString}}</option>
             <option v-for="(sex, index) in filterValues.sexes" :key="'filt-sex-'+index">{{sex}}</option>
           </select>
         </div>
+        <header>
+          <p>
+            <span>{{n_participants}}</span>
+            <br>participants
+          </p>
+        </header>
+      </div>
+
+      <div v-else id="filter-container" class="just-participants">
         <header>
           <p>
             <span>{{n_participants}}</span>
@@ -532,7 +541,12 @@ $mar_g: 2px;
   right: 0;
   left: 0;
   display: grid;
-  grid-template-columns: 2fr 3fr 3fr 2fr 1fr;
+  &.just-participants {
+    padding: 0.5rem 0;
+  }
+  &:not(.just-participants) {
+    grid-template-columns: 2fr 3fr 3fr 2fr 1fr;
+  }
   grid-gap: 1rem;
   background: #eee;
   z-index: 10;
