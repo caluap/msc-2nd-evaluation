@@ -20,7 +20,9 @@
           <option v-for="(sex, index) in sexes" :key="'sex-'+index">{{sex}}</option>
         </select>
       </div>
-      <template v-if="selectedAgeGroup != '' && selectedEducation != ''">
+      <template
+        v-if="(selectedAgeGroup != '' && selectedEducation != '' && selectedSex != '') || sharedState.offline_mode"
+      >
         <router-link
           to="/eval"
           class="next-step"
