@@ -419,7 +419,6 @@ img.scheme {
     left: 50%;
     transform: translateX(-50%);
     color: black;
-    font-size: 13px;
-    line-height: 15px;
+    @include fs(-1);
   }
 }
