@@ -650,7 +650,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -663,7 +663,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -676,7 +676,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -689,7 +689,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // happy
@@ -703,7 +703,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -716,7 +716,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -729,7 +729,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -742,7 +742,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // neutral
@@ -756,7 +756,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -769,7 +769,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -782,7 +782,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -795,7 +795,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // sad
@@ -809,7 +809,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -822,7 +822,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -835,7 +835,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -848,7 +848,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // surprise
@@ -862,7 +862,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -875,7 +875,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -888,7 +888,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -901,7 +901,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[0],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // PASSARINHO
@@ -916,7 +916,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -929,7 +929,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -942,7 +942,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -955,7 +955,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[0],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // happy
@@ -969,7 +969,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -982,7 +982,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -995,7 +995,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -1008,7 +1008,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[1],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // neutral
@@ -1022,7 +1022,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -1035,7 +1035,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -1048,7 +1048,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -1061,7 +1061,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[2],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // sad
@@ -1075,7 +1075,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -1088,7 +1088,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -1101,7 +1101,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -1114,7 +1114,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[3],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         },
         // surprise
@@ -1128,7 +1128,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[0] // wei
         },
         {
@@ -1141,7 +1141,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[1] // wid
         },
         {
@@ -1154,7 +1154,7 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[2] // ita
         },
         {
@@ -1167,10 +1167,11 @@ export var general_data = {
             ".mp3"),
           phrase: dataRef.phrases[1],
           emotion: dataRef.emotions[4],
-          feature: dataRef.features[0],
+          feature: dataRef.features[1],
           axis: dataRef.axes[3] // _b_
         }
       ],
+
       should_hits_be_measured: false,
       combinations: [
         [0, 1],
