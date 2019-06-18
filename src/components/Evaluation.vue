@@ -422,7 +422,7 @@ export default {
             .add(aux_choice)
             .then(() => {
               this.choices_made++;
-              this.likert = 0;
+              this.likert = "";
               this.removeChoices();
               this.randomChoice();
               this.initial_time = aux_choice.completion_time;
