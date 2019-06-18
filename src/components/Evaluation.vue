@@ -527,7 +527,7 @@ body {
   .likert-item-label {
     display: grid;
     grid-gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     p {
       &:nth-child(2) {
         grid-column: 2 / -2;
