@@ -291,7 +291,7 @@ export default {
       }
 
       if (this.sharedState.debug) {
-        console.log(opt1.feature + " / " + opt1.emotion);
+        // console.log(opt1.feature + " / " + opt1.emotion);
       }
 
       // removes used choice from future possibilities
@@ -421,6 +421,11 @@ export default {
           db.collection(this.testData.name)
             .add(aux_choice)
             .then(() => {
+              if (this.sharedState.debug) {
+                console.log("Saved choice");
+                console.log(aux_choice);
+              }
+
               this.choices_made++;
               this.likert = "";
               this.removeChoices();
@@ -429,8 +434,10 @@ export default {
               this.play_counter = 0;
             });
         } else {
-          console.log("Would have saved: ");
-          console.log(aux_choice);
+          if (this.sharedState.debug) {
+            console.log("Would have saved: ");
+            console.log(aux_choice);
+          }
           this.choices_made++;
           this.likert = "";
           this.removeChoices();
