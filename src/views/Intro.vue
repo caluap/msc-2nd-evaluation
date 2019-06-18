@@ -8,12 +8,11 @@
       <p>
         Caro(a) participante,
         <br>
-        <br>agradecemos sua contribuição com nossa pesquisa!
+        <br>muito obrigado pelo seu interesse!
         Preparamos a seguir um teste para avaliar algumas maneiras de se representar na tipografia características que
         <em>imitam</em> a voz humana.
       </p>
-      <p>Os resultados desta pesquisa poderão gerar ferramentas para alfabetização e auxílio no aprendizado de línguas estrangeiras; auxílio no tratamento de patologias de fala; dicas visuais que ajudem disléxicos a decifrar em sons a linguagem escrita; legendas para filmes nas quais a interpretação dramática que os atores dão a suas vozes esteja representada nas letras; entre outras.</p>
-      <p>Como você talvez já tenha reparado, esse recurso tipográfico é muito comum nas histórias em quadrinhos. Nelas, o desenho expressivo das letras imprime no texto ritmos, ênfases, entonações etc:</p>
+      <p>Como você talvez já tenha reparado, esse é um recurso muito comum nas histórias em quadrinhos. Nelas, o desenho expressivo das letras imprime no texto ritmos, ênfases, entonações etc:</p>
       <img class="bd" src="@/assets/static/imgs/bd/maus.png">
       <img class="bd" src="@/assets/static/imgs/bd/persepolis.png">
       <img class="bd" src="@/assets/static/imgs/bd/pilules_bleues.png">
