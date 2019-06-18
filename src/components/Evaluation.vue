@@ -25,6 +25,25 @@
           <img class="shown-but-not-really" :src="img2">
         </a>
       </div>
+      <div class="likert-scale">
+        <h3>Quão confiante você está com sua escolha?</h3>
+        <div class="likert-item-label" :style="likertGrid">
+          <p>Pouco</p>
+          <p>Razoavelmente</p>
+          <p>Muito</p>
+        </div>
+        <div class="likert-item" :style="likertGrid">
+          <div class="radio" v-for="likIndex in testData.likertLevels" :key="'lik-label-'+likIndex">
+            <input
+              type="radio"
+              :id="'likert-'+likIndex"
+              :value="normalize(likIndex, testData.likertLevels)"
+              v-model="likert"
+            >
+            <label class="radio-label" :for="'likert-'+likIndex"></label>
+          </div>
+        </div>
+      </div>
       <div class="c-button">
         <button
           id="choice-confirmer"
@@ -95,6 +114,7 @@ export default {
       img2: "",
       hash2: "",
       audio: "",
+      likert: 0,
       i1: -1,
       i2: -1,
       phrase: -1,
@@ -157,6 +177,11 @@ export default {
     };
   },
   computed: {
+    likertGrid: function() {
+      return (
+        "grid-template-columns: repeat(" + this.testData.likertLevels + ", 1fr)"
+      );
+    },
     completedChoices: function() {
       if (
         this.choices_made < this.choice_limit ||
@@ -171,6 +196,14 @@ export default {
     }
   },
   methods: {
+    normalize: function(v, levels) {
+      let newMax = 1,
+        newMin = -1,
+        min = 1,
+        max = levels;
+      let normV = ((v - min) / (max - min)) * (newMax - newMin) + newMin;
+      return normV;
+    },
     logOut: function() {
       if (!this.sharedState.offline_mode) {
         console.log("Goodbye, dear friend.");
@@ -415,12 +448,24 @@ export default {
 
 
 <style lang="scss" scoped>
+body {
+  padding-top: 3rem !important;
+}
+
 .img-choice {
   position: relative;
 }
 
 .shown-but-not-really {
   visibility: hidden;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 992px) {
+  .img-choice img {
+    max-height: 180px;
+    object-fit: contain;
+    background: white;
+  }
 }
 
 #img1,
@@ -433,8 +478,117 @@ export default {
   transition: opacity 0.4s ease;
 }
 
+#choices {
+  grid-gap: 1.5rem;
+}
+
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+.likert-scale {
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 4fr) 1fr;
+  & > * {
+    grid-column: 2;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .likert-item {
+    display: grid;
+    grid-gap: 1rem;
+    label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .likert-item-label {
+    display: grid;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+    p {
+      &:nth-child(2) {
+        grid-column: 2 / -2;
+      }
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 15px;
+      & + p {
+        margin: 0;
+      }
+    }
+  }
+}
+
+// from: https://codepen.io/triss90/pen/XNEdRe
+
+$color1: white;
+$color2: #206bf8;
+
+.radio {
+  margin: 0.5rem;
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    + .radio-label {
+      &:before {
+        content: "";
+        background: $color1;
+        border-radius: 100%;
+        display: inline-block;
+        width: 1.4em;
+        height: 1.4em;
+        position: relative;
+        top: -0.2em;
+        margin-right: 1em;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+    &:checked {
+      + .radio-label {
+        &:before {
+          background-color: $color2;
+          box-shadow: none;
+        }
+      }
+    }
+    &:focus {
+      + .radio-label {
+        &:before {
+          outline: none;
+          border-color: $color2;
+          box-shadow: none;
+        }
+      }
+    }
+    &:disabled {
+      + .radio-label {
+        &:before {
+          background: darken($color1, 25%);
+        }
+      }
+    }
+    + .radio-label {
+      &:empty {
+        &:before {
+          margin-right: 0;
+        }
+      }
+    }
+  }
 }
 </style>
