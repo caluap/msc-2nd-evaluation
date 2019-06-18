@@ -416,9 +416,6 @@ img.scheme {
   text-align: center;
   margin-top: 2 * $pad;
   p {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     color: black;
     @include fs(-1);
   }
