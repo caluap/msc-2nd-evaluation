@@ -14,17 +14,25 @@
           class="img-identifier"
           @mouseover="hoverImg('img2')"
           @mouseleave="unhoverImg('img2')"
-        >2</span>, escolher qual deles casa melhor com o som. Ouça o áudio quantas vezes quiser. Para escolher o cartão basta clicar nele e, quando estiver seguro de sua escolha, clicar no botão
+        >2</span>, escolher qual deles casa melhor com o som. Ouça o áudio quantas vezes quiser. Para escolher o cartão basta clicar nele.
+      </p>
+      <img class="scheme" id="img1" src="@/assets/static/imgs/misc/scheme-1.svg">
+      <img class="scheme" id="img2" src="@/assets/static/imgs/misc/scheme-2.svg">
+      <p>
+        Indique a seguir quão seguro você está de sua escolha
         <span
           class="img-identifier"
           @mouseover="hoverImg('img3')"
           @mouseleave="unhoverImg('img3')"
-        >3</span> para avançar para a rodada seguinte.
-        <!-- <strong>A ideia é ouvir o áudio e clicar na imagem que corresponde à voz da atriz.</strong> -->
+        >3</span>. Quando tudo estiver pronto, clique no botão
+        <span
+          class="img-identifier"
+          @mouseover="hoverImg('img4')"
+          @mouseleave="unhoverImg('img4')"
+        >4</span> para avançar para a rodada seguinte.
       </p>
-      <img class="scheme" id="img1" src="@/assets/static/imgs/misc/scheme-1.svg">
-      <img class="scheme" id="img2" src="@/assets/static/imgs/misc/scheme-2.svg">
       <img class="scheme" id="img3" src="@/assets/static/imgs/misc/scheme-3.svg">
+      <img class="scheme" id="img4" src="@/assets/static/imgs/misc/scheme-4.svg">
       <p>Estimamos que o teste leve cerca de 10 minutos. Como usaremos o som do seu computador (ou celular), certifique-se de estar em um ambiente silencioso e que o barulho não vá incomodar ninguém.</p>
       <p>Se quiser fazer um teste, o tocador de áudio abaixo tem um exemplo semelhante aos que usaremos no teste.</p>
       <br>
