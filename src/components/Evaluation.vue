@@ -25,7 +25,7 @@
           <img class="shown-but-not-really" :src="img2">
         </a>
       </div>
-      <div class="likert-scale">
+      <div class="likert-scale" v-if="testData.likertLevels">
         <h3>Quão confiante você está com sua escolha?</h3>
         <div class="likert-item-label" :style="likertGrid">
           <p>Pouco</p>
@@ -47,7 +47,7 @@
       <div class="c-button">
         <button
           id="choice-confirmer"
-          :disabled="!currentChoice || (play_counter == 0 && !play_has_started)"
+          :disabled="!currentChoice || (play_counter == 0 && !play_has_started) || (testData.likertLevels && likert === '')"
           @click="submitChoice()"
         >Confirmar escolha</button>
       </div>
@@ -56,10 +56,13 @@
           <span class="choices-made">{{ choices_made}}</span> /
           <span class="choice-limit">{{choice_limit}}</span>
         </p>
-        <div class="small-notice">
+        <div class="small-notice" v-if="currentChoice">
           <p
-            v-if="currentChoice && (play_counter == 0 && !play_has_started)"
+            v-if="play_counter == 0 && !play_has_started"
           >Para enviar sua escolha é preciso ouvir o áudio pelo menos uma vez.</p>
+          <p
+            v-if="likert === ''"
+          >Para enviar sua escolha é preciso nos dizer qual o seu grau de certeza na escolha.</p>
         </div>
       </div>
     </div>
@@ -114,7 +117,7 @@ export default {
       img2: "",
       hash2: "",
       audio: "",
-      likert: 0,
+      likert: "",
       i1: -1,
       i2: -1,
       phrase: -1,
@@ -334,6 +337,11 @@ export default {
         completion_time: new Date(),
         play_counter: this.play_counter
       };
+
+      if (this.testData.likertLevels) {
+        aux_choice.likert_certainty = this.likert;
+      }
+
       if (this.currentChoice) {
         // in this case, there is a right answer (meaning the participant
         // was able to correctly find which card was generated using the
@@ -414,13 +422,17 @@ export default {
             .add(aux_choice)
             .then(() => {
               this.choices_made++;
+              this.likert = 0;
               this.removeChoices();
               this.randomChoice();
               this.initial_time = aux_choice.completion_time;
               this.play_counter = 0;
             });
         } else {
+          console.log("Would have saved: ");
+          console.log(aux_choice);
           this.choices_made++;
+          this.likert = "";
           this.removeChoices();
           this.randomChoice();
           this.initial_time = aux_choice.completion_time;
