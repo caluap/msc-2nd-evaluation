@@ -636,6 +636,7 @@ export var general_data = {
 
     data4: {
       name: "data4",
+      likertLevels: 5,
       cards: [
         // FILHA
         // anger
