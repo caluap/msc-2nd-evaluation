@@ -219,7 +219,8 @@ export default {
         "JosIpk8p2NfNmI6uPyIR9OS7m3F3",
         "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
         "7JhTbvDgbQX5Gpn7liXm3IYM3P83",
-        "bs2n4jBcBSRp5eNCaoat2YXOZRt2"
+        "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
+        "FatbNGn7OKfBA9m9ocbdtcX8vM42"
       ],
       axes_key: {
         Wei: 0,
