@@ -220,7 +220,9 @@ export default {
         "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
         "7JhTbvDgbQX5Gpn7liXm3IYM3P83",
         "bs2n4jBcBSRp5eNCaoat2YXOZRt2",
-        "FatbNGn7OKfBA9m9ocbdtcX8vM42"
+        "FatbNGn7OKfBA9m9ocbdtcX8vM42",
+        "sgejOuhBwJWdSumWN2JjnsUkpX42", // me, on opera.
+        "84XBLnkAdsVODfO31Erh1jDOyX63" // also me, also on opera
       ],
       axes_key: {
         Wei: 0,
@@ -259,7 +261,8 @@ export default {
   beforeRouteEnter: function(to, from, next) {
     if (__readFromServer) {
       console.log("will attempt to read the results");
-      db.collection(general_data.sharedState.data)
+      // db.collection(general_data.sharedState.data)
+      db.collection("data4")
         .get()
         .then(querySnapshot => {
           console.log("has read. will create array of data.");
