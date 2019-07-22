@@ -37,7 +37,7 @@
         <header>
           <p>
             <span>{{n_participants}}</span>
-            <br>participants
+            <br />participants
           </p>
         </header>
       </div>
@@ -46,7 +46,7 @@
         <header>
           <p>
             <span>{{n_participants}}</span>
-            <br>participants
+            <br />participants
           </p>
         </header>
       </div>
@@ -70,7 +70,7 @@
           >
             <template v-if="sumAxis(axis_list) > 0">
               {{axes_names[i_axis]}}
-              <br>
+              <br />
               {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
             </template>
           </li>
@@ -79,12 +79,12 @@
           <template v-if="pLessThan005(axis_list).canUseChi">
             <p v-if="pLessThan005(axis_list).pLessThan005">
               p &lt; 0.05
-              <br>
+              <br />
               <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
             </p>
             <p class="ops" v-else>
               <span class="emoji">💩</span>
-              <br>
+              <br />
               <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
             </p>
           </template>
@@ -118,7 +118,7 @@
             >
               <template v-if="sumAxis(axis_list) > 0">
                 {{axes_names[i_axis]}}
-                <br>
+                <br />
                 <template
                   v-if="sumAxis(axis_list) > 0"
                 >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
@@ -130,12 +130,12 @@
             <template v-if="pLessThan005(axis_list).canUseChi">
               <p v-if="pLessThan005(axis_list).pLessThan005">
                 p &lt; 0.05
-                <br>
+                <br />
                 <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
               </p>
               <p class="ops" v-else>
                 <span class="emoji">💩</span>
-                <br>
+                <br />
                 <span class="curve-position">{{(pLessThan005(axis_list).err).toPrecision(4)}}</span>
               </p>
             </template>

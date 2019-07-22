@@ -1457,6 +1457,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "974533856dfe35c4c75699bf9993e88a47aaacdb"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808993,
+                "nanoseconds": 271000000
+            },
+            "initial_time": {
+                "seconds": 1563808979,
+                "nanoseconds": 487000000
+            },
+            "likert_certainty": 0,
+            "order": 11,
+            "phrase": "Filha",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "a6240d60808a8bb1378b9efe11ce035be4400564"
+            }
+        },
+        {
             "author_id": "Xck8wqaVPjh71M3WMyTWB0rA0sp1",
             "choice_metadata": {
                 "axis": "_b_",
@@ -2101,6 +2129,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "d32caa1530c4aa25454d6c6bc9494eee7c58d1b3"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809032,
+                "nanoseconds": 515000000
+            },
+            "initial_time": {
+                "seconds": 1563809022,
+                "nanoseconds": 523000000
+            },
+            "likert_certainty": 0,
+            "order": 15,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "12947e9bbc4b67b4ee4a0d403eb88e9351c2e2ab"
+            }
+        },
+        {
             "author_id": "9HHNZXfqTERnIfq1uY7mqdbExrt2",
             "choice_metadata": {
                 "axis": "Ita",
@@ -2126,6 +2182,34 @@
                 "emotion": "Surprise",
                 "feature": "Pitch",
                 "hash": "12947e9bbc4b67b4ee4a0d403eb88e9351c2e2ab"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "61c566032257c05d123e27f661b47edc07c22400"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809061,
+                "nanoseconds": 337000000
+            },
+            "initial_time": {
+                "seconds": 1563809051,
+                "nanoseconds": 689000000
+            },
+            "likert_certainty": 1,
+            "order": 18,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "d14e65fb526dc83dc4625aa32f19ebb3b04d8b21"
             }
         },
         {
@@ -3890,6 +3974,34 @@
                 "emotion": "Surprise",
                 "feature": "Pitch",
                 "hash": "d32caa1530c4aa25454d6c6bc9494eee7c58d1b3"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "50671e91ca8673afb280405e503712a5f3bd6968"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563808854,
+                "nanoseconds": 565000000
+            },
+            "initial_time": {
+                "seconds": 1563808818,
+                "nanoseconds": 452000000
+            },
+            "likert_certainty": -1,
+            "order": 1,
+            "phrase": "Passarinho",
+            "play_counter": 8,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "794a054ebcf4393d90712ef904ab3a92fc8cbb96"
             }
         },
         {
@@ -6637,6 +6749,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "057a28891486008f7d9830211ebe6d6e89be269b"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809128,
+                "nanoseconds": 798000000
+            },
+            "initial_time": {
+                "seconds": 1563809121,
+                "nanoseconds": 214000000
+            },
+            "likert_certainty": 1,
+            "order": 26,
+            "phrase": "Filha",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "9569cb2192f2c2a45cfa165db80931741de05a95"
+            }
+        },
+        {
             "author_id": "FEEvi5Qj12QNTf1Ymqf1G7aMUyD2",
             "choice_metadata": {
                 "axis": "Wid",
@@ -7449,6 +7589,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "03557968a8b5109177e7faf1f19d8ccf44172e4a"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563808943,
+                "nanoseconds": 379000000
+            },
+            "initial_time": {
+                "seconds": 1563808928,
+                "nanoseconds": 743000000
+            },
+            "likert_certainty": 0,
+            "order": 6,
+            "phrase": "Passarinho",
+            "play_counter": 3,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "3f00e86767c966c9ce3e42b817d5900b2b836666"
+            }
+        },
+        {
             "author_id": "k0ejuFIrcFSZMiFpdnMMuS9WDQL2",
             "choice_metadata": {
                 "axis": "_b_",
@@ -7726,6 +7894,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "c99445856a8f87bc70af628745e6c8ae3bf08b7b"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "e340e0a783f744430ba3d19091b90505c9b03dc5"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563808899,
+                "nanoseconds": 306000000
+            },
+            "initial_time": {
+                "seconds": 1563808881,
+                "nanoseconds": 378000000
+            },
+            "likert_certainty": -1,
+            "order": 3,
+            "phrase": "Passarinho",
+            "play_counter": 3,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "d14e65fb526dc83dc4625aa32f19ebb3b04d8b21"
             }
         },
         {
@@ -8485,6 +8681,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "6e62a05d4f264171c67b8b3abca76816dad5d49b"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808912,
+                "nanoseconds": 388000000
+            },
+            "initial_time": {
+                "seconds": 1563808899,
+                "nanoseconds": 306000000
+            },
+            "likert_certainty": 0,
+            "order": 4,
+            "phrase": "Filha",
+            "play_counter": 3,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "4001efa10360e465c329f7ec77c607704b678943"
+            }
+        },
+        {
             "author_id": "QipeJKBkE5Wpp3x26ZpmbW2TkAJ2",
             "choice_metadata": {
                 "axis": "Ita",
@@ -8734,6 +8958,34 @@
                 "emotion": "Surprise",
                 "feature": "Pitch",
                 "hash": "14ad367654d1964f14fa2e01d497470096c6417c"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "e340e0a783f744430ba3d19091b90505c9b03dc5"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809067,
+                "nanoseconds": 312000000
+            },
+            "initial_time": {
+                "seconds": 1563809061,
+                "nanoseconds": 337000000
+            },
+            "likert_certainty": 1,
+            "order": 19,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "e8a1ddad9376de5500d1b10e3e1ace1c4f549cb0"
             }
         },
         {
@@ -10361,6 +10613,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "b2c6b482ca26d602e1f0ce07653c4d0cd65d9aaa"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809082,
+                "nanoseconds": 612000000
+            },
+            "initial_time": {
+                "seconds": 1563809067,
+                "nanoseconds": 312000000
+            },
+            "likert_certainty": 0,
+            "order": 20,
+            "phrase": "Filha",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "b7e4facc89bc5ce6cffc572e0b6a86b99e89ab82"
+            }
+        },
+        {
             "author_id": "pHABIfD5HBN8TYR7jSObHVCbORT2",
             "choice_metadata": {
                 "axis": "Wei",
@@ -10893,6 +11173,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wid",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "1a7f800502d55cfad4f1d6149142feb16bac8bda"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809115,
+                "nanoseconds": 152000000
+            },
+            "initial_time": {
+                "seconds": 1563809105,
+                "nanoseconds": 64000000
+            },
+            "likert_certainty": 0,
+            "order": 24,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "794a054ebcf4393d90712ef904ab3a92fc8cbb96"
+            }
+        },
+        {
             "author_id": "O5BHrbaPXpTysyquksW98EyLxqD2",
             "choice_metadata": {
                 "axis": "Ita",
@@ -11002,6 +11310,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "3f00e86767c966c9ce3e42b817d5900b2b836666"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "86a5f9933f784814425343bbb529fece49f8bd88"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563808967,
+                "nanoseconds": 971000000
+            },
+            "initial_time": {
+                "seconds": 1563808960,
+                "nanoseconds": 983000000
+            },
+            "likert_certainty": -1,
+            "order": 9,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "f2e886cd3081d9534d41a7c4da7215e05aefd410"
             }
         },
         {
@@ -11338,6 +11674,34 @@
                 "emotion": "Neutral",
                 "feature": "Pitch",
                 "hash": "910265ba467068995d9abe75e056c0b34755403e"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "794a054ebcf4393d90712ef904ab3a92fc8cbb96"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808960,
+                "nanoseconds": 983000000
+            },
+            "initial_time": {
+                "seconds": 1563808951,
+                "nanoseconds": 315000000
+            },
+            "likert_certainty": 0,
+            "order": 8,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "48248cdf778bc41842bdb0a556453f15228f53eb"
             }
         },
         {
@@ -13298,6 +13662,34 @@
                 "emotion": "Neutral",
                 "feature": "Pitch",
                 "hash": "50671e91ca8673afb280405e503712a5f3bd6968"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "6e62a05d4f264171c67b8b3abca76816dad5d49b"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808818,
+                "nanoseconds": 452000000
+            },
+            "initial_time": {
+                "seconds": 1563808803,
+                "nanoseconds": 384000000
+            },
+            "likert_certainty": 1,
+            "order": 0,
+            "phrase": "Filha",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "b3ea3ba29f2bacdb81d8e64f06ec633e62e01d8e"
             }
         },
         {
@@ -16745,6 +17137,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "03557968a8b5109177e7faf1f19d8ccf44172e4a"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809001,
+                "nanoseconds": 753000000
+            },
+            "initial_time": {
+                "seconds": 1563808993,
+                "nanoseconds": 271000000
+            },
+            "likert_certainty": 0,
+            "order": 12,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "c99445856a8f87bc70af628745e6c8ae3bf08b7b"
+            }
+        },
+        {
             "author_id": "4Au0hlx3EkVyWu5EKePs8mYI77S2",
             "choice_metadata": {
                 "axis": "Wei",
@@ -16969,6 +17389,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "057a28891486008f7d9830211ebe6d6e89be269b"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809051,
+                "nanoseconds": 689000000
+            },
+            "initial_time": {
+                "seconds": 1563809042,
+                "nanoseconds": 799000000
+            },
+            "likert_certainty": 1,
+            "order": 17,
+            "phrase": "Filha",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "1e11885291bab53aa914f1a30b400052c56e9c8d"
+            }
+        },
+        {
             "author_id": "mZI30CL2XmfHb9bExAo8WUBiKji1",
             "choice_metadata": {
                 "axis": "_b_",
@@ -16994,6 +17442,34 @@
                 "emotion": "Sad",
                 "feature": "Pitch",
                 "hash": "d14e65fb526dc83dc4625aa32f19ebb3b04d8b21"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "2ef5eaab18333f7ccab3e0d51426b3ae479eef87"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809121,
+                "nanoseconds": 214000000
+            },
+            "initial_time": {
+                "seconds": 1563809115,
+                "nanoseconds": 152000000
+            },
+            "likert_certainty": 1,
+            "order": 25,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "c99445856a8f87bc70af628745e6c8ae3bf08b7b"
             }
         },
         {
@@ -17638,6 +18114,34 @@
                 "emotion": "Surprise",
                 "feature": "Pitch",
                 "hash": "12947e9bbc4b67b4ee4a0d403eb88e9351c2e2ab"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "e340e0a783f744430ba3d19091b90505c9b03dc5"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563808951,
+                "nanoseconds": 315000000
+            },
+            "initial_time": {
+                "seconds": 1563808943,
+                "nanoseconds": 379000000
+            },
+            "likert_certainty": 0,
+            "order": 7,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "61c566032257c05d123e27f661b47edc07c22400"
             }
         },
         {
@@ -18397,6 +18901,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "48248cdf778bc41842bdb0a556453f15228f53eb"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808928,
+                "nanoseconds": 743000000
+            },
+            "initial_time": {
+                "seconds": 1563808912,
+                "nanoseconds": 388000000
+            },
+            "likert_certainty": 0,
+            "order": 5,
+            "phrase": "Passarinho",
+            "play_counter": 3,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "1a7f800502d55cfad4f1d6149142feb16bac8bda"
+            }
+        },
+        {
             "author_id": "oXYgDIfHZyRBWhcMo8x9gsYQlsg2",
             "choice_metadata": {
                 "axis": "Wid",
@@ -18985,6 +19517,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "48248cdf778bc41842bdb0a556453f15228f53eb"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809151,
+                "nanoseconds": 996000000
+            },
+            "initial_time": {
+                "seconds": 1563809143,
+                "nanoseconds": 939000000
+            },
+            "likert_certainty": 0,
+            "order": 29,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "50671e91ca8673afb280405e503712a5f3bd6968"
+            }
+        },
+        {
             "author_id": "9HHNZXfqTERnIfq1uY7mqdbExrt2",
             "choice_metadata": {
                 "axis": "Ita",
@@ -19374,6 +19934,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "c99445856a8f87bc70af628745e6c8ae3bf08b7b"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wid",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "5940ec9918c7737a8eedfe67471fe97cdebc49aa"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809143,
+                "nanoseconds": 939000000
+            },
+            "initial_time": {
+                "seconds": 1563809135,
+                "nanoseconds": 664000000
+            },
+            "likert_certainty": 0,
+            "order": 28,
+            "phrase": "Filha",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "38c03655783575da562c0a4347c097f611512972"
             }
         },
         {
@@ -19878,6 +20466,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "3f00e86767c966c9ce3e42b817d5900b2b836666"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "d32caa1530c4aa25454d6c6bc9494eee7c58d1b3"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808979,
+                "nanoseconds": 487000000
+            },
+            "initial_time": {
+                "seconds": 1563808967,
+                "nanoseconds": 971000000
+            },
+            "likert_certainty": 0,
+            "order": 10,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Surprise",
+                "feature": "Pitch",
+                "hash": "14ad367654d1964f14fa2e01d497470096c6417c"
             }
         },
         {
@@ -21225,6 +21841,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "61c566032257c05d123e27f661b47edc07c22400"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809089,
+                "nanoseconds": 972000000
+            },
+            "initial_time": {
+                "seconds": 1563809082,
+                "nanoseconds": 612000000
+            },
+            "likert_certainty": -1,
+            "order": 21,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "e8a1ddad9376de5500d1b10e3e1ace1c4f549cb0"
+            }
+        },
+        {
             "author_id": "8dlSClsulveo53b3obejtN7dUy93",
             "choice_metadata": {
                 "axis": "Ita",
@@ -21925,6 +22569,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "b2c6b482ca26d602e1f0ce07653c4d0cd65d9aaa"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809135,
+                "nanoseconds": 664000000
+            },
+            "initial_time": {
+                "seconds": 1563809128,
+                "nanoseconds": 798000000
+            },
+            "likert_certainty": 1,
+            "order": 27,
+            "phrase": "Filha",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Sad",
+                "feature": "Pitch",
+                "hash": "9b650cc8088732793c039dc52789f95bb3a392d0"
+            }
+        },
+        {
             "author_id": "O5BHrbaPXpTysyquksW98EyLxqD2",
             "choice_metadata": {
                 "axis": "Wid",
@@ -22538,6 +23210,34 @@
                 "emotion": "Happy",
                 "feature": "Pitch",
                 "hash": "b3ea3ba29f2bacdb81d8e64f06ec633e62e01d8e"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Ita",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "9569cb2192f2c2a45cfa165db80931741de05a95"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809013,
+                "nanoseconds": 173000000
+            },
+            "initial_time": {
+                "seconds": 1563809001,
+                "nanoseconds": 753000000
+            },
+            "likert_certainty": 1,
+            "order": 13,
+            "phrase": "Filha",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "1e11885291bab53aa914f1a30b400052c56e9c8d"
             }
         },
         {
@@ -23493,6 +24193,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "2ef5eaab18333f7ccab3e0d51426b3ae479eef87"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809105,
+                "nanoseconds": 64000000
+            },
+            "initial_time": {
+                "seconds": 1563809096,
+                "nanoseconds": 504000000
+            },
+            "likert_certainty": 1,
+            "order": 23,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Ita",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "03557968a8b5109177e7faf1f19d8ccf44172e4a"
+            }
+        },
+        {
             "author_id": "9305JKADfuTtjsL7dJSV0LQtR7q1",
             "choice_metadata": {
                 "axis": "Wei",
@@ -24162,6 +24890,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "03557968a8b5109177e7faf1f19d8ccf44172e4a"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "2ef5eaab18333f7ccab3e0d51426b3ae479eef87"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809096,
+                "nanoseconds": 504000000
+            },
+            "initial_time": {
+                "seconds": 1563809089,
+                "nanoseconds": 972000000
+            },
+            "likert_certainty": 1,
+            "order": 22,
+            "phrase": "Passarinho",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "_b_",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "3f00e86767c966c9ce3e42b817d5900b2b836666"
             }
         },
         {
@@ -26573,6 +27329,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wei",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "057a28891486008f7d9830211ebe6d6e89be269b"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563808881,
+                "nanoseconds": 378000000
+            },
+            "initial_time": {
+                "seconds": 1563808854,
+                "nanoseconds": 565000000
+            },
+            "likert_certainty": 0,
+            "order": 2,
+            "phrase": "Filha",
+            "play_counter": 6,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Anger",
+                "feature": "Pitch",
+                "hash": "55ffcf1e46a8003c82dee0dfae8d9f3fd182a0dd"
+            }
+        },
+        {
             "author_id": "9305JKADfuTtjsL7dJSV0LQtR7q1",
             "choice_metadata": {
                 "axis": "Wid",
@@ -28589,6 +29373,34 @@
             }
         },
         {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "Wid",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "dfc71bdd1b73f3b275ac62c10b7102426ec7afe9"
+            },
+            "chose_the_first": true,
+            "completion_time": {
+                "seconds": 1563809042,
+                "nanoseconds": 799000000
+            },
+            "initial_time": {
+                "seconds": 1563809032,
+                "nanoseconds": 515000000
+            },
+            "likert_certainty": 1,
+            "order": 16,
+            "phrase": "Passarinho",
+            "play_counter": 2,
+            "rejectee_metadata": {
+                "axis": "Wei",
+                "emotion": "Happy",
+                "feature": "Pitch",
+                "hash": "f2e886cd3081d9534d41a7c4da7215e05aefd410"
+            }
+        },
+        {
             "author_id": "2Mte8svlIVeWdT8wO2o9mjs7nW83",
             "choice_metadata": {
                 "axis": "Wei",
@@ -28922,6 +29734,34 @@
                 "emotion": "Anger",
                 "feature": "Pitch",
                 "hash": "03557968a8b5109177e7faf1f19d8ccf44172e4a"
+            }
+        },
+        {
+            "author_id": "n1fbZf3JW0UaJaNHRr2petGGZKR2",
+            "choice_metadata": {
+                "axis": "_b_",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "9e74318a2ca39f6756bcbfc56d9fa792253532d4"
+            },
+            "chose_the_first": false,
+            "completion_time": {
+                "seconds": 1563809022,
+                "nanoseconds": 523000000
+            },
+            "initial_time": {
+                "seconds": 1563809013,
+                "nanoseconds": 173000000
+            },
+            "likert_certainty": 1,
+            "order": 14,
+            "phrase": "Filha",
+            "play_counter": 1,
+            "rejectee_metadata": {
+                "axis": "Wid",
+                "emotion": "Neutral",
+                "feature": "Pitch",
+                "hash": "5940ec9918c7737a8eedfe67471fe97cdebc49aa"
             }
         },
         {
