@@ -3,6 +3,45 @@
     <div class="text-container">
       <h1>{{dataName}}, summary</h1>
 
+      <div v-if="dataName == 'data4'" id="likert-weights">
+        <label>
+          When “Pouco”, winner gets
+          <input
+            min="0"
+            max="1"
+            type="number"
+            step="0.1"
+            v-model="likertWeights[0]"
+          />
+          and&nbsp;loser&nbsp;gets
+          <strong>{{likertLoser(likertWeights[0])}}</strong>.
+        </label>
+        <label>
+          When “Razoavelmente”, winner gets
+          <input
+            min="0"
+            max="1"
+            type="number"
+            step="0.1"
+            v-model="likertWeights[1]"
+          />
+          and&nbsp;loser&nbsp;gets
+          <strong>{{likertLoser(likertWeights[1])}}</strong>.
+        </label>
+        <label>
+          When “Muito”, winner gets
+          <input
+            min="0"
+            max="1"
+            type="number"
+            step="0.1"
+            v-model="likertWeights[2]"
+          />
+          and&nbsp;loser&nbsp;gets
+          <strong>{{likertLoser(likertWeights[2])}}</strong>.
+        </label>
+      </div>
+
       <div id="filter-container" v-if="!readFromServer">
         <div>
           <label for="data-name">ID da avaliação</label>
@@ -224,6 +263,7 @@ export default {
         "sgejOuhBwJWdSumWN2JjnsUkpX42", // me, on opera.
         "84XBLnkAdsVODfO31Erh1jDOyX63" // also me, also on opera
       ],
+      likertWeights: [0.5, 0.5, 0.5],
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -299,6 +339,14 @@ export default {
     }
   },
   methods: {
+    likertLoser: function(winner) {
+      if (isNaN(winner) || winner == "") {
+        winner = 0.0;
+      } else {
+        winner = Math.max(0.0, Math.min(1.0, parseFloat(winner)));
+      }
+      return Math.round((1.0 - winner) * 100) / 100;
+    },
     pLessThan005: function(axes) {
       let sum = axes.reduce((a, b) => a + b, 0);
       if (sum == 0) {
@@ -754,6 +802,31 @@ h4 {
     .axis-distribution-graph {
       grid-column: 1 / span 2;
       grid-row: 2;
+    }
+  }
+}
+
+#likert-weights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  label,
+  input {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: unset;
+    strong {
+      opacity: 0.7;
+    }
+  }
+  input {
+    width: 5ch;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    &:focus {
+      background: white;
     }
   }
 }
