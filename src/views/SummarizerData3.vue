@@ -845,7 +845,11 @@ h4 {
 #likert-weights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+  grid-gap: 2rem;
   label,
   input {
     font-size: 14px;
