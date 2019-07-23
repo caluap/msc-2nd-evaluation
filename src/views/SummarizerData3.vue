@@ -263,7 +263,8 @@ export default {
         "sgejOuhBwJWdSumWN2JjnsUkpX42", // me, on opera.
         "84XBLnkAdsVODfO31Erh1jDOyX63" // also me, also on opera
       ],
-      likertWeights: [0.81, 0.9, 1.0],
+      // likertWeights: [0.81, 0.9, 1.0],
+      likertWeights: [1.0, 1.0, 1.0],
       axes_key: {
         Wei: 0,
         Wid: 1,
