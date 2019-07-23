@@ -7,7 +7,7 @@
         <label>
           When “Pouco”, winner gets
           <input
-            min="0"
+            min="0.51"
             max="1"
             type="number"
             step="0.1"
@@ -19,7 +19,7 @@
         <label>
           When “Razoavelmente”, winner gets
           <input
-            min="0"
+            min="0.51"
             max="1"
             type="number"
             step="0.1"
@@ -31,7 +31,7 @@
         <label>
           When “Muito”, winner gets
           <input
-            min="0"
+            min="0.51"
             max="1"
             type="number"
             step="0.1"
@@ -263,7 +263,7 @@ export default {
         "sgejOuhBwJWdSumWN2JjnsUkpX42", // me, on opera.
         "84XBLnkAdsVODfO31Erh1jDOyX63" // also me, also on opera
       ],
-      likertWeights: [0.5, 0.5, 0.5],
+      likertWeights: [0.81, 0.9, 1.0],
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -812,8 +812,8 @@ h4 {
   grid-gap: 1rem;
   label,
   input {
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 19px;
     text-transform: unset;
     strong {
       opacity: 0.7;
