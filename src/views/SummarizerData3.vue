@@ -377,7 +377,7 @@ export default {
       for (let i = 0; i < axis_list.length; i++) {
         total += axis_list[i];
       }
-      return total;
+      return Math.round(total);
     },
     setData(fetchedData) {
       this.raw_data = fetchedData["data"];
@@ -433,8 +433,26 @@ export default {
       };
       this.filteredData.forEach(e => {
         let emotion = e.choice_metadata.emotion;
-        let chosen_axis = e.choice_metadata.axis;
-        results[emotion][this.axes_key[chosen_axis]] += 1;
+        let chosenAxis = e.choice_metadata.axis;
+        let rejectedAxis = e.rejectee_metadata.axis;
+        if (e.hasOwnProperty("likert_certainty")) {
+          let likertIndex = e.likert_certainty + 1; // it goes from -1 to 1.
+
+          // the likerLoser function already checks if the value
+          // is valid, so here I'm using it to also calculate
+          // a valid winner (which generally will be what the user
+          // has inputed).
+          let winnerAdjustment =
+            1 - this.likertLoser(this.likertWeights[likertIndex]);
+          let loserAdjustment = this.likertLoser(
+            this.likertWeights[likertIndex]
+          );
+
+          results[emotion][this.axes_key[chosenAxis]] += 1 * winnerAdjustment;
+          results[emotion][this.axes_key[rejectedAxis]] += 1 * loserAdjustment;
+        } else {
+          results[emotion][this.axes_key[chosenAxis]] += 1;
+        }
       });
       return results;
     },
@@ -459,8 +477,25 @@ export default {
       this.filteredData.forEach(e => {
         let phrase = e.phrase;
         let emotion = e.choice_metadata.emotion;
-        let chosen_axis = e.choice_metadata.axis;
-        results[phrase][emotion][this.axes_key[chosen_axis]] += 1;
+        let chosenAxis = e.choice_metadata.axis;
+        let rejectedAxis = e.rejectee_metadata.axis;
+
+        if (e.hasOwnProperty("likert_certainty")) {
+          let likertIndex = e.likert_certainty + 1;
+
+          let winnerAdjustment =
+            1 - this.likertLoser(this.likertWeights[likertIndex]);
+          let loserAdjustment = this.likertLoser(
+            this.likertWeights[likertIndex]
+          );
+
+          results[phrase][emotion][this.axes_key[chosenAxis]] +=
+            1 * winnerAdjustment;
+          results[phrase][emotion][this.axes_key[rejectedAxis]] +=
+            1 * loserAdjustment;
+        } else {
+          results[phrase][emotion][this.axes_key[chosenAxis]] += 1;
+        }
       });
 
       return results;
