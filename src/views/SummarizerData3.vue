@@ -503,100 +503,45 @@ export default {
     },
     axisPerformance: function() {
       let results = {
-        rounds: 0,
-        byAxis: {
-          Wei: {
-            totalAppearances: 0,
-            absolute: 0,
-            againstOtherAxes: {
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Wid: {
-            totalAppearances: 0,
-            absolute: 0,
-            againstOtherAxes: {
-              Wei: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Ita: {
-            totalAppearances: 0,
-            absolute: 0,
-            againstOtherAxes: {
-              Wei: 0,
-              Wid: 0,
-              _b_: 0
-            }
-          },
-          _b_: {
-            totalAppearances: 0,
-            absolute: 0,
-            againstOtherAxes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0
-            }
-          }
-        },
-        byEmotion: {
-          Anger: {
-            totalAppearances: 0,
-            axes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Happy: {
-            totalAppearances: 0,
-            axes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Neutral: {
-            totalAppearances: 0,
-            axes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Sad: {
-            totalAppearances: 0,
-            axes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          },
-          Surprise: {
-            totalAppearances: 0,
-            axes: {
-              Wei: 0,
-              Wid: 0,
-              Ita: 0,
-              _b_: 0
-            }
-          }
-        }
+        rounds: 0
       };
 
       this.filteredData.forEach(e => {
         let winner = e.choice_metadata.axis,
           loser = e.rejectee_metadata.axis,
-          emotion = e.choice_metadata.emotion;
+          emotion = e.choice_metadata.emotion,
+          phrase = e.phrase;
 
         // axes
+        if (!("byAxis" in results)) {
+          results["byAxis"] = {};
+        }
+
+        function otherAxes(currentAxis) {
+          let axes = {
+            Wei: 0,
+            Wid: 0,
+            Ita: 0,
+            _b_: 0
+          };
+          delete axes[currentAxis];
+          return axes;
+        }
+        if (!(winner in results.byAxis)) {
+          results.byAxis[winner] = {
+            totalAppearances: 0,
+            absolute: 0,
+            againstOtherAxes: otherAxes(winner)
+          };
+        }
+        if (!(loser in results.byAxis)) {
+          results.byAxis[loser] = {
+            totalAppearances: 0,
+            absolute: 0,
+            againstOtherAxes: otherAxes(loser)
+          };
+        }
+
         results.byAxis[winner].absolute += 1;
         results.byAxis[winner].againstOtherAxes[loser] += 1;
 
@@ -604,6 +549,21 @@ export default {
         results.byAxis[loser].totalAppearances += 1;
 
         // emotions
+
+        if (!("byEmotion" in results)) {
+          results["byEmotion"] = {};
+        }
+        if (!(emotion in results.byEmotion)) {
+          results.byEmotion[emotion] = {
+            totalAppearances: 0,
+            axes: {
+              Wei: 0,
+              Wid: 0,
+              Ita: 0,
+              _b_: 0
+            }
+          };
+        }
         results.byEmotion[emotion].axes[winner] += 1;
         results.byEmotion[emotion].totalAppearances += 1;
 
