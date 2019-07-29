@@ -829,9 +829,16 @@ h4 {
         text-align: center;
         display: block;
         @extend .colored-axes;
+        &,
+        &:after {
+          border-radius: 0;
+          border-right-width: 0;
+        }
         & + p {
           margin-top: 0;
-          margin-left: $mar_g / 2;
+        }
+        &:last-child:after {
+          border-right-width: 1px;
         }
       }
     }
