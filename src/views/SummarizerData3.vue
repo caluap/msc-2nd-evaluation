@@ -190,7 +190,7 @@
       <h3>By axis</h3>
       <div
         class="graph-grid performance-grid"
-        v-for="(axis_obj, axis_name, axis_index) in axisPerformance.generic.byAxis"
+        v-for="(axis_obj, axis_name, axis_index) in axisPerformance.generic"
         :key="'perf-ax-'+axis_index"
       >
         <h4>
@@ -204,20 +204,20 @@
             :key="'perf-ax-'+axis_name+'-vs-'+sub_ax_name"
           >
             <li
-              :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.generic.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
+              :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               class="main-axis"
             >
               <template
                 v-if="sub_ax>0"
-              >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.generic.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</template>
+              >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</template>
             </li>
             <li
-              :style="{width: calcPerc(axisPerformance.generic.byAxis[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.generic.byAxis[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
+              :style="{width: calcPerc(axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
             >
               <template
                 v-if="sub_ax>0"
-              >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.generic.byAxis[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</template>
+              >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</template>
             </li>
           </ul>
         </div>
@@ -504,24 +504,26 @@ export default {
     },
     axisPerformance: function() {
       let results = {
-        generic: {
-          rounds: 0
-        },
+        generic: {},
         byPhrase: {}
       };
 
       this.filteredData.forEach(e => {
+        let winner = e.choice_metadata.axis,
+          loser = e.rejectee_metadata.axis,
+          emotion = e.choice_metadata.emotion,
+          phrase = e.phrase;
+
         function axisPlusEmotionPerformance(
           currentResults,
-          filteredPhrase = ""
+          filteredPhrase = "",
+          filteredEmotion = ""
         ) {
-          if (filteredPhrase != phrase && filteredPhrase != "") {
+          if (
+            (filteredPhrase != phrase && filteredPhrase != "") ||
+            (filteredEmotion != emotion && filteredEmotion != "")
+          ) {
             return false;
-          }
-
-          // axes
-          if (!("byAxis" in currentResults)) {
-            currentResults["byAxis"] = {};
           }
 
           function otherAxes(currentAxis) {
@@ -534,64 +536,48 @@ export default {
             delete axes[currentAxis];
             return axes;
           }
-          if (!(winner in currentResults.byAxis)) {
-            currentResults.byAxis[winner] = {
+
+          if (!(winner in currentResults)) {
+            currentResults[winner] = {
               totalAppearances: 0,
               absolute: 0,
               againstOtherAxes: otherAxes(winner)
             };
           }
-          if (!(loser in currentResults.byAxis)) {
-            currentResults.byAxis[loser] = {
+          if (!(loser in currentResults)) {
+            currentResults[loser] = {
               totalAppearances: 0,
               absolute: 0,
               againstOtherAxes: otherAxes(loser)
             };
           }
 
-          currentResults.byAxis[winner].absolute += 1;
-          currentResults.byAxis[winner].againstOtherAxes[loser] += 1;
+          currentResults[winner].absolute += 1;
+          currentResults[winner].againstOtherAxes[loser] += 1;
 
-          currentResults.byAxis[winner].totalAppearances += 1;
-          currentResults.byAxis[loser].totalAppearances += 1;
-
-          // emotions
-
-          if (!("byEmotion" in currentResults)) {
-            currentResults["byEmotion"] = {};
-          }
-          if (!(emotion in currentResults.byEmotion)) {
-            currentResults.byEmotion[emotion] = {
-              totalAppearances: 0,
-              axes: {
-                Wei: 0,
-                Wid: 0,
-                Ita: 0,
-                _b_: 0
-              }
-            };
-          }
-          currentResults.byEmotion[emotion].axes[winner] += 1;
-          currentResults.byEmotion[emotion].totalAppearances += 1;
+          currentResults[winner].totalAppearances += 1;
+          currentResults[loser].totalAppearances += 1;
 
           currentResults.rounds += 1;
 
           return currentResults;
         }
 
-        let winner = e.choice_metadata.axis,
-          loser = e.rejectee_metadata.axis,
-          emotion = e.choice_metadata.emotion,
-          phrase = e.phrase;
-
+        // ignores which phrase and which emotion
         axisPlusEmotionPerformance(results.generic);
 
         if (!(phrase in results.byPhrase)) {
-          results.byPhrase[phrase] = {
-            rounds: 0
-          };
+          results.byPhrase[phrase] = {};
         }
-        axisPlusEmotionPerformance(results.byPhrase[phrase], phrase);
+        if (!(emotion in results.byPhrase[phrase])) {
+          results.byPhrase[phrase][emotion] = {};
+        }
+
+        axisPlusEmotionPerformance(
+          results.byPhrase[phrase][emotion],
+          phrase,
+          emotion
+        );
       });
 
       return results;
