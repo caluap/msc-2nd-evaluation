@@ -108,8 +108,7 @@
             :class="axes_names[i_axis]"
           >
             <div class="axis-percentage" v-if="sumAxis(axis_list) > 0">
-              {{axes_names[i_axis]}}
-              <br />
+              {{axes_names[i_axis]}} /
               {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
             </div>
 
@@ -119,7 +118,7 @@
                 :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
                 :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
                 :class="subAxisName"
-              >.{{calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))}}</p>
+              >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))/100).substring(1,4)}}</p>
             </div>
           </li>
         </ul>
@@ -179,7 +178,7 @@
                   :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
                   :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
                   :class="subAxisName"
-                >.{{calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))}}</p>
+                >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))/100).substring(1,4)}}</p>
               </div>
             </li>
           </ul>
@@ -806,20 +805,28 @@ h4 {
     }
     .sub-axis-performance {
       display: flex;
+      margin-top: 0.2rem;
       p {
         font-size: 7px;
         line-height: 13px;
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.7);
         text-align: center;
         display: block;
         @extend .colored-axes;
-        &:after {
-          opacity: 0.02;
-        }
         & + p {
           margin-top: 0;
           margin-left: $mar_g / 2;
         }
+      }
+    }
+
+    // against darker backgrounds it's better to have a light border
+    &.Ita,
+    &._b_ {
+      .sub-axis-performance p:after {
+        border-color: white;
+        mix-blend-mode: screen;
+        opacity: 0.2;
       }
     }
   }
