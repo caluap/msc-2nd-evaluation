@@ -139,6 +139,7 @@
         :key="'ph-'+index_phrase"
       >
         <h3>{{phrase_name}}</h3>
+        <!-- <p>{{axisPerformance.byPhrase[phrase_name]}}</p> -->
         <div
           class="graph-grid"
           v-for="(axis_list, emotion_name, index) in phrase_list"
@@ -155,14 +156,22 @@
               :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
               :class="axes_names[i_axis]"
             >
-              <template v-if="sumAxis(axis_list) > 0">
-                {{axes_names[i_axis]}}
-                <br />
+              <div class="axis-percentage" v-if="sumAxis(axis_list) > 0">
+                {{axes_names[i_axis]}} /
                 <template
                   v-if="sumAxis(axis_list) > 0"
                 >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
                 <template v-else>0</template>
-              </template>
+              </div>
+
+              <div class="sub-axis-performance">
+                <p
+                  v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes"
+                  :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
+                  :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
+                  :class="subAxisName"
+                >.{{calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))}}</p>
+              </div>
             </li>
           </ul>
           <div class="p-value">
@@ -186,7 +195,6 @@
       </div>
 
       <h2 class="graph-name">Performance</h2>
-      <p>{{axisPerformance}}</p>
       <h3>By axis</h3>
       <div
         class="graph-grid performance-grid"
@@ -381,6 +389,15 @@ export default {
       }
       return Math.round(total);
     },
+    // this gets an object with (probably) three different axes and
+    // returns their sum
+    sumOtherAxes: function(otherAxes) {
+      let s = 0;
+      for (let key in otherAxes) {
+        s += otherAxes[key];
+      }
+      return s;
+    },
     setData(fetchedData) {
       this.raw_data = fetchedData["data"];
       this.participants = fetchedData["participants"];
@@ -558,8 +575,6 @@ export default {
           currentResults[winner].totalAppearances += 1;
           currentResults[loser].totalAppearances += 1;
 
-          currentResults.rounds += 1;
-
           return currentResults;
         }
 
@@ -703,6 +718,40 @@ h4 {
   }
 }
 
+.colored-axes {
+  &.Wei {
+    background: #e3d7bd;
+  }
+  &.Wid {
+    background: #b4c1a3;
+  }
+  &.Ita {
+    background: #89b396;
+  }
+  &._b_ {
+    background: #84a89d;
+  }
+  border-radius: 0.2rem;
+
+  transition: all 0.6s ease;
+
+  // pretty border
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border: 1px solid black;
+    mix-blend-mode: multiply;
+    opacity: 0.07;
+    border-radius: 0.2rem;
+  }
+}
+
 .axis-distribution-graph {
   margin-top: 0;
   & + .axis-distribution-graph {
@@ -723,43 +772,38 @@ h4 {
     white-space: nowrap;
 
     box-sizing: border-box;
-    padding: 0.2rem 0.3rem;
-    border-radius: 0.2rem;
-    position: relative;
-
-    transition: all 0.6s ease;
-
-    &:after {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      border: 1px solid black;
-      mix-blend-mode: multiply;
-      opacity: 0.1;
-      border-radius: 0.2rem;
-    }
+    padding: 0.2rem;
 
     &.main-axis {
       background: #ccc;
     }
 
-    &.Wei {
-      background: #e3d7bd;
-    }
-    &.Wid {
-      background: #b4c1a3;
-    }
-    &.Ita {
-      background: #89b396;
-    }
-    &._b_ {
-      background: #84a89d;
-    }
+    @extend .colored-axes;
+
     & + li {
       margin-left: $mar_g;
+    }
+
+    .axis-percentage {
+      padding: 0 0.1rem;
+    }
+    .sub-axis-performance {
+      display: flex;
+      p {
+        font-size: 7px;
+        line-height: 13px;
+        color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        display: block;
+        @extend .colored-axes;
+        &:after {
+          opacity: 0.02;
+        }
+        & + p {
+          margin-top: 0;
+          margin-left: $mar_g / 3;
+        }
+      }
     }
   }
 }
