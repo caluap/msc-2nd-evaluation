@@ -107,11 +107,20 @@
             :style="{width: calcPerc(axis, sumAxis(axis_list))+'%'}"
             :class="axes_names[i_axis]"
           >
-            <template v-if="sumAxis(axis_list) > 0">
+            <div class="axis-percentage" v-if="sumAxis(axis_list) > 0">
               {{axes_names[i_axis]}}
               <br />
               {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
-            </template>
+            </div>
+
+            <div class="sub-axis-performance">
+              <p
+                v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes"
+                :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
+                :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
+                :class="subAxisName"
+              >.{{calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))}}</p>
+            </div>
           </li>
         </ul>
         <div class="p-value">
@@ -522,6 +531,7 @@ export default {
     axisPerformance: function() {
       let results = {
         generic: {},
+        byEmotion: {},
         byPhrase: {}
       };
 
@@ -581,6 +591,13 @@ export default {
         // ignores which phrase and which emotion
         axisPlusEmotionPerformance(results.generic);
 
+        // ignores which phrase but not which emotion
+        if (!(emotion in results.byEmotion)) {
+          results.byEmotion[emotion] = {};
+        }
+        axisPlusEmotionPerformance(results.byEmotion[emotion], "", emotion);
+
+        // doesn't ignore phrase or emotion
         if (!(phrase in results.byPhrase)) {
           results.byPhrase[phrase] = {};
         }
@@ -801,7 +818,7 @@ h4 {
         }
         & + p {
           margin-top: 0;
-          margin-left: $mar_g / 3;
+          margin-left: $mar_g / 2;
         }
       }
     }
