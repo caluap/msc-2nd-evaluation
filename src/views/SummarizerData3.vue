@@ -42,6 +42,13 @@
         </label>
       </div>
 
+      <div id="axes-perf-controls">
+        <label for="axes-perf">
+          Show axes' performance:
+          <input type="checkbox" id="axes-perf" v-model="showSubAxes" />
+        </label>
+      </div>
+
       <div id="filter-container" v-if="!readFromServer">
         <div>
           <label for="data-name">ID da avaliação</label>
@@ -108,11 +115,15 @@
             :class="axes_names[i_axis]"
           >
             <div class="axis-percentage" v-if="sumAxis(axis_list) > 0">
-              {{axes_names[i_axis]}} /
+              {{axes_names[i_axis]}}
+              <template v-if="showSubAxes">/</template>
+              <template v-else>
+                <br />
+              </template>
               {{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}
             </div>
 
-            <div class="sub-axis-performance">
+            <div class="sub-axis-performance" v-if="showSubAxes">
               <p
                 v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes"
                 :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
@@ -165,14 +176,18 @@
               :class="axes_names[i_axis]"
             >
               <div class="axis-percentage" v-if="sumAxis(axis_list) > 0">
-                {{axes_names[i_axis]}} /
+                {{axes_names[i_axis]}}
+                <template v-if="showSubAxes">/</template>
+                <template v-else>
+                  <br />
+                </template>
                 <template
                   v-if="sumAxis(axis_list) > 0"
                 >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
                 <template v-else>0</template>
               </div>
 
-              <div class="sub-axis-performance">
+              <div class="sub-axis-performance" v-if="showSubAxes">
                 <p
                   v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes"
                   :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
@@ -282,6 +297,7 @@ export default {
       ],
       // likertWeights: [0.81, 0.9, 1.0],
       likertWeights: [1.0, 1.0, 1.0],
+      showSubAxes: false,
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -880,14 +896,10 @@ h4 {
   }
 }
 
-#likert-weights {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  @media screen and (max-width: 992px) {
-    grid-template-columns: 1fr;
-  }
-  grid-gap: 2rem;
+.header-controls {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 1rem;
+  margin-top: 1rem;
   label,
   input {
     font-size: 14px;
@@ -897,6 +909,21 @@ h4 {
       opacity: 0.7;
     }
   }
+}
+
+#axes-perf-controls {
+  @extend .header-controls;
+}
+
+#likert-weights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+  @extend .header-controls;
+  grid-gap: 2rem;
   input {
     width: 5ch;
     text-align: center;
