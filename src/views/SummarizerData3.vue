@@ -843,6 +843,7 @@ h4 {
       width: 100%;
       .sub-axis-comparison {
         display: flex;
+        margin-top: 2px;
         & + .sub-axis-comparison {
           margin-top: 1px;
         }
