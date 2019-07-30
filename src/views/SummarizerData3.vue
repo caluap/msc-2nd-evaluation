@@ -97,7 +97,6 @@
         </header>
       </div>
 
-
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
         class="graph-grid"
@@ -125,12 +124,20 @@
             </div>
 
             <div class="sub-axis-performance" v-if="showSubAxes">
-              <p
+              <div
                 v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes"
                 :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
-                :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))+'%'}"
-                :class="subAxisName"
-              >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))/100).substring(1,4)}}</p>
+                class="sub-axis-comparison"
+                :set="losses = axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].lossesAgainsOtherAxes[subAxisName]"
+              >
+                <div
+                  :style="{width: calcPerc(subAxisPerformance, subAxisPerformance + losses) + '%'}"
+                >{{subAxisPerformance}}</div>
+                <div
+                  :style="{width: calcPerc(losses, subAxisPerformance + losses) + '%'}"
+                  :class="subAxisName"
+                >{{losses}}</div>
+              </div>
             </div>
           </li>
         </ul>
@@ -187,14 +194,21 @@
                 >{{String(calcPerc(axis, sumAxis(axis_list))/100).substring(1,4)}}</template>
                 <template v-else>0</template>
               </div>
-
               <div class="sub-axis-performance" v-if="showSubAxes">
-                <p
+                <div
                   v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes"
                   :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
-                  :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))+'%'}"
-                  :class="subAxisName"
-                >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))/100).substring(1,4)}}</p>
+                  class="sub-axis-comparison"
+                  :set="losses = axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].lossesAgainsOtherAxes[subAxisName]"
+                >
+                  <div
+                    :style="{width: calcPerc(subAxisPerformance, subAxisPerformance + losses) + '%'}"
+                  >{{subAxisPerformance}}</div>
+                  <div
+                    :style="{width: calcPerc(losses, subAxisPerformance + losses) + '%'}"
+                    :class="subAxisName"
+                  >{{losses}}</div>
+                </div>
               </div>
             </li>
           </ul>
@@ -825,35 +839,35 @@ h4 {
     }
     .sub-axis-performance {
       display: flex;
-      margin-top: 0.2rem;
-      p {
-        font-size: 7px;
-        line-height: 13px;
-        color: rgba(0, 0, 0, 0.7);
-        text-align: center;
-        display: block;
-        @extend .colored-axes;
-        &,
-        &:after {
+      flex-direction: column;
+      width: 100%;
+      .sub-axis-comparison {
+        display: flex;
+        & + .sub-axis-comparison {
+          margin-top: 1px;
+        }
+        div {
+          overflow: hidden;
+          @extend .colored-axes;
+          font-size: 7px;
+          padding: 0 0.2rem;
           border-radius: 0;
-          border-right-width: 0;
+          box-sizing: border-box;
+          &:after {
+            border-radius: 0;
+          }
+          &:first-child {
+            text-align: left;
+            background: rgba(0, 0, 0, 0.1);
+            color: white;
+          }
+          &:nth-child(2) {
+            margin-left: 1px;
+            &:after {
+              // border-left: none;
+            }
+          }
         }
-        & + p {
-          margin-top: 0;
-        }
-        &:last-child:after {
-          border-right-width: 1px;
-        }
-      }
-    }
-
-    // against darker backgrounds it's better to have a light border
-    &.Ita,
-    &._b_ {
-      .sub-axis-performance p:after {
-        border-color: white;
-        mix-blend-mode: screen;
-        opacity: 0.2;
       }
     }
   }
