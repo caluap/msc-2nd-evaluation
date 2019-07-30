@@ -97,6 +97,7 @@
         </header>
       </div>
 
+
       <h2 class="graph-name">Axis, by emotion</h2>
       <div
         class="graph-grid"
@@ -125,11 +126,11 @@
 
             <div class="sub-axis-performance" v-if="showSubAxes">
               <p
-                v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes"
+                v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes"
                 :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
-                :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
+                :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))+'%'}"
                 :class="subAxisName"
-              >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].againstOtherAxes))/100).substring(1,4)}}</p>
+              >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byEmotion[emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))/100).substring(1,4)}}</p>
             </div>
           </li>
         </ul>
@@ -189,11 +190,11 @@
 
               <div class="sub-axis-performance" v-if="showSubAxes">
                 <p
-                  v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes"
+                  v-for="(subAxisPerformance, subAxisName, subAxisIndex) in axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes"
                   :key="emotion_name+'-ax-'+i_axis+'-'+subAxisIndex"
-                  :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))+'%'}"
+                  :style="{width: calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))+'%'}"
                   :class="subAxisName"
-                >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].againstOtherAxes))/100).substring(1,4)}}</p>
+                >{{String(calcPerc(subAxisPerformance, sumOtherAxes(axisPerformance.byPhrase[phrase_name][emotion_name][axes_names[i_axis]].winsAgainstOtherAxes))/100).substring(1,4)}}</p>
               </div>
             </li>
           </ul>
@@ -230,25 +231,25 @@
         </h4>
         <div class="graph-joiner">
           <ul
-            v-for="(sub_ax, sub_ax_name, sub_ax_index) in axis_obj.againstOtherAxes"
+            v-for="(sub_ax, sub_ax_name, sub_ax_index) in axis_obj.winsAgainstOtherAxes"
             class="axis-distribution-graph"
             :key="'perf-ax-'+axis_name+'-vs-'+sub_ax_name"
           >
             <li
-              :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
+              :style="{width: calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].winsAgainstOtherAxes[axis_name])+'%'}"
               class="main-axis"
             >
               <template
                 v-if="sub_ax>0"
-              >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])/100).substring(1,4)}}</template>
+              >{{String(calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].winsAgainstOtherAxes[axis_name])/100).substring(1,4)}}</template>
             </li>
             <li
-              :style="{width: calcPerc(axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name], sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])+'%'}"
+              :style="{width: calcPerc(axisPerformance.generic[sub_ax_name].winsAgainstOtherAxes[axis_name], sub_ax + axisPerformance.generic[sub_ax_name].winsAgainstOtherAxes[axis_name])+'%'}"
               :class="sub_ax_name"
             >
               <template
                 v-if="sub_ax>0"
-              >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].againstOtherAxes[axis_name])/100).substring(0,4)}}</template>
+              >{{sub_ax_name}} / {{String(1-calcPerc(sub_ax, sub_ax + axisPerformance.generic[sub_ax_name].winsAgainstOtherAxes[axis_name])/100).substring(0,4)}}</template>
             </li>
           </ul>
         </div>
@@ -297,7 +298,7 @@ export default {
       ],
       // likertWeights: [0.81, 0.9, 1.0],
       likertWeights: [1.0, 1.0, 1.0],
-      showSubAxes: false,
+      showSubAxes: true,
       axes_key: {
         Wei: 0,
         Wid: 1,
@@ -582,23 +583,26 @@ export default {
           if (!(winner in currentResults)) {
             currentResults[winner] = {
               totalAppearances: 0,
-              absolute: 0,
-              againstOtherAxes: otherAxes(winner)
+              wins: 0,
+              winsAgainstOtherAxes: otherAxes(winner),
+              lossesAgainsOtherAxes: otherAxes(winner)
             };
           }
           if (!(loser in currentResults)) {
             currentResults[loser] = {
               totalAppearances: 0,
-              absolute: 0,
-              againstOtherAxes: otherAxes(loser)
+              wins: 0,
+              winsAgainstOtherAxes: otherAxes(loser),
+              lossesAgainsOtherAxes: otherAxes(loser)
             };
           }
 
-          currentResults[winner].absolute += 1;
-          currentResults[winner].againstOtherAxes[loser] += 1;
+          currentResults[winner].wins += 1;
+          currentResults[winner].winsAgainstOtherAxes[loser] += 1;
 
           currentResults[winner].totalAppearances += 1;
           currentResults[loser].totalAppearances += 1;
+          currentResults[loser].lossesAgainsOtherAxes[winner] += 1;
 
           return currentResults;
         }
