@@ -177,6 +177,11 @@
     "education": "Ensino superior",
     "sex": "Feminino"
   },
+  "KUZOmAztO5Rfi9GTzOditsjPAAh2": {
+    "age_group": "40 a 59 anos",
+    "education": "Pós-graduação / Mestrado",
+    "sex": "Feminino"
+  },
   "KmOTiuxUirbFFCmDwQGiaEWcIr63": {
     "age_group": "40 a 59 anos",
     "education": "Pós-graduação / Doutorado",
@@ -187,12 +192,22 @@
     "education": "Pós-graduação / Doutorado",
     "sex": "Masculino"
   },
+  "KxS5c5I2YWV4Zz7iz31BqeTSJ4W2": {
+    "age_group": "40 a 59 anos",
+    "education": "Ensino superior",
+    "sex": "Feminino"
+  },
   "LGN0wK2kIjaoQ1DfoZjnOzPYObD3": {
     "age_group": "25 a 39 anos",
     "education": "Pós-graduação / Doutorado",
     "sex": "Masculino"
   },
   "LTAPZaxxMuM0q7DZiCMIlwITMKz1": {
+    "age_group": "40 a 59 anos",
+    "education": "Ensino superior",
+    "sex": "Feminino"
+  },
+  "LTcQEj59Z2VNRwvE2BTrq4ZHr9m1": {
     "age_group": "40 a 59 anos",
     "education": "Ensino superior",
     "sex": "Feminino"
@@ -305,7 +320,11 @@
     "education": "Ensino superior",
     "sex": "Masculino"
   },
-  "emW3JMw9AGXje40TaFhk3Cj0BXp1": {},
+  "emW3JMw9AGXje40TaFhk3Cj0BXp1": {
+    "age_group": "40 a 59 anos",
+    "education": "Ensino Médio (2º grau)",
+    "sex": "Feminino"
+  },
   "gAatNW5LQPPLUJMEFZTNJKitYRW2": {},
   "gG2w0QWYJOdHxh2WJ8urjixAZBi2": {
     "age_group": "40 a 59 anos",
